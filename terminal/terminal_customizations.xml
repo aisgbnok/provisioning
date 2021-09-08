@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8b}</ID>
+    <Name>Terminal</Name>
+    <Version>1.019</Version>
+    <OwnerType>ITAdmin</OwnerType>
+    <Rank>30</Rank>
+    <Notes>Installs PowerShellCore, Windows Terminal, and AV1 and HEVC Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 7/14/2021.</Notes>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <ProvisioningCommands>
+          <PrimaryContext>
+            <Command>
+              <CommandConfig Name="PowerShell_7.1.3">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.1.3-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.1.3-win-x64.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+            </Command>
+          </PrimaryContext>
+        </ProvisioningCommands>
+        <UniversalAppInstall>
+          <DeviceContextApp>
+            <Application PackageFamilyName="microsoft.av1videoextension_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.41601.0\Microsoft.AV1VideoExtension_1.1.41601.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <DependencyAppxFiles>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.29231.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.41601.0\Microsoft.VCLibs.140.00_14.0.29231.0_x64__8wekyb3d8bbwe.Appx</Dependency>
+              </DependencyAppxFiles>
+            </Application>
+            <Application PackageFamilyName="microsoft.hevcvideoextension_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.41483.0\Microsoft.HEVCVideoExtension_1.0.41483.0_x64__8wekyb3d8bbwe.appx</ApplicationFile>
+              <DependencyAppxFiles>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.29231.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.41483.0\Microsoft.VCLibs.140.00_14.0.29231.0_x64__8wekyb3d8bbwe.Appx</Dependency>
+              </DependencyAppxFiles>
+            </Application>
+            <Application PackageFamilyName="microsoft.windowsterminal_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.9.1942.0\923f0e61ef2c4ebeb043360b1d28b419.msixbundle</ApplicationFile>
+            </Application>
+          </DeviceContextApp>
+          <DeviceContextAppLicense>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.9.1942.0\923f0e61ef2c4ebeb043360b1d28b419_License1.xml</LicenseInstall>
+          </DeviceContextAppLicense>
+        </UniversalAppInstall>
+        <UniversalAppUninstall>
+          <RemoveProvisionedApp>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdge_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdge_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <!--<RemoveProvisionedApplication PackageFamilyName="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Name="Microsoft.Xbox.TCUI_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>-->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.MSPaint_8wekyb3d8bbwe" Name="Microsoft.MSPaint_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.Getstarted_8wekyb3d8bbwe" Name="Microsoft.Getstarted_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Name="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Name="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Name="Microsoft.MixedReality.Portal_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.XboxApp_8wekyb3d8bbwe" Name="Microsoft.XboxApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Name="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.GamingApp_8wekyb3d8bbwe" Name="Microsoft.GamingApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.GetHelp_8wekyb3d8bbwe" Name="Microsoft.GetHelp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.SkypeApp_kzf8qxf38zg5c" Name="Microsoft.SkypeApp_kzf8qxf38zg5c">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!-- <RemoveProvisionedApplication PackageFamilyName="Microsoft.Office.OneNote_8wekyb3d8bbwe" Name="Microsoft.Office.OneNote_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication> -->
+            <!--<RemoveProvisionedApplication PackageFamilyName="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Name="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>-->
+          </RemoveProvisionedApp>
+        </UniversalAppUninstall>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>
