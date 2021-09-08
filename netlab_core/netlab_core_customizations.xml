@@ -12,6 +12,13 @@
     <Customizations>
       <Common>
         <ProvisioningCommands>
+          <DeviceContext>
+            <CommandFiles>
+              <CommandFile Name="NetLabCABSetup">C:\provisioning\packages\netlab_core\NetLabCABSetup.bat</CommandFile>
+              <CommandFile Name="NetLab_Assets">C:\provisioning\packages\netlab_core\NetLab_Assets\NetLab_Assets.cab</CommandFile>
+            </CommandFiles>
+            <CommandLine>cmd /c "netlabcabsetup.bat"</CommandLine>
+          </DeviceContext>
           <PrimaryContext>
             <Command>
               <CommandConfig Name="PowerShell_7.1.4">
