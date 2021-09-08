@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8e}</ID>
+    <Name>NetLab Core</Name>
+    <Version>1.000</Version>
+    <OwnerType>ITAdmin</OwnerType>
+    <Rank>60</Rank>
+    <Notes>Made specifically for RIT NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 9/8/2021.</Notes>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <ProvisioningCommands>
+          <PrimaryContext>
+            <Command>
+              <CommandConfig Name="PowerShell_7.1.4">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.1.4-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.1.4-win-x64.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="Google_Chrome">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+            </Command>
+          </PrimaryContext>
+        </ProvisioningCommands>
+        <UniversalAppInstall>
+          <DeviceContextApp>
+            <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.10.2383.0\620c2ec4eede4c9ebfd85594768a3bbf.msixbundle</ApplicationFile>
+            </Application>
+          </DeviceContextApp>
+          <DeviceContextAppLicense>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.10.2383.0\620c2ec4eede4c9ebfd85594768a3bbf_License1.xml</LicenseInstall>
+          </DeviceContextAppLicense>
+        </UniversalAppInstall>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>

@@ -9,3 +9,6 @@ icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\te
 
 Virtual Machine Core:
 icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\vm_core\vm_core_customizations.xml /PackagePath:C:\provisioning\packages\vm_core\VM_Core.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
+
+NetLab Core:
+icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\netlab_core\netlab_core_customizations.xml /PackagePath:C:\provisioning\packages\netlab_core\NetLab_Core.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
