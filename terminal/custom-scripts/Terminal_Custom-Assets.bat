@@ -18,7 +18,7 @@ echo Creating Terminal Folder >> %LOGFILE%
 mkdir "%UserProfile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\" >> %LOGFILE%
 echo result: %ERRORLEVEL% >> %LOGFILE%
 echo Copying Terminal Settings >> %LOGFILE%
-copy "blank_settings.json" "%UserProfile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" >> %LOGFILE%
+copy "basic_settings.json" "%UserProfile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" >> %LOGFILE%
 echo result: %ERRORLEVEL% >> %LOGFILE%
 echo . >> %LOGFILE%
 echo Terminal Custom Assets Installed >> %LOGFILE%
