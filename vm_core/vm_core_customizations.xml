@@ -12,14 +12,14 @@
     <Customizations>
       <Common>
         <ProvisioningCommands>
+          <DeviceContext>
+            <CommandFiles>
+              <CommandFile Name="VM-Core_Custom-Assets">C:\provisioning\packages\vm_core\custom-scripts\VM-Core_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="VM-Core_Custom-Assets">C:\provisioning\packages\vm_core\custom-scripts\VM-Core_Custom-Assets.cab</CommandFile>
+            </CommandFiles>
+            <CommandLine>cmd /c "vm-core_custom-assets.bat"</CommandLine>
+          </DeviceContext>
           <PrimaryContext>
-            <DeviceContext>
-              <CommandFiles>
-                <CommandFile Name="VM-Core_Custom-Assets">C:\provisioning\packages\vm_core\custom-scripts\VM-Core_Custom-Assets.bat</CommandFile>
-                <CommandFile Name="VM-Core_Custom-Assets">C:\provisioning\packages\vm_core\custom-scripts\VM-Core_Custom-Assets.cab</CommandFile>
-              </CommandFiles>
-              <CommandLine>cmd /c "vm-core_custom-assets.bat"</CommandLine>
-            </DeviceContext>
             <Command>
               <CommandConfig Name="Microsoft_Edge_Update">
                 <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>
