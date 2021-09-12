@@ -3,16 +3,23 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8d}</ID>
     <Name>Virtual Machine Core</Name>
-    <Version>1.030</Version>
+    <Version>1.031</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for Virtual Machines. Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1 and HEVC Video Extensions. Removes lots of provisoned apps including legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 9/8/2021.</Notes>
+    <Notes>Made specifically for Virtual Machines. Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1 and HEVC Video Extensions. Removes lots of provisoned apps including legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 9/12/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
       <Common>
         <ProvisioningCommands>
           <PrimaryContext>
+            <DeviceContext>
+              <CommandFiles>
+                <CommandFile Name="VM-Core_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\VM-Core_Custom-Assets.bat</CommandFile>
+                <CommandFile Name="VM-Core_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\VM-Core_Custom-Assets.cab</CommandFile>
+              </CommandFiles>
+              <CommandLine>cmd /c "vm-core_custom-assets.bat"</CommandLine>
+            </DeviceContext>
             <Command>
               <CommandConfig Name="Microsoft_Edge_Update">
                 <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>

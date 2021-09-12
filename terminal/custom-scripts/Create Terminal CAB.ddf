@@ -28,9 +28,9 @@
 
 ;-------------------------------------------------------------------
 
-.Set CabinetNameTemplate=NetLab_Assets.cab
+.Set CabinetNameTemplate=Terminal_Custom-Assets.cab
 
-.Set DiskDirectory1=.\NetLab_Assets\
+.Set DiskDirectory1=.\
 
 ;-------------------------------------------------------------------
 
@@ -38,10 +38,10 @@
 
 ;-------------------------------------------------------------------
 
-.\NetLab_Assets\JetBrainsMono-2.242\JetBrainsMono[wght].ttf
+C:\provisioning\packages\assets\fonts\JetBrainsMono\JetBrainsMono[wght].ttf
 
-.\NetLab_Assets\JetBrainsMono-2.242\JetBrainsMono-Italic[wght].ttf
+C:\provisioning\packages\assets\fonts\JetBrainsMono\JetBrainsMono-Italic[wght].ttf
 
-.\NetLab_Assets\Terminal\settings.json
+C:\provisioning\packages\assets\terminal-configurations\basic_settings.json
 
 ;*** <the end>

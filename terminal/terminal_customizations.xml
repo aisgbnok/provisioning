@@ -3,15 +3,22 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8b}</ID>
     <Name>Terminal</Name>
-    <Version>1.020</Version>
+    <Version>1.021</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>Installs PowerShellCore, Windows Terminal, and AV1 and HEVC Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 9/8/2021.</Notes>
+    <Notes>Installs PowerShellCore, Windows Terminal, and AV1 and HEVC Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 9/12/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
       <Common>
         <ProvisioningCommands>
+          <DeviceContext>
+            <CommandFiles>
+              <CommandFile Name="Terminal_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\Terminal_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="Terminal_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\Terminal_Custom-Assets.cab</CommandFile>
+            </CommandFiles>
+            <CommandLine>cmd /c "terminal_custom-assets.bat"</CommandLine>
+          </DeviceContext>
           <PrimaryContext>
             <Command>
               <CommandConfig Name="PowerShell_7.1.4">

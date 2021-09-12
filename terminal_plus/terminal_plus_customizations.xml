@@ -3,15 +3,22 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8c}</ID>
     <Name>Terminal+</Name>
-    <Version>1.020</Version>
+    <Version>1.022</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Removes legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 9/8/2021.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Removes legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 9/12/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
       <Common>
         <ProvisioningCommands>
+          <DeviceContext>
+            <CommandFiles>
+              <CommandFile Name="Terminal-Plus_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\Terminal-Plus_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="Terminal-Plus_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\Terminal-Plus_Custom-Assets.cab</CommandFile>
+            </CommandFiles>
+            <CommandLine>cmd /c "terminal-plus_custom-assets.bat"</CommandLine>
+          </DeviceContext>
           <PrimaryContext>
             <Command>
               <CommandConfig Name="Microsoft_Edge_Update">

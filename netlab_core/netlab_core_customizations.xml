@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8e}</ID>
     <Name>NetLab Core</Name>
-    <Version>1.000</Version>
+    <Version>1.001</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for RIT NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 9/8/2021.</Notes>
+    <Notes>Made specifically for RIT NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 9/12/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -14,10 +14,10 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="NetLabCABSetup">C:\provisioning\packages\netlab_core\NetLabCABSetup.bat</CommandFile>
-              <CommandFile Name="NetLab_Assets">C:\provisioning\packages\netlab_core\NetLab_Assets\NetLab_Assets.cab</CommandFile>
+              <CommandFile Name="NetLab_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\NetLab_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="NetLab_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\NetLab_Custom-Assets.cab</CommandFile>
             </CommandFiles>
-            <CommandLine>cmd /c "netlabcabsetup.bat"</CommandLine>
+            <CommandLine>cmd /c "netlab_custom-assets.bat"</CommandLine>
           </DeviceContext>
           <PrimaryContext>
             <Command>
