@@ -14,8 +14,8 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="Terminal_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\Terminal_Custom-Assets.bat</CommandFile>
-              <CommandFile Name="Terminal_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\Terminal_Custom-Assets.cab</CommandFile>
+              <CommandFile Name="Terminal_Custom-Assets">C:\provisioning\packages\terminal\custom-scripts\Terminal_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="Terminal_Custom-Assets">C:\provisioning\packages\terminal\custom-scripts\Terminal_Custom-Assets.cab</CommandFile>
             </CommandFiles>
             <CommandLine>cmd /c "terminal_custom-assets.bat"</CommandLine>
           </DeviceContext>

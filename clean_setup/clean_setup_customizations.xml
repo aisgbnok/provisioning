@@ -25,8 +25,8 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\Clean-Setup_Custom-Assets.bat</CommandFile>
-              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\Clean-Setup_Custom-Assets.cab</CommandFile>
+              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.cab</CommandFile>
             </CommandFiles>
             <CommandLine>cmd /c "clean-setup_custom-assets.bat"</CommandLine>
           </DeviceContext>
