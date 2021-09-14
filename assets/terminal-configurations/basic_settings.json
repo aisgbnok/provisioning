@@ -46,7 +46,6 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": null,
                 "useAcrylic": true
             },
             {
