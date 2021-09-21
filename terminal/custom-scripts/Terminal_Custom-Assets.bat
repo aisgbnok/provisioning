@@ -12,6 +12,10 @@ echo Jetbrains Mono Italic >> %LOGFILE%
 copy "JetBrainsMono-Italic[wght].ttf" "%WINDIR%\Fonts" >> %LOGFILE%
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrains Mono Italic (TrueType)" /t REG_SZ /d JetBrainsMono-Italic[wght].ttf /f >> %LOGFILE%
 echo result: %ERRORLEVEL% >> %LOGFILE%
+echo SegoeUI Variable >> %LOGFILE%
+copy "SegoeUI-VF.ttf" "%WINDIR%\Fonts" >> %LOGFILE%
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Segoe UI Variable (TrueType)" /t REG_SZ /d SegoeUI-VF.ttf /f >> %LOGFILE%
+echo result: %ERRORLEVEL% >> %LOGFILE%
 echo . >> %LOGFILE%
 echo Setting Up Windows Terminal Settings >> %LOGFILE%
 echo Creating Terminal Folder >> %LOGFILE%
