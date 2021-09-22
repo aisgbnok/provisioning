@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8e}</ID>
     <Name>NetLab Core</Name>
-    <Version>1.003</Version>
+    <Version>1.004</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for RIT NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 9/21/2021.</Notes>
+    <Notes>Made specifically for RIT NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 9/22/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
