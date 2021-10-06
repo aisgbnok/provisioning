@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8c}</ID>
     <Name>Terminal+</Name>
-    <Version>1.023</Version>
+    <Version>1.024</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Removes legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 9/21/2021.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Removes legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 10/6/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -65,26 +65,23 @@
               </DependencyAppxFiles>
             </Application>
             <Application PackageFamilyName="Microsoft.HEIFImageExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.42352.0\Microsoft.HEIFImageExtension_1.0.42352.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.42621.0\Microsoft.HEIFImageExtension_1.0.42621.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.42091.0\Microsoft.HEVCVideoExtension_1.0.42091.0_x64__8wekyb3d8bbwe.appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.42701.0\Microsoft.HEVCVideoExtension_1.0.42091.0_x64__8wekyb3d8bbwe.appx</ApplicationFile>
               <DependencyAppxFiles>
-                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30035.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.42091.0\Microsoft.VCLibs.140.00_14.0.30035.0_x64__8wekyb3d8bbwe.appx</Dependency>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30035.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.42701.0\Microsoft.VCLibs.140.00_14.0.30035.0_x64__8wekyb3d8bbwe.appx</Dependency>
               </DependencyAppxFiles>
             </Application>
             <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.41182.0\Microsoft.VP9VideoExtensions_1.0.41182.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
-              <DependencyAppxFiles>
-                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30035.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.41182.0\Microsoft.VCLibs.140.00_14.0.30035.0_x64__8wekyb3d8bbwe.Appx</Dependency>
-              </DependencyAppxFiles>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.42641.0\Microsoft.VP9VideoExtensions_1.0.42641.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.10.2383.0\620c2ec4eede4c9ebfd85594768a3bbf.msixbundle</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.10.2714.0\89542aee09154f7c813eacc5d4fff09e.msixbundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
           <DeviceContextAppLicense>
-            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.10.2383.0\620c2ec4eede4c9ebfd85594768a3bbf_License1.xml</LicenseInstall>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.10.2714.0\89542aee09154f7c813eacc5d4fff09e_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
         <UniversalAppUninstall>
