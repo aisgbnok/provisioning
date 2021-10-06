@@ -3,7 +3,7 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8a}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.113</Version>
+    <Version>3.114</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
     <Notes>Updates OneDrive and Edge, and installs PowerShellCore and Windows Terminal on all computers. Installs Intel Drivers and Chrome on the Asus Laptop, Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 10/6/2021.</Notes>
@@ -238,24 +238,24 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_WiFi_Driver">
-                  <CommandFile>C:\provisioning\software\intel\WiFi_22.70.0_Driver64_Win10.exe</CommandFile>
-                  <CommandLine>cmd /c "wifi_22.70.0_driver64_win10.exe" /s</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\WiFi-22.80.1-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.80.1-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Bluetooth_Driver">
-                  <CommandFile>C:\provisioning\software\intel\BT_22.70.2_64_Win10.msi</CommandFile>
-                  <CommandLine>msiexec /i "bt_22.70.2_64_win10.msi" /passive</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\BT-22.80.1-64-Win10-Win11.msi</CommandFile>
+                  <CommandLine>msiexec /i "bt-22.80.1-64-win10-win11.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Graphics_Driver">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_100.9805.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_100.9805.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_100.9864.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_100.9864.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -323,24 +323,24 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_WiFi_Driver">
-                  <CommandFile>C:\provisioning\software\intel\WiFi_22.70.0_Driver64_Win10.exe</CommandFile>
-                  <CommandLine>cmd /c "wifi_22.70.0_driver64_win10.exe" /s</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\WiFi-22.80.1-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.80.1-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Bluetooth_Driver">
-                  <CommandFile>C:\provisioning\software\intel\BT_22.70.2_64_Win10.msi</CommandFile>
-                  <CommandLine>msiexec /i "bt_22.70.2_64_win10.msi" /passive</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\BT-22.80.1-64-Win10-Win11.msi</CommandFile>
+                  <CommandLine>msiexec /i "bt-22.80.1-64-win10-win11.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Graphics_Driver">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_100.9805.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_100.9805.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_100.9864.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_100.9864.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
