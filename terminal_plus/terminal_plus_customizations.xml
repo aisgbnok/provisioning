@@ -6,7 +6,7 @@
     <Version>1.024</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Removes legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 10/6/2021.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Removes legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 10/7/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -74,7 +74,7 @@
               </DependencyAppxFiles>
             </Application>
             <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.42641.0\Microsoft.VP9VideoExtensions_1.0.42641.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.42791.0\Microsoft.VP9VideoExtensions_1.0.42791.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.10.2714.0\89542aee09154f7c813eacc5d4fff09e.msixbundle</ApplicationFile>

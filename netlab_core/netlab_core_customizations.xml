@@ -6,7 +6,7 @@
     <Version>1.005</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for RIT NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 10/6/2021.</Notes>
+    <Notes>Made specifically for RIT NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 10/7/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
