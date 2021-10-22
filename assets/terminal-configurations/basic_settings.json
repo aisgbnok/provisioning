@@ -107,5 +107,6 @@
             "yellow": "#FBBC05"
         }
     ],
-    "theme": "system"
+    "theme": "system",
+    "useAcrylicInTabRow": true
 }
