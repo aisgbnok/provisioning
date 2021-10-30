@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8a}</ID>
+    <Name>Clean Setup</Name>
+    <Version>3.120</Version>
+    <OwnerType>ITAdmin</OwnerType>
+    <Rank>40</Rank>
+    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 10/29/2021.</Notes>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <OOBE>
+          <Desktop>
+            <EnableCortanaVoice>False</EnableCortanaVoice>
+            <HideOobe>False</HideOobe>
+          </Desktop>
+        </OOBE>
+        <Policies>
+          <ApplicationManagement>
+            <AllowAllTrustedApps>Yes</AllowAllTrustedApps>
+          </ApplicationManagement>
+        </Policies>
+        <ProvisioningCommands>
+          <DeviceContext>
+            <CommandFiles>
+              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.cab</CommandFile>
+            </CommandFiles>
+            <CommandLine>cmd /c "clean-setup_custom-assets.bat"</CommandLine>
+          </DeviceContext>
+          <PrimaryContext>
+            <Command>
+              <CommandConfig Name="Microsoft_Edge_Update">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="PowerShell_7.1.5">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.1.5-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.1.5-win-x64.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="OneDrive_Update">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup.exe" /allusers /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="Google_Chrome">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+            </Command>
+          </PrimaryContext>
+        </ProvisioningCommands>
+        <TabletMode>
+          <ConvertibleSlateModePromptPreference>Disable prompting</ConvertibleSlateModePromptPreference>
+          <SignInMode>Desktop</SignInMode>
+        </TabletMode>
+        <UniversalAppInstall>
+          <DeviceContextApp>
+            <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.41601.0\Microsoft.AV1VideoExtension_1.1.41601.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <DependencyAppxFiles>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.41601.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
+              </DependencyAppxFiles>
+            </Application>
+            <Application PackageFamilyName="Microsoft.HEIFImageExtension_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.43012.0\Microsoft.HEIFImageExtension_1.0.43012.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+            </Application>
+            <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.42701.0\Microsoft.HEVCVideoExtension_1.0.42701.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <DependencyAppxFiles>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.42701.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
+              </DependencyAppxFiles>
+            </Application>
+            <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.42791.0\Microsoft.VP9VideoExtensions_1.0.42791.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+            </Application>
+            <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.2921.0\92819c908a784e79a0f133d08d9e4bf2.msixbundle</ApplicationFile>
+            </Application>
+          </DeviceContextApp>
+          <DeviceContextAppLicense>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.2921.0\92819c908a784e79a0f133d08d9e4bf2_License1.xml</LicenseInstall>
+          </DeviceContextAppLicense>
+        </UniversalAppInstall>
+        <UniversalAppUninstall>
+          <RemoveProvisionedApp>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdge_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdge_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Name="Microsoft.Xbox.TCUI_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MSPaint_8wekyb3d8bbwe" Name="Microsoft.MSPaint_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Getstarted_8wekyb3d8bbwe" Name="Microsoft.Getstarted_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Name="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Name="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Name="Microsoft.MixedReality.Portal_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.XboxApp_8wekyb3d8bbwe" Name="Microsoft.XboxApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Name="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.GamingApp_8wekyb3d8bbwe" Name="Microsoft.GamingApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.GetHelp_8wekyb3d8bbwe" Name="Microsoft.GetHelp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.SkypeApp_kzf8qxf38zg5c" Name="Microsoft.SkypeApp_kzf8qxf38zg5c">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Office.OneNote_8wekyb3d8bbwe" Name="Microsoft.Office.OneNote_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+          </RemoveProvisionedApp>
+        </UniversalAppUninstall>
+      </Common>
+      <Targets>
+        <Target Id="Surface Laptop 3">
+          <TargetState>
+            <Condition Name="ProcessorName" Value="Pattern:.*1065(G|g)7.*" />
+          </TargetState>
+        </Target>
+        <Target Id="Aurora">
+          <TargetState>
+            <Condition Name="ProcessorName" Value="Pattern:.*9700.*" />
+          </TargetState>
+        </Target>
+        <Target Id="Professional">
+          <TargetState>
+            <Condition Name="Edition" Value="Pattern:.*(P|p)ro.*" />
+          </TargetState>
+        </Target>
+      </Targets>
+      <Variant>
+        <TargetRefs>
+          <TargetRef Id="Professional" />
+          <TargetRef Id="Aurora" />
+          <TargetRef Id="Surface Laptop 3" />
+        </TargetRefs>
+        <Settings>
+          <Policies>
+            <TimeLanguageSettings>
+              <ConfigureTimeZone>Eastern Standard Time</ConfigureTimeZone>
+            </TimeLanguageSettings>
+          </Policies>
+        </Settings>
+      </Variant>
+      <Variant>
+        <TargetRefs>
+          <TargetRef Id="Aurora" />
+        </TargetRefs>
+        <Settings>
+          <DevDetail>
+            <DNSComputerName>Anthony-Aurora</DNSComputerName>
+          </DevDetail>
+          <Policies>
+            <Bluetooth>
+              <LocalDeviceName>Anthony-Aurora</LocalDeviceName>
+            </Bluetooth>
+          </Policies>
+          <ProvisioningCommands>
+            <PrimaryContext>
+              <Command>
+                <CommandConfig Name="Microsoft_Edge_Update">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64.msi" /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="PowerShell_7.1.5">
+                  <CommandFile>C:\provisioning\software\general\PowerShell-7.1.5-win-x64.msi</CommandFile>
+                  <CommandLine>msiexec /i "powershell-7.1.5-win-x64.msi" /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="OneDrive_Update">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup.exe" /allusers /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Google_Chrome">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_Chipset_Driver">
+                  <CommandFile>C:\provisioning\software\aurora\Intel-Chipset-Device-Software_5MPRF_WIN_10.1.18121.8164_A09.exe</CommandFile>
+                  <CommandLine>cmd /c "intel-chipset-device-software_5mprf_win_10.1.18121.8164_A09.exe" /s</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>True</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_Management_Engine_Driver">
+                  <CommandFile>C:\provisioning\software\aurora\Intel-Management-Engine-Interface-Driver_3C69Y_WIN_2016.14.0.1555_A04.exe</CommandFile>
+                  <CommandLine>cmd /c "intel-management-engine-interface-driver_3c69y_win_2016.14.0.1555_a04.exe" /s</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_Serial_IO_Driver">
+                  <CommandFile>C:\provisioning\software\aurora\Intel-Serial-IO-Driver_WVVGP_WIN_30.100.1943.2_A08.exe</CommandFile>
+                  <CommandLine>cmd /c "intel-serial-io-driver_wvvgp_win_30.100.1943.2_a08.exe" /s</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>True</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_Rapid_Storage_Technology_Driver">
+                  <CommandFile>C:\provisioning\software\aurora\Intel-Rapid-Storage-Technology-Driver_KTG51_WIN64_17.9.1.1009_A03.EXE</CommandFile>
+                  <CommandLine>cmd /c "intel-rapid-storage-technology-driver_ktg51_win64_17.9.1.1009_a03.exe" /s /accepteula</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>True</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_WiFi_Driver">
+                  <CommandFile>C:\provisioning\software\intel\WiFi-22.80.1-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.80.1-driver64-win10-win11.exe" /s</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_Bluetooth_Driver">
+                  <CommandFile>C:\provisioning\software\intel\BT-22.80.1-64-Win10-Win11.msi</CommandFile>
+                  <CommandLine>msiexec /i "bt-22.80.1-64-win10-win11.msi" /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_Graphics_Driver">
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_100.9955.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>True</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Realtek_Audio_Driver">
+                  <CommandFile>C:\provisioning\software\aurora\Realtek-High-Definition-Audio-Driver_N9X47_WIN_6.0.8996.1_A03.exe</CommandFile>
+                  <CommandLine>cmd /c "realtek-high-definition-audio-driver_n9x47_win_6.0.8996.1_a03.exe" /s</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>True</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+              </Command>
+            </PrimaryContext>
+          </ProvisioningCommands>
+        </Settings>
+      </Variant>
+      <Variant>
+        <TargetRefs>
+          <TargetRef Id="Surface Laptop 3" />
+        </TargetRefs>
+        <Settings>
+          <DevDetail>
+            <DNSComputerName>Anthony-Surface-Laptop-3</DNSComputerName>
+          </DevDetail>
+          <Policies>
+            <Bluetooth>
+              <LocalDeviceName>Anthony-Surface</LocalDeviceName>
+            </Bluetooth>
+          </Policies>
+          <ProvisioningCommands>
+            <PrimaryContext>
+              <Command>
+                <CommandConfig Name="Microsoft_Edge_Update">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64.msi" /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="PowerShell_7.1.5">
+                  <CommandFile>C:\provisioning\software\general\PowerShell-7.1.5-win-x64.msi</CommandFile>
+                  <CommandLine>msiexec /i "powershell-7.1.5-win-x64.msi" /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="OneDrive_Update">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup.exe" /allusers /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Google_Chrome">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_WiFi_Driver">
+                  <CommandFile>C:\provisioning\software\intel\WiFi-22.80.1-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.80.1-driver64-win10-win11.exe" /s</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_Bluetooth_Driver">
+                  <CommandFile>C:\provisioning\software\intel\BT-22.80.1-64-Win10-Win11.msi</CommandFile>
+                  <CommandLine>msiexec /i "bt-22.80.1-64-win10-win11.msi" /passive</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>False</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+                <CommandConfig Name="Intel_Graphics_Driver">
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_100.9955.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
+                  <ContinueInstall>True</ContinueInstall>
+                  <RestartRequired>True</RestartRequired>
+                  <ReturnCodeRestart>3010</ReturnCodeRestart>
+                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
+                </CommandConfig>
+              </Command>
+            </PrimaryContext>
+          </ProvisioningCommands>
+        </Settings>
+      </Variant>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>
