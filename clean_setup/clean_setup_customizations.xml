@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8a}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.116</Version>
+    <Version>3.120</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Asus Laptop, Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 10/21/2021.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 10/29/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -121,11 +121,6 @@
         </UniversalAppUninstall>
       </Common>
       <Targets>
-        <Target Id="Amanda Laptop">
-          <TargetState>
-            <Condition Name="ProcessorName" Value="Pattern:.*4710HQ.*" />
-          </TargetState>
-        </Target>
         <Target Id="Surface Laptop 3">
           <TargetState>
             <Condition Name="ProcessorName" Value="Pattern:.*1065(G|g)7.*" />
@@ -147,7 +142,6 @@
           <TargetRef Id="Professional" />
           <TargetRef Id="Aurora" />
           <TargetRef Id="Surface Laptop 3" />
-          <TargetRef Id="Amanda Laptop" />
         </TargetRefs>
         <Settings>
           <Policies>
@@ -343,59 +337,6 @@
                   <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
-                  <ReturnCodeRestart>3010</ReturnCodeRestart>
-                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
-                </CommandConfig>
-              </Command>
-            </PrimaryContext>
-          </ProvisioningCommands>
-        </Settings>
-      </Variant>
-      <Variant>
-        <TargetRefs>
-          <TargetRef Id="Amanda Laptop" />
-        </TargetRefs>
-        <Settings>
-          <DevDetail>
-            <DNSComputerName>Amanda-Laptop</DNSComputerName>
-          </DevDetail>
-          <Policies>
-            <Bluetooth>
-              <LocalDeviceName>Amanda-Laptop</LocalDeviceName>
-            </Bluetooth>
-          </Policies>
-          <ProvisioningCommands>
-            <PrimaryContext>
-              <Command>
-                <CommandConfig Name="Microsoft_Edge_Update">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64.msi" /passive</CommandLine>
-                  <ContinueInstall>True</ContinueInstall>
-                  <RestartRequired>False</RestartRequired>
-                  <ReturnCodeRestart>3010</ReturnCodeRestart>
-                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
-                </CommandConfig>
-                <CommandConfig Name="PowerShell_7.1.5">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.1.5-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.1.5-win-x64.msi" /passive</CommandLine>
-                  <ContinueInstall>True</ContinueInstall>
-                  <RestartRequired>False</RestartRequired>
-                  <ReturnCodeRestart>3010</ReturnCodeRestart>
-                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
-                </CommandConfig>
-                <CommandConfig Name="OneDrive_Update">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup.exe" /allusers /passive</CommandLine>
-                  <ContinueInstall>True</ContinueInstall>
-                  <RestartRequired>False</RestartRequired>
-                  <ReturnCodeRestart>3010</ReturnCodeRestart>
-                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
-                </CommandConfig>
-                <CommandConfig Name="Google_Chrome">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
-                  <ContinueInstall>True</ContinueInstall>
-                  <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
