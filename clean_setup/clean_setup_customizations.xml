@@ -116,7 +116,6 @@
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.SkypeApp_kzf8qxf38zg5c" Name="Microsoft.SkypeApp_kzf8qxf38zg5c">RemoveProvisionedApp</RemoveProvisionedApplication>
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.Office.OneNote_8wekyb3d8bbwe" Name="Microsoft.Office.OneNote_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <!--<RemoveProvisionedApplication PackageFamilyName="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Name="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>-->
           </RemoveProvisionedApp>
         </UniversalAppUninstall>
       </Common>
