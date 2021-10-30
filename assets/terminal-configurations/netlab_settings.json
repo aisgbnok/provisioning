@@ -31,60 +31,38 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "profiles": {
         "defaults": {
+            "acrylicOpacity": 0.6,
             "colorScheme": "AS Dark",
+            "font": {
+                "face": "JetBrains Mono",
+                "size": 11
+            },
             "useAcrylic": true
         },
         "list": [
             {
-                "acrylicOpacity": 0.6,
-                "colorScheme": "AS Dark",
-                "font": {
-                    "face": "JetBrains Mono",
-                    "size": 11
-                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore",
-                "useAcrylic": true
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "acrylicOpacity": 0.6,
-                "colorScheme": "AS Dark",
                 "commandline": "plink.exe -serial \\\\.\\\\COM1 -sercfg 9600,8,n,1,n",
-                "font": {
-                    "face": "JetBrains Mono",
-                    "size": 11
-                },
                 "guid": "{6c3a0b21-05df-4e47-b795-eb5bdb663edc}",
-                "name": "Putty",
-                "useAcrylic": true
+                "hidden": false,
+                "name": "Putty"
             },
             {
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Command Prompt",
-                "acrylicOpacity": 0.6,
-                "colorScheme": "AS Dark",
-                "font": {
-                    "face": "JetBrains Mono",
-                    "size": 11
-                },
-                "useAcrylic": true
+                "name": "Command Prompt"
             },
             {
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell",
-                "acrylicOpacity": 0.6,
-                "colorScheme": "AS Dark",
-                "font": {
-                    "face": "JetBrains Mono",
-                    "size": 11
-                },
-                "useAcrylic": true
+                "name": "Windows PowerShell"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
