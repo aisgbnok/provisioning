@@ -239,8 +239,8 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Bluetooth_Driver">
-                  <CommandFile>C:\provisioning\software\intel\BT-22.80.1-64-Win10-Win11.msi</CommandFile>
-                  <CommandLine>msiexec /i "bt-22.80.1-64-win10-win11.msi" /passive</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\BT-22.80.1-64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "bt-22.80.1-64-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -248,7 +248,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel_Graphics_Driver">
                   <CommandFile>C:\provisioning\software\intel\igfx_win_100.9955.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
+                  <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30.9955.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -324,8 +324,8 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Bluetooth_Driver">
-                  <CommandFile>C:\provisioning\software\intel\BT-22.80.1-64-Win10-Win11.msi</CommandFile>
-                  <CommandLine>msiexec /i "bt-22.80.1-64-win10-win11.msi" /passive</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\BT-22.80.1-64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "bt-22.80.1-64-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -333,7 +333,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel_Graphics_Driver">
                   <CommandFile>C:\provisioning\software\intel\igfx_win_100.9955.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30Graphics.log</CommandLine>
+                  <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30.9955.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
