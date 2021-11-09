@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8a}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.120</Version>
+    <Version>3.121</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 10/29/2021.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 11/8/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -40,9 +40,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="PowerShell_7.1.5">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.1.5-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.1.5-win-x64.msi" /passive</CommandLine>
+              <CommandConfig Name="PowerShell_7.2.0">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.0-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.0-win-x64.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -174,9 +174,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="PowerShell_7.1.5">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.1.5-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.1.5-win-x64.msi" /passive</CommandLine>
+                <CommandConfig Name="PowerShell_7.2.0">
+                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.0-win-x64.msi</CommandFile>
+                  <CommandLine>msiexec /i "powershell-7.2.0-win-x64.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -291,9 +291,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="PowerShell_7.1.5">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.1.5-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.1.5-win-x64.msi" /passive</CommandLine>
+                <CommandConfig Name="PowerShell_7.2.0">
+                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.0-win-x64.msi</CommandFile>
+                  <CommandLine>msiexec /i "powershell-7.2.0-win-x64.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>

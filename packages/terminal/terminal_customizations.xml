@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8b}</ID>
     <Name>Terminal</Name>
-    <Version>1.030</Version>
+    <Version>1.031</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 10/29/2021.</Notes>
+    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 11/8/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="PowerShell_7.1.5">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.1.5-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.1.5-win-x64.msi" /passive</CommandLine>
+              <CommandConfig Name="PowerShell_7.2.0">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.0-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.0-win-x64.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
