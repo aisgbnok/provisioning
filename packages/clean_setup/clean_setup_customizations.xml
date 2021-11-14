@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8a}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.121</Version>
+    <Version>3.122</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 11/8/2021.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 11/14/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -247,8 +247,8 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Graphics_Driver">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_100.9955.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30.9955.Graphics.log</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1069.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_101.1069.exe" /s /report c:\Intel\30.0.101.1069.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -332,8 +332,8 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Graphics_Driver">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_100.9955.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_100.9955.exe" /s /report c:\Intel\30.9955.Graphics.log</CommandLine>
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1069.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_101.1069.exe" /s /report c:\Intel\30.0.101.1069.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
