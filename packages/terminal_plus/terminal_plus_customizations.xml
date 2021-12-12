@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <WindowsCustomizations>
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8c}</ID>
     <Name>Terminal+</Name>
-    <Version>1.033</Version>
+    <Version>3.140</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Removes legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 11/22/2021.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Removes legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 12/12/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
