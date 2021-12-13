@@ -16,11 +16,13 @@ track... 🚧
 
 ## Provisioning Alignment
 
-_Provisioning Alignment_ is the name give to the currently underway codebase cleanup. The goal:
+_Provisioning Alignment_ is the name given to the currently underway repository, codebase, and
+package cleanup. The goal:
 
 - Align the packages' version numbers, structure, etc.
 - Provide improved repository documentation and roadmaps, like this. 😁
-- Include more detailed software descriptions. (What software each package includes? What version?)
+- Include more detailed software descriptions. (What software does each package includes? What
+  version?)
 - Hopefully add helpful custom automation. (GitHub Actions 🚀)
 
 ## Setup
