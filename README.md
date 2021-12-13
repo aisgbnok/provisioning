@@ -49,7 +49,18 @@ navigating to the **Projects** tab in GitHub._
 
 ## Provisioning 4.0
 
-The plan for delivering Provisioning 4.0 is 
+The plan for delivering Provisioning 4.0 is in progress and will be updated as the project continues
+to develop. The goal is to finish _Provisioning Alignment_ which will largely clean up this repo,
+then work can begin on v4. The goal of v4 is largely an extension of _Provisioning Alignment_,
+however with a clearer mission to improve the packages themselves.
+
+_Provisioning Alignment_'s goal is to clean up and add documentation for what is already present.
+v4's goal is to rewrite the packages for efficiency and introduce possibly breaking changes to
+improve long-term maintainability.
+
+## ...
+
+> 🚧 Coming Soon
 
 
 
