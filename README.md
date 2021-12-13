@@ -1,9 +1,19 @@
 # Welcome to Provisioning
 
-This repository contains the configuration files for compiling personal windows provisioning
-packages. These packages are largely for personal usage, but may be beneficial to others. I had a
-lot of questions when starting this journey a year ago and this will act as a place to document and
-track... 🚧
+This repository holds the configuration files for compiling the personal windows provisioning
+packages I have created over the past year. These packages are for personal usage; however, they may
+be beneficial to others looking for examples, references, or more extensive documentation. The
+Microsoft provisioning documentation supplied a basis for understanding windows provisioning, but
+there was much more to discover that was not implicitly documented.
+
+I started this journey a year ago, and throughout the past year, I have had many questions,
+completed lots of experiments, and have more to understand. This repository acts as a living space
+for the continuation and maintenance of this journey.
+
+
+> To reduce redundancy and make it easier for everyone, it is assumed that you have a general understanding of Windows Provisioning Packages. Do not be afraid to ask for help or open an issue, but please have a basic understanding of provisioning packages first. Thanks!
+>
+> [Here is a link to the Microsoft Documentation!](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) 👍
 
 > ⚠️ 🚧
 >
