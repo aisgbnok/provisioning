@@ -19,11 +19,16 @@ track... 🚧
 _Provisioning Alignment_ is the name given to the currently underway repository, codebase, and
 package cleanup. The goal:
 
-- Align the packages' version numbers, structure, etc.
-- Provide improved repository documentation and roadmaps, like this. 😁
-- Include more detailed software descriptions. (What software does each package includes? What
+- [ ] Align the packages' version numbers
+  etc. [Issue.](https://github.com/aisgbnok/provisioning/issues/3) [Pull Request.](https://github.com/aisgbnok/provisioning/pull/2)
+- [ ] Provide improved repository documentation and roadmaps, like this. 😁
+- [ ] Include more detailed software descriptions. (What software does each package includes? What
   version?)
-- Hopefully add helpful custom automation. (GitHub Actions 🚀)
+- [ ] Hopefully add helpful custom automation. (GitHub Actions 🚀)
+
+_[Here is the link to the GitHub project for _Provisioning
+Alignment_.](https://github.com/aisgbnok/provisioning/projects/2) You can also access it by
+navigating to the **Projects** tab in GitHub._
 
 ## Setup
 
