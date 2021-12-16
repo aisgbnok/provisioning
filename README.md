@@ -19,11 +19,6 @@ for the continuation and maintenance of this journey.
 >
 > This page is not finished and undergoing construction.
 
-
-> To reduce redundancy and make it easier for me and everyone else, it is assumed that you have a general understanding of Windows Provisioning Packages. Don't be afraid to ask for help or open an issue, but please have a basic understanding of provisioning packages first. Thanks!
->
-> [Here is a link to the Microsoft Documentation!](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) 👍
-
 ## Provisioning Alignment
 
 _Provisioning Alignment_ is the name given to the currently underway repository, codebase, and
