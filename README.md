@@ -35,22 +35,44 @@ _[Here is the link to the GitHub project for _Provisioning
 Alignment_.](https://github.com/aisgbnok/provisioning/projects/2) You can also access it by
 navigating to the **Projects** tab in GitHub._
 
-## Setup
+## Building Provisioning Packages
 
-> 🚧 Coming Soon
+How to build/compile the packages in this project.
+
+> #### :memo: Note
+>
+> These packages have been written, built, and used on a Windows 11 machine. However, they should work fine on recent Windows 10 versions, like 20H2. For example, the _NetLab Core_ package was built on W11 but used on W10 20H2 machines.
 
 ### Prerequisites
 
-> 🚧 Coming Soon
+- [Windows Imaging and Configuration Designer (ICD)](https://www.microsoft.com/store/apps/9nblggh4tx22)
+- [Read ICD CLI Reference](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-command-line)
+- Clone this repository into the `C:\provisioning\` directory. (Required )
+    - This is required as I'm not sure if windows provisioning (ICD) accepts relative paths.
+    - Will look into this later, relative paths would provide more flexibility.
 
-### Modifying
+### Building
 
-> 🚧 Coming Soon
+Running [Generate New Packages.bat](packages/Generate%20New%20Packages.bat), will rebuild all the
+CAB asset packages and then rebuild all the provisioning packages.
 
-### Compiling
+#### Assets (CAB)
 
-> 🚧 Coming Soon
->
+If you want to rebuild a single CAB file run the `Create [Package Name] Assets.bat` file for the
+individual package.
+
+```
+./packages/[Package Name]/custom-scripts/Create [Package Name] Assets.bat
+```
+
+#### Package (PPKG)
+
+If you want to rebuild a single package run the corresponding ICD command in
+the [commands.txt](packages/commands.txt) file.
+
+## Installing Provisioning Packages
+
+> :construction: Coming Soon
 
 ## Provisioning 4.0
 
