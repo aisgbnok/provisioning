@@ -81,7 +81,7 @@ _Provisioning Alignment_'s goal is to clean up and add documentation for what is
 v4's goal is to rewrite the packages for efficiency and introduce possibly breaking changes to
 improve long-term maintainability.
 
-## License
+## License & Contribution
 
 The main goal of this project is to provide windows provisioning documentation for myself, students,
 IT administrators, and whomever. While not explicitly enforced, it is preferred to keep this
@@ -89,7 +89,12 @@ software and anything emanated from it open for others to learn from; however, i
 learning from this software you may build what you wish with your new knowledge. Providing
 attribution or thanks is recommended and thanked. 🙏
 
+Furthermore, contributing towards this project is welcome. Please read
+the [code of conduct](CODE_OF_CONDUCT.md).
+
 With that kept in mind, this software is licensed under the [MIT license](LICENSE.md).
+
+These sections may be improved or changed when needed
 
 
 
