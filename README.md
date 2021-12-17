@@ -13,11 +13,7 @@ for the continuation and maintenance of this journey.
 
 > To reduce redundancy and make it easier for everyone, it is assumed that you have a general understanding of Windows Provisioning Packages. Do not be afraid to ask for help or open an issue, but please have a basic understanding of provisioning packages first. Thanks!
 >
-> [Here is a link to the Microsoft Documentation!](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) 👍
-
-> ⚠️ 🚧
->
-> This page is not finished and undergoing construction.
+> [Here is a link to the Microsoft Documentation!](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) :thumbsup:
 
 ## Provisioning Alignment
 
@@ -84,10 +80,6 @@ however with a clearer mission to improve the packages themselves.
 _Provisioning Alignment_'s goal is to clean up and add documentation for what is already present.
 v4's goal is to rewrite the packages for efficiency and introduce possibly breaking changes to
 improve long-term maintainability.
-
-## ...
-
-> 🚧 Coming Soon
 
 ## License
 
