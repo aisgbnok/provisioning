@@ -41,9 +41,9 @@ How to build/compile the packages in this project.
 
 - [Windows Imaging and Configuration Designer (ICD)](https://www.microsoft.com/store/apps/9nblggh4tx22)
 - [Read ICD CLI Reference](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-command-line)
-- Clone this repository into the `C:\provisioning\` directory. (Required )
-    - This is required as I'm not sure if windows provisioning (ICD) accepts relative paths.
-    - Will look into this later, relative paths would provide more flexibility.
+- Clone this repository into the `C:\provisioning\` directory.
+    - This is required as I'm not sure if ICD accepts relative paths.
+    - [Will look into this later, relative paths would provide more flexibility. #7](https://github.com/aisgbnok/provisioning/issues/7)
 
 ### Building
 
