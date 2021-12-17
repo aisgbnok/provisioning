@@ -1,5 +1,8 @@
 # Contributor Covenant Code of Conduct
 
+I cannot stress enough that the goal of this project is to provide a documentation and learning
+space for Windows Provisioning. Please act accordingly to keep this space safe for this purpose.
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
