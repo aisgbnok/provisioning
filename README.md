@@ -35,12 +35,10 @@ _[Here is the link to the GitHub project for _Provisioning
 Alignment_.](https://github.com/aisgbnok/provisioning/projects/2) You can also access it by
 navigating to the **Projects** tab in GitHub._
 
-## Building Provisioning Packages
+## Building & Installing Provisioning Packages
 
 How to build/compile the packages in this project.
 
-> #### :memo: Note
->
 > These packages have been written, built, and used on a Windows 11 machine. However, they should work fine on recent Windows 10 versions, like 20H2. For example, the _NetLab Core_ package was built on W11 but used on W10 20H2 machines.
 
 ### Prerequisites
@@ -70,9 +68,11 @@ individual package.
 If you want to rebuild a single package run the corresponding ICD command in
 the [commands.txt](packages/commands.txt) file.
 
-## Installing Provisioning Packages
+### Installing
 
-> :construction: Coming Soon
+Execute or double-click the `ppkg` file on a Windows 10/11 device.
+
+[Please refer to Microsoft's official documentation for more detail.](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-apply-package)
 
 ## Provisioning 4.0
 
