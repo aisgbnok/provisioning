@@ -67,6 +67,16 @@ improve long-term maintainability.
 
 > 🚧 Coming Soon
 
+## License
+
+The main goal of this project is to provide windows provisioning documentation for myself, students,
+IT administrators, and whomever. While not explicitly enforced, it is preferred to keep this
+software and anything emanated from it open for others to learn from; however, if referencing and
+learning from this software you may build what you wish with your new knowledge. Providing
+attribution or thanks is recommended and thanked. 🙏
+
+With that kept in mind, this software is licensed under the [MIT license](LICENSE.md).
+
 
 
 
