@@ -20,9 +20,9 @@ for the continuation and maintenance of this journey.
 _Provisioning Alignment_ is the name given to the currently underway repository, codebase, and
 package cleanup. The goal:
 
-- [ ] Align the packages' version numbers
+- [X] Align the packages' version numbers
   etc. [Issue.](https://github.com/aisgbnok/provisioning/issues/3) [Pull Request.](https://github.com/aisgbnok/provisioning/pull/2)
-- [ ] Provide improved repository documentation and roadmaps, like this. 😁
+- [X] Provide improved repository documentation and roadmaps, like this. 😁
 - [ ] Include more detailed software descriptions. (What software does each package includes? What
   version?)
 - [ ] Hopefully add helpful custom automation. (GitHub Actions 🚀)
