@@ -84,17 +84,20 @@ improve long-term maintainability.
 ## License & Contribution
 
 The main goal of this project is to provide windows provisioning documentation for myself, students,
-IT administrators, and whomever. While not explicitly enforced, it is preferred to keep this
-software and anything emanated from it open for others to learn from; however, if referencing and
-learning from this software you may build what you wish with your new knowledge. Providing
-attribution or thanks is recommended and thanked. 🙏
+IT administrators, and whomever.
 
-Furthermore, contributing towards this project is welcome. Please read
-the [code of conduct](CODE_OF_CONDUCT.md).
+So far this is largely a personal project, but contributing is welcome! Please be thoughtful and
+adhere to the [code of conduct](CODE_OF_CONDUCT.md), as well as read and follow
+the [contributor guide.](CONTRIBUTING.md) Thanks!
 
-With that kept in mind, this software is licensed under the [MIT license](LICENSE.md).
+While not explicitly enforced, it is preferred to keep this software and anything emanated from it
+open for others to learn from; however, if referencing and learning from this software you may build
+what you wish with your new knowledge. Providing attribution or thanks is recommended and thanked.
+🙏
 
-These sections may be improved or changed when needed
+With that kept in mind, this software is licensed under the [MIT license.](LICENSE.md)
+
+_These sections may be improved or changed when needed._
 
 
 
