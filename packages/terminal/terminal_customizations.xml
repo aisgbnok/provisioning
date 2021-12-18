@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8b}</ID>
     <Name>Terminal</Name>
-    <Version>1.033</Version>
+    <Version>3.140</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 11/22/2021.</Notes>
+    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 12/12/2021.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -44,9 +44,9 @@
               <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.43012.0\Microsoft.HEIFImageExtension_1.0.43012.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.42701.0\Microsoft.HEVCVideoExtension_1.0.42701.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.43421.0\Microsoft.HEVCVideoExtension_1.0.43421.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
               <DependencyAppxFiles>
-                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.42701.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.43421.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
               </DependencyAppxFiles>
             </Application>
             <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
