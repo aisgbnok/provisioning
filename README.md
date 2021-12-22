@@ -23,9 +23,8 @@ package cleanup. The goal:
 - [X] Align the packages' version numbers
   etc. [Issue.](https://github.com/aisgbnok/provisioning/issues/3) [Pull Request.](https://github.com/aisgbnok/provisioning/pull/2)
 - [X] Provide improved repository documentation and roadmaps, like this. 😁
-- [ ] Include more detailed software descriptions. (What software does each package includes? What
-  version?)
-- [ ] Hopefully add helpful custom automation. (GitHub Actions 🚀)
+- [X] [Explicitly Add Software Versions to Package Configurations](https://github.com/aisgbnok/provisioning/issues/10)
+- [ ] Add helpful custom templates & automations. (Issue Templates, GitHub Actions 🚀, etc.)
 
 _[Here is the link to the GitHub project for _Provisioning
 Alignment_.](https://github.com/aisgbnok/provisioning/projects/2) You can also access it by
