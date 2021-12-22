@@ -32,9 +32,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_Update">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64.msi" /passive</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_96.0.1054.53">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-96.0.1054.53.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-96.0.1054.53.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -48,17 +48,17 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_Update">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup.exe" /allusers /passive</CommandLine>
+              <CommandConfig Name="OneDrive_21.230.1107.0004">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup-21.230.1107.0004.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-21.230.1107.0004.exe" /allusers /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
+              <CommandConfig Name="Google_Chrome_96.0.4664.93">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-96.0.4664.93.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-96.0.4664.93.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -166,9 +166,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_Update">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64.msi" /passive</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_96.0.1054.53">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-96.0.1054.53.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-96.0.1054.53.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -182,17 +182,17 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive_Update">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup.exe" /allusers /passive</CommandLine>
+                <CommandConfig Name="OneDrive_21.230.1107.0004">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-21.230.1107.0004.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-21.230.1107.0004.exe" /allusers /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
+                <CommandConfig Name="Google_Chrome_96.0.4664.93">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-96.0.4664.93.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-96.0.4664.93.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -283,9 +283,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_Update">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64.msi" /passive</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_96.0.1054.53">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-96.0.1054.53.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-96.0.1054.53.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -299,17 +299,17 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive_Update">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup.exe" /allusers /passive</CommandLine>
+                <CommandConfig Name="OneDrive_21.230.1107.0004">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-21.230.1107.0004.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-21.230.1107.0004.exe" /allusers /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
+                <CommandConfig Name="Google_Chrome_96.0.4664.93">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-96.0.4664.93.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-96.0.4664.93.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>

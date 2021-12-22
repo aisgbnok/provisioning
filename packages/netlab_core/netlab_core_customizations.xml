@@ -29,9 +29,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64.msi" /passive</CommandLine>
+              <CommandConfig Name="Google_Chrome_96.0.4664.93">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-96.0.4664.93.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-96.0.4664.93.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
