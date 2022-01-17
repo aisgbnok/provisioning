@@ -14,8 +14,8 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="GCI-Air-Gap_Custom-Assets">C:\provisioning\packages\gci-air-gap\custom-scripts\GCI-Air-Gap_Custom-Assets.bat</CommandFile>
-              <CommandFile Name="GCI-Air-Gap_Custom-Assets">C:\provisioning\packages\gci-air-gap\custom-scripts\GCI-Air-Gap_Custom-Assets.cab</CommandFile>
+              <CommandFile Name="GCI-Air-Gap_Custom-Assets">C:\provisioning\packages\gci_air_gap\custom-scripts\GCI-Air-Gap_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="GCI-Air-Gap_Custom-Assets">C:\provisioning\packages\gci_air_gap\custom-scripts\GCI-Air-Gap_Custom-Assets.cab</CommandFile>
             </CommandFiles>
             <CommandLine>cmd /c "gci-air-gap_custom-assets.bat"</CommandLine>
           </DeviceContext>
