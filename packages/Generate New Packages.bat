@@ -32,7 +32,7 @@ echo [30;103mClean Setup[0m
 icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\clean_setup\clean_setup_customizations.xml /PackagePath:C:\provisioning\packages\clean_setup\Clean_Setup.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
 echo.
 echo [30;103mGCI Air Gap[0m
-icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\gci_air_gap\gci_air_gap_customizations.xml /PackagePath:C:\provisioning\packages\terminal\GCI_Air_Gap.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
+icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\gci_air_gap\gci_air_gap_customizations.xml /PackagePath:C:\provisioning\packages\gci_air_gap\GCI_Air_Gap.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
 echo.
 echo [30;103mTerminal[0m
 icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\terminal\terminal_customizations.xml /PackagePath:C:\provisioning\packages\terminal\Terminal.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
