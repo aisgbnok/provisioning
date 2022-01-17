@@ -6,7 +6,7 @@
     <Version>3.142</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 1/13/2022.</Notes>
+    <Notes>Made specifically for NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 1/16/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>

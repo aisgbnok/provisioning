@@ -6,7 +6,7 @@
     <Version>3.142</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 1/13/2022.</Notes>
+    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 1/16/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
