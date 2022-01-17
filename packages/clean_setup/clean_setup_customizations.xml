@@ -32,9 +32,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_97.0.1072.56">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.56.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.56.msi" /passive</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_97.0.1072.62">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.62.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.62.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -166,9 +166,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_97.0.1072.56">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.56.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.56.msi" /passive</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_97.0.1072.62">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.62.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.62.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -283,9 +283,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_97.0.1072.56">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.56.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.56.msi" /passive</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_97.0.1072.62">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.62.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.62.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
