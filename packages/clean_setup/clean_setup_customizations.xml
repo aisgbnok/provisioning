@@ -6,7 +6,7 @@
     <Version>3.142</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 1/13/2022.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 1/16/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -48,9 +48,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_21.230.1107.0004">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup-21.230.1107.0004.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-21.230.1107.0004.exe" /allusers /passive</CommandLine>
+              <CommandConfig Name="OneDrive_22.002.0103.0002">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.002.0103.0002.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.002.0103.0002.exe" /allusers /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -182,9 +182,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive_21.230.1107.0004">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-21.230.1107.0004.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-21.230.1107.0004.exe" /allusers /passive</CommandLine>
+                <CommandConfig Name="OneDrive_22.002.0103.0002">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.002.0103.0002.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-22.002.0103.0002.exe" /allusers /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -299,9 +299,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive_21.230.1107.0004">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-21.230.1107.0004.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-21.230.1107.0004.exe" /allusers /passive</CommandLine>
+                <CommandConfig Name="OneDrive_22.002.0103.0002">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.002.0103.0002.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-22.002.0103.0002.exe" /allusers /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>

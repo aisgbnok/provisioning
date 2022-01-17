@@ -11,7 +11,7 @@ packages/**/*.ppkg
 !software/
 !software/general/
 software/general/*
-!software/general/OneDriveSetup.exe
+!software/general/OneDriveSetup*.exe
 
 # Except for Intel Blutooth or WiFi
 !software/intel/
