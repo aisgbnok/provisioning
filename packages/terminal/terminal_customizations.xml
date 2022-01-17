@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8b}</ID>
     <Name>Terminal</Name>
-    <Version>3.140</Version>
+    <Version>3.142</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 12/12/2021.</Notes>
+    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 1/16/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="PowerShell_7.2.0">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.0-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.0-win-x64.msi" /passive</CommandLine>
+              <CommandConfig Name="PowerShell_7.2.1">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -41,7 +41,7 @@
               </DependencyAppxFiles>
             </Application>
             <Application PackageFamilyName="Microsoft.HEIFImageExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.43012.0\Microsoft.HEIFImageExtension_1.0.43012.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.50066.0\Microsoft.HEIFImageExtension_1.0.50066.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.43421.0\Microsoft.HEVCVideoExtension_1.0.43421.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
@@ -53,11 +53,11 @@
               <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.42791.0\Microsoft.VP9VideoExtensions_1.0.42791.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.2921.0\92819c908a784e79a0f133d08d9e4bf2.msixbundle</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.3471.0\b305850ccaa04739bf703d7f9587937d.msixbundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
           <DeviceContextAppLicense>
-            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.2921.0\92819c908a784e79a0f133d08d9e4bf2_License1.xml</LicenseInstall>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.3471.0\b305850ccaa04739bf703d7f9587937d_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
         <UniversalAppUninstall>
