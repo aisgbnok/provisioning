@@ -7,7 +7,7 @@ cd .\clean_setup\custom-scripts
 call ".\Create Clean-Setup Assets.bat"
 echo.
 echo [30;103mGCI Air Gap[0m
-cd ..\..\terminal\custom-scripts
+cd ..\..\gci_air_gap\custom-scripts
 call ".\Create GCI-Air-Gap Assets.bat"
 echo.
 echo [30;103mTerminal[0m
