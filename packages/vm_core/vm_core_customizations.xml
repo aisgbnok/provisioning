@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8d}</ID>
     <Name>Virtual Machine Core</Name>
-    <Version>3.142</Version>
+    <Version>3.143</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for Virtual Machines. Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions. Removes lots of provisioned apps including legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 1/16/2022.</Notes>
+    <Notes>Made specifically for Virtual Machines. Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions. Removes lots of provisioned apps including legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 1/23/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_97.0.1072.62">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.62.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.62.msi" /passive</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_97.0.1072.69">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.69.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.69.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -37,17 +37,17 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_22.002.0103.0002">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.002.0103.0002.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.002.0103.0002.exe" /allusers /passive</CommandLine>
+              <CommandConfig Name="OneDrive_22.007.0109.0002">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.007.0109.0002.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.007.0109.0002.exe" /allusers /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_97.0.4692.71">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-97.0.4692.71.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-97.0.4692.71.msi" /passive</CommandLine>
+              <CommandConfig Name="Google_Chrome_97.0.4692.99">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-97.0.4692.99.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-97.0.4692.99.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
