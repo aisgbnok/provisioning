@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{34c0eb4c-1c46-5d44-b9eb-9e49f2a054a8}</ID>
+    <Name>GCI Air Gap</Name>
+    <Version>3.142</Version>
+    <OwnerType>ITAdmin</OwnerType>
+    <Rank>60</Rank>
+    <Notes>Made specifically for the GCI Air Gap Lab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 1/16/2022.</Notes>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <ProvisioningCommands>
+          <DeviceContext>
+            <CommandFiles>
+              <CommandFile Name="GCI-Air-Gap_Custom-Assets">C:\provisioning\packages\gci_air_gap\custom-scripts\GCI-Air-Gap_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="GCI-Air-Gap_Custom-Assets">C:\provisioning\packages\gci_air_gap\custom-scripts\GCI-Air-Gap_Custom-Assets.cab</CommandFile>
+            </CommandFiles>
+            <CommandLine>cmd /c "gci-air-gap_custom-assets.bat"</CommandLine>
+          </DeviceContext>
+          <PrimaryContext>
+            <Command>
+              <CommandConfig Name="Microsoft_Edge_97.0.1072.62">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.62.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.62.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="PowerShell_7.2.1">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="Google_Chrome_97.0.4692.71">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-97.0.4692.71.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-97.0.4692.71.msi" /passive</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+            </Command>
+          </PrimaryContext>
+        </ProvisioningCommands>
+        <UniversalAppInstall>
+          <DeviceContextApp>
+            <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.41601.0\Microsoft.AV1VideoExtension_1.1.41601.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <DependencyAppxFiles>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.41601.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
+              </DependencyAppxFiles>
+            </Application>
+            <Application PackageFamilyName="Microsoft.HEIFImageExtension_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.50066.0\Microsoft.HEIFImageExtension_1.0.50066.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+            </Application>
+            <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.43421.0\Microsoft.HEVCVideoExtension_1.0.43421.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <DependencyAppxFiles>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.43421.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
+              </DependencyAppxFiles>
+            </Application>
+            <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.42791.0\Microsoft.VP9VideoExtensions_1.0.42791.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+            </Application>
+            <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.3471.0\b305850ccaa04739bf703d7f9587937d.msixbundle</ApplicationFile>
+            </Application>
+          </DeviceContextApp>
+          <DeviceContextAppLicense>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.3471.0\b305850ccaa04739bf703d7f9587937d_License1.xml</LicenseInstall>
+          </DeviceContextAppLicense>
+        </UniversalAppInstall>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>
