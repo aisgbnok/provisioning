@@ -69,11 +69,11 @@
               <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.42791.0\Microsoft.VP9VideoExtensions_1.0.42791.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.3471.0\b305850ccaa04739bf703d7f9587937d.msixbundle</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10334.0\6c2f7ae7a8704900905b0d7eabd22fdf.msixbundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
           <DeviceContextAppLicense>
-            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.3471.0\b305850ccaa04739bf703d7f9587937d_License1.xml</LicenseInstall>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10334.0\6c2f7ae7a8704900905b0d7eabd22fdf_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
       </Common>
