@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8a}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.144</Version>
+    <Version>3.150</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 2/5/2022.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 2/4/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>

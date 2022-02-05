@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{34c0eb4c-1c46-5d44-b9eb-9e49f2a054a8}</ID>
     <Name>GCI Air Gap</Name>
-    <Version>3.144</Version>
+    <Version>3.150</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for the GCI Air Gap Lab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 2/5/2022.</Notes>
+    <Notes>Made specifically for the GCI Air Gap Lab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 2/4/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>

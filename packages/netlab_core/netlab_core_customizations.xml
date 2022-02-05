@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8e}</ID>
     <Name>NetLab Core</Name>
-    <Version>3.144</Version>
+    <Version>3.150</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 2/5/2022.</Notes>
+    <Notes>Made specifically for NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 2/4/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
