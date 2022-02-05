@@ -51,8 +51,8 @@ CAB asset packages and then rebuild all the provisioning packages.
 
 #### Assets (CAB)
 
-If you want to rebuild a single CAB file run the `Create [Package Name] Assets.bat` file for the
-individual package.
+If you want to rebuild an individual CAB file, run the `Create [Package Name] Assets.bat` file for
+the respective package.
 
 ```
 ./packages/[Package Name]/custom-scripts/Create [Package Name] Assets.bat
@@ -60,8 +60,8 @@ individual package.
 
 #### Package (PPKG)
 
-If you want to rebuild a single package run the corresponding ICD command in
-the [commands.txt](packages/commands.txt) file.
+If you want to rebuild an individual package run the corresponding ICD command in
+the [commands.md](packages/commands.md) file.
 
 ### Installing
 
