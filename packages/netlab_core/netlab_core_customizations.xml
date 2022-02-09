@@ -6,7 +6,7 @@
     <Version>3.150</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 2/4/2022.</Notes>
+    <Notes>Made specifically for NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 2/8/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -29,9 +29,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_98.0.4758.80">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-98.0.4758.80.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-98.0.4758.80.msi" /passive</CommandLine>
+              <CommandConfig Name="Google_Chrome_98.0.4758.82">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-98.0.4758.82.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-98.0.4758.82.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
