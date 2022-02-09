@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8d}</ID>
     <Name>Virtual Machine Core</Name>
-    <Version>3.143</Version>
+    <Version>3.150</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for Virtual Machines. Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions. Removes lots of provisioned apps including legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 1/23/2022.</Notes>
+    <Notes>Made specifically for Virtual Machines. Updates OneDrive and Edge, and installs Chrome, PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions. Removes lots of provisioned apps including legacy Edge, 3DViewer, and Mixed Reality Portal. All files are up-to-date as of 2/8/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_97.0.1072.69">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-97.0.1072.69.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-97.0.1072.69.msi" /passive</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_98.0.1108.43">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.43.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.43.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -37,17 +37,17 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_22.007.0109.0002">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.007.0109.0002.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.007.0109.0002.exe" /allusers /passive</CommandLine>
+              <CommandConfig Name="OneDrive_22.002.0103.0004">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.002.0103.0004.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.002.0103.0004.exe" /allusers /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_97.0.4692.99">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-97.0.4692.99.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-97.0.4692.99.msi" /passive</CommandLine>
+              <CommandConfig Name="Google_Chrome_98.0.4758.82">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-98.0.4758.82.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-98.0.4758.82.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -59,29 +59,26 @@
         <UniversalAppInstall>
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.41601.0\Microsoft.AV1VideoExtension_1.1.41601.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
-              <DependencyAppxFiles>
-                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.41601.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
-              </DependencyAppxFiles>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.50332.0\Microsoft.AV1VideoExtension_1.1.50332.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEIFImageExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.50066.0\Microsoft.HEIFImageExtension_1.0.50066.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.50272.0\Microsoft.HEIFImageExtension_1.0.50272.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.43421.0\Microsoft.HEVCVideoExtension_1.0.43421.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.50361.0\Microsoft.HEVCVideoExtension_1.0.50361.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
               <DependencyAppxFiles>
-                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.43421.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
+                <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.50361.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
               </DependencyAppxFiles>
             </Application>
             <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.42791.0\Microsoft.VP9VideoExtensions_1.0.42791.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.50274.0\Microsoft.VP9VideoExtensions_1.0.50274.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.3471.0\b305850ccaa04739bf703d7f9587937d.msixbundle</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10334.0\6c2f7ae7a8704900905b0d7eabd22fdf.msixbundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
           <DeviceContextAppLicense>
-            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.11.3471.0\b305850ccaa04739bf703d7f9587937d_License1.xml</LicenseInstall>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10334.0\6c2f7ae7a8704900905b0d7eabd22fdf_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
         <UniversalAppUninstall>
