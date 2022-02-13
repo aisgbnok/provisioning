@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8a}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.150</Version>
+    <Version>3.151</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 2/8/2022.</Notes>
+    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 2/13/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -32,9 +32,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_98.0.1108.43">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.43.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.43.msi" /passive</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_98.0.1108.50">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.50.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.50.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -89,11 +89,11 @@
               <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.50274.0\Microsoft.VP9VideoExtensions_1.0.50274.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10334.0\6c2f7ae7a8704900905b0d7eabd22fdf.msixbundle</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10393.0\364f5988d6b4454786a7f1084ca6d589.msixbundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
           <DeviceContextAppLicense>
-            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10334.0\6c2f7ae7a8704900905b0d7eabd22fdf_License1.xml</LicenseInstall>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10393.0\364f5988d6b4454786a7f1084ca6d589_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
         <UniversalAppUninstall>
@@ -163,9 +163,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_98.0.1108.43">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.43.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.43.msi" /passive</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_98.0.1108.50">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.50.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.50.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -272,9 +272,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_98.0.1108.43">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.43.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.43.msi" /passive</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_98.0.1108.50">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.50.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.50.msi" /passive</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
