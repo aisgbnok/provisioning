@@ -86,7 +86,7 @@
               </DependencyAppxFiles>
             </Application>
             <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.50274.0\Microsoft.VP9VideoExtensions_1.0.50274.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.50481.0\Microsoft.VP9VideoExtensions_1.0.50481.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10393.0\364f5988d6b4454786a7f1084ca6d589.msixbundle</ApplicationFile>
