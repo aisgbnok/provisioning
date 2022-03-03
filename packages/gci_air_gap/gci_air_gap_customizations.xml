@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{34c0eb4c-1c46-5d44-b9eb-9e49f2a054a8}</ID>
     <Name>GCI Air Gap</Name>
-    <Version>3.151</Version>
+    <Version>3.152</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>60</Rank>
-    <Notes>Made specifically for the GCI Air Gap Lab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 2/16/2022.</Notes>
+    <Notes>Made specifically for the GCI Air Gap Lab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 3/3/2022.</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_98.0.1108.55">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.55.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.55.msi" /passive</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_98.0.1108.62">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.62.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.62.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -37,9 +37,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_98.0.4758.102">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-98.0.4758.102.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-98.0.4758.102.msi" /passive</CommandLine>
+              <CommandConfig Name="Google_Chrome_99.0.4844.51">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /passive</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
