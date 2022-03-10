@@ -61,7 +61,7 @@ the respective package.
 #### Package (PPKG)
 
 If you want to rebuild an individual package run the corresponding ICD command in
-the [`commands.md`](packages/commands.md) file.
+the [`building.md`](packages/building.md) file.
 
 ### Installing
 
