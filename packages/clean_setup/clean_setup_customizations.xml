@@ -11,17 +11,6 @@
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
       <Common>
-        <OOBE>
-          <Desktop>
-            <EnableCortanaVoice>False</EnableCortanaVoice>
-            <HideOobe>False</HideOobe>
-          </Desktop>
-        </OOBE>
-        <Policies>
-          <ApplicationManagement>
-            <AllowAllTrustedApps>Yes</AllowAllTrustedApps>
-          </ApplicationManagement>
-        </Policies>
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
@@ -67,10 +56,6 @@
             </Command>
           </PrimaryContext>
         </ProvisioningCommands>
-        <TabletMode>
-          <ConvertibleSlateModePromptPreference>Disable prompting</ConvertibleSlateModePromptPreference>
-          <SignInMode>Desktop</SignInMode>
-        </TabletMode>
         <UniversalAppInstall>
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
@@ -127,26 +112,7 @@
             <Condition Name="ProcessorName" Value="Pattern:.*9700.*"/>
           </TargetState>
         </Target>
-        <Target Id="Professional">
-          <TargetState>
-            <Condition Name="Edition" Value="Pattern:.*(P|p)ro.*"/>
-          </TargetState>
-        </Target>
       </Targets>
-      <Variant>
-        <TargetRefs>
-          <TargetRef Id="Professional"/>
-          <TargetRef Id="Aurora"/>
-          <TargetRef Id="Surface Laptop 3"/>
-        </TargetRefs>
-        <Settings>
-          <Policies>
-            <TimeLanguageSettings>
-              <ConfigureTimeZone>Eastern Standard Time</ConfigureTimeZone>
-            </TimeLanguageSettings>
-          </Policies>
-        </Settings>
-      </Variant>
       <Variant>
         <TargetRefs>
           <TargetRef Id="Aurora"/>
@@ -262,7 +228,7 @@
         </TargetRefs>
         <Settings>
           <DevDetail>
-            <DNSComputerName>Anthony-Surface-Laptop-3</DNSComputerName>
+            <DNSComputerName>Anthony-Surface</DNSComputerName>
           </DevDetail>
           <Policies>
             <Bluetooth>
