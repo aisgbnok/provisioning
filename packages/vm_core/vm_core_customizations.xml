@@ -23,7 +23,7 @@
             <Command>
               <CommandConfig Name="Microsoft_Edge_99.0.1150.30">
                 <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.30.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.30.msi" /passive</CommandLine>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.30.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -31,7 +31,7 @@
               </CommandConfig>
               <CommandConfig Name="PowerShell_7.2.1">
                 <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
+                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -39,7 +39,7 @@
               </CommandConfig>
               <CommandConfig Name="OneDrive_22.033.0213.0002">
                 <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.033.0213.0002.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.033.0213.0002.exe" /allusers /passive</CommandLine>
+                <CommandLine>cmd /c "onedrivesetup-22.033.0213.0002.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -47,7 +47,7 @@
               </CommandConfig>
               <CommandConfig Name="Google_Chrome_99.0.4844.51">
                 <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /passive</CommandLine>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>

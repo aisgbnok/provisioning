@@ -23,7 +23,7 @@
             <Command>
               <CommandConfig Name="PowerShell_7.2.1">
                 <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
+                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -31,7 +31,7 @@
               </CommandConfig>
               <CommandConfig Name="Google_Chrome_99.0.4844.51">
                 <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /passive</CommandLine>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
