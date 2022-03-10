@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_99.0.1150.30">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.30.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.30.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_99.0.1150.36">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.36.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.36.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -129,9 +129,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_99.0.1150.30">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.30.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.30.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_99.0.1150.36">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.36.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.36.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -238,9 +238,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_99.0.1150.30">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.30.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.30.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_99.0.1150.36">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.36.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.36.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
