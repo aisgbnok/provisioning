@@ -201,9 +201,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1340">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1340.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_101.1340.exe" /s /report c:\Intel\30.0.101.1340.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1404">
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1404.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_101.1404.exe" /s /report c:\Intel\30.0.101.1404.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -286,9 +286,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1340">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1340.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_101.1340.exe" /s /report c:\Intel\30.0.101.1340.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1404">
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1404.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_101.1404.exe" /s /report c:\Intel\30.0.101.1404.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
