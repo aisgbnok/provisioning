@@ -107,7 +107,7 @@
             <Condition Name="ProcessorName" Value="Pattern:.*1065(G|g)7.*"/>
           </TargetState>
         </Target>
-        <Target Id="Aurora">
+        <Target Id="Alienware Aurora R8">
           <TargetState>
             <Condition Name="ProcessorName" Value="Pattern:.*9700.*"/>
           </TargetState>
@@ -115,7 +115,7 @@
       </Targets>
       <Variant>
         <TargetRefs>
-          <TargetRef Id="Aurora"/>
+          <TargetRef Id="Alienware Aurora R8"/>
         </TargetRefs>
         <Settings>
           <DevDetail>
