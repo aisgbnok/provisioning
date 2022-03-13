@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WindowsCustomizations>
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
-    <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8c}</ID>
+    <ID>{69f54890-b0fc-57db-b44e-627df747a906}</ID>
     <Name>Terminal+</Name>
-    <Version>3.160</Version>
+    <Version>3.200</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
     <Notes>General package for installing Windows Terminal and other common software. (03/13/2022)</Notes>
