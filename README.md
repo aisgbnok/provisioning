@@ -15,11 +15,33 @@ for the continuation and maintenance of this journey.
 >
 > [Here is a link to the Microsoft Documentation!](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) :thumbsup:
 
+## Support
+
+I almost always use the latest OS version available whether Windows, Linux, or macOS. Therefore,
+these packages will always be developed and built using the most recent version of Windows. While
+packages have been written, built, and used on up-to-date Windows 11 machines, they should work on
+any supported Windows 10 versions.
+
+As an example, the *NetLab Core* package is built on Windows 11 but built for and used on Windows 10
+20H2 machines.
+
+For the most part provisioning packages are bound by the software they install and policies they
+deploy. [Terminal, for example, currently requires Windows 10 2004 or greater.](https://github.com/microsoft/terminal/issues/11371)
+*Windows 10 2004 has already stopped receiving support.* If you created a provisioning package today
+that solely installed Terminal, it would install on 2004, even though 2004 is EOL. However, It would
+most likely fail on any older Windows version as Terminal's min version is 2004.
+
+Knowing this, when developing and installing provisioning packages it is advised to check the min
+version of software and windows policies it installs and deploys. Although, as long as you are using
+a supported version of Windows 10, and preferably 11, version support should not be an issue.
+
+🔍 You can go [here](https://docs.microsoft.com/lifecycle/products/) to search for a Microsoft
+product's lifecycle.
+[Like Windows 10!](https://docs.microsoft.com/lifecycle/products/windows-10-home-and-pro)
+
 ## Building & Installing Provisioning Packages
 
 How to build/compile the packages in this project.
-
-> These packages have been written, built, and used on a Windows 11 machine. However, they should work fine on recent Windows 10 versions, like 20H2. For example, the _NetLab Core_ package was built on W11 but used on W10 20H2 machines.
 
 ### Prerequisites
 
