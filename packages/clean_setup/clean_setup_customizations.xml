@@ -83,21 +83,8 @@
         </UniversalAppInstall>
         <UniversalAppUninstall>
           <RemoveProvisionedApp>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdge_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdge_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Name="Microsoft.Xbox.TCUI_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MSPaint_8wekyb3d8bbwe" Name="Microsoft.MSPaint_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Getstarted_8wekyb3d8bbwe" Name="Microsoft.Getstarted_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Name="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Name="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Name="Microsoft.MixedReality.Portal_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.XboxApp_8wekyb3d8bbwe" Name="Microsoft.XboxApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Name="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.GamingApp_8wekyb3d8bbwe" Name="Microsoft.GamingApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.GetHelp_8wekyb3d8bbwe" Name="Microsoft.GetHelp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.SkypeApp_kzf8qxf38zg5c" Name="Microsoft.SkypeApp_kzf8qxf38zg5c">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Office.OneNote_8wekyb3d8bbwe" Name="Microsoft.Office.OneNote_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
           </RemoveProvisionedApp>
         </UniversalAppUninstall>
       </Common>

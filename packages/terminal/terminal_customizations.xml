@@ -6,7 +6,7 @@
     <Version>3.160</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>General package for installing Windows Terminal. (03/09/2022)</Notes>
+    <Notes>General package for installing Windows Terminal. (03/13/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -57,12 +57,6 @@
             <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10393.0\364f5988d6b4454786a7f1084ca6d589_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
-        <UniversalAppUninstall>
-          <RemoveProvisionedApp>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdge_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdge_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-          </RemoveProvisionedApp>
-        </UniversalAppUninstall>
       </Common>
     </Customizations>
   </Settings>
