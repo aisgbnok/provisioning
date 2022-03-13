@@ -77,6 +77,7 @@
         </UniversalAppInstall>
         <UniversalAppUninstall>
           <RemoveProvisionedApp>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Name="Microsoft.549981C3F5F10_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Name="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
           </RemoveProvisionedApp>
