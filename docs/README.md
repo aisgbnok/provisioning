@@ -1,3 +1,7 @@
 # Documentation
 
-Work in progress documentation for Provisioning. Stores extra, helpful commands and information.
+This directory holds helpful commands and information relating to Windows provisioning.
+
+# DISM Commands
+
+[Here you will find some helpful dism commands.](dism-commands.md)
