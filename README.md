@@ -21,7 +21,7 @@ for the continuation and maintenance of this journey.
 
 You can access documentation in the [`docs`](docs) directory.
 
-## Support
+## OS Support
 
 **The packages contained in this repository are built exclusively for `x64` machines.**
 
