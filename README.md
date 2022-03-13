@@ -15,21 +15,6 @@ for the continuation and maintenance of this journey.
 >
 > [Here is a link to the Microsoft Documentation!](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) :thumbsup:
 
-## Provisioning Alignment
-
-_Provisioning Alignment_ is the name given to the currently underway repository, codebase, and
-package cleanup. The goal:
-
-- [X] Align the packages' version numbers
-  etc. [Issue.](https://github.com/aisgbnok/provisioning/issues/3) [Pull Request.](https://github.com/aisgbnok/provisioning/pull/2)
-- [X] Provide improved repository documentation and roadmaps, like this. 😁
-- [X] [Explicitly Add Software Versions to Package Configurations](https://github.com/aisgbnok/provisioning/issues/10)
-- [ ] Add helpful custom templates & automations. (Issue Templates, GitHub Actions 🚀, etc.)
-
-_[Here is the link to the GitHub project for _Provisioning
-Alignment_.](https://github.com/aisgbnok/provisioning/projects/2) You can also access it by
-navigating to the **Projects** tab in GitHub._
-
 ## Building & Installing Provisioning Packages
 
 How to build/compile the packages in this project.
@@ -72,13 +57,8 @@ Execute or double-click the `ppkg` file on a Windows 10/11 device.
 ## Provisioning 4.0
 
 The plan for delivering Provisioning 4.0 is in progress and will be updated as the project continues
-to develop. The goal is to finish _Provisioning Alignment_ which will largely clean up this repo,
-then work can begin on v4. The goal of v4 is largely an extension of _Provisioning Alignment_,
-however with a clearer mission to improve the packages themselves.
-
-_Provisioning Alignment_'s goal is to clean up and add documentation for what is already present.
-v4's goal is to rewrite the packages for efficiency and introduce possibly breaking changes to
-improve long-term maintainability.
+to develop. The goal of v4 is to improve the packages themselves by rewriting for efficiency and
+introduce changes to improve long-term maintainability.
 
 ## License & Contribution
 
