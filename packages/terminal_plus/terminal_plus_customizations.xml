@@ -6,7 +6,7 @@
     <Version>3.160</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>General package for installing Windows Terminal and other common software. (03/09/2022)</Notes>
+    <Notes>General package for installing Windows Terminal and other common software. (03/13/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_99.0.1150.36">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.36.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.36.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_99.0.1150.39">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.39.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.39.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
