@@ -114,9 +114,4 @@ what you wish with your new knowledge. Providing attribution or thanks is recomm
 
 With that kept in mind, this software is licensed under the [MIT license.](LICENSE.md)
 
-_These sections may be improved or changed when needed._
-
-
-
-
-
+*These sections may be improved or changed if needed.*

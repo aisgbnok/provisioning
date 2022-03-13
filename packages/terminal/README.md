@@ -16,13 +16,11 @@ This package will install and update the following software:
 * PowerShellCore
 * Terminal
 * Microsoft AV1 Video Extension
-* Microsoft HEIF Image Extension
 * Microsoft HEVC Video Extension
-* Microsoft VP9 Video Extensions
 
 ## Building
 
-[More details on building packages can be found at the main readme.](https://github.com/aisgbnok/provisioning#building--installing-provisioning-packages)
+[More details on building packages can be found at the main readme.](../../README.md#building--installing-provisioning-packages)
 
 ```
 icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\terminal\terminal_customizations.xml /PackagePath:C:\provisioning\packages\terminal\Terminal.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite

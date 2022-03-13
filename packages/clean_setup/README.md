@@ -16,9 +16,7 @@ This package installs and updates a lot of core software including:
 * Google Chrome
 * Terminal
 * Microsoft AV1 Video Extension
-* Microsoft HEIF Image Extension
 * Microsoft HEVC Video Extension
-* Microsoft VP9 Video Extensions
 
 ### Intel Drivers
 
@@ -45,7 +43,7 @@ with all machines running an Intel 9700.
 
 ## Building
 
-[More details on building packages can be found at the main readme.](https://github.com/aisgbnok/provisioning#building--installing-provisioning-packages)
+[More details on building packages can be found at the main readme.](../../README.md#building--installing-provisioning-packages)
 
 ```
 icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\clean_setup\clean_setup_customizations.xml /PackagePath:C:\provisioning\packages\clean_setup\Clean_Setup.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite

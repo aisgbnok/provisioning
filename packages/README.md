@@ -5,4 +5,4 @@ each package by navigating to its directory and reading its readme.
 
 For building individual packages run the corresponding ICD command in
 the [`building.md`](building.md)
-file. [More details on building packages can be found at the main readme.](https://github.com/aisgbnok/provisioning#building--installing-provisioning-packages)
+file. [More details on building packages can be found at the main readme.](../README.md#building--installing-provisioning-packages)
