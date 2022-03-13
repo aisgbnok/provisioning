@@ -61,17 +61,11 @@
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.50332.0\Microsoft.AV1VideoExtension_1.1.50332.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
-            <Application PackageFamilyName="Microsoft.HEIFImageExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.50272.0\Microsoft.HEIFImageExtension_1.0.50272.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
-            </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.50361.0\Microsoft.HEVCVideoExtension_1.0.50361.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
               <DependencyAppxFiles>
                 <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.50361.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
               </DependencyAppxFiles>
-            </Application>
-            <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.50481.0\Microsoft.VP9VideoExtensions_1.0.50481.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10393.0\364f5988d6b4454786a7f1084ca6d589.msixbundle</ApplicationFile>
