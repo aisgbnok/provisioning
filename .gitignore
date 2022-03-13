@@ -18,3 +18,6 @@ packages/**/*.ppkg
 
 # Except for .github directory
 !.github/
+
+# Except for docs directory
+!docs/
