@@ -15,6 +15,12 @@ for the continuation and maintenance of this journey.
 >
 > [Here is a link to the Microsoft Documentation!](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) :thumbsup:
 
+## Documentation
+
+> Documentation is a work in progress.
+
+You can access documentation in the [`docs`](docs) directory.
+
 ## Support
 
 <details><summary>As long as you are using a supported version of Windows 10, and preferably 11, version support 
