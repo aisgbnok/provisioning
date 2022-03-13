@@ -1,27 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <WindowsCustomizations>
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
-    <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8a}</ID>
+    <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.151</Version>
+    <Version>3.200</Version>
     <OwnerType>ITAdmin</OwnerType>
-    <Rank>40</Rank>
-    <Notes>Updates OneDrive and Edge, and installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers. Installs Intel Drivers and Chrome on the Alienware Aurora, and Surface Laptop 3. All files are up-to-date as of 2/16/2022.</Notes>
+    <Rank>10</Rank>
+    <Notes>Personal package for setting up PCs after a Windows clean installation. (03/13/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
       <Common>
-        <OOBE>
-          <Desktop>
-            <EnableCortanaVoice>False</EnableCortanaVoice>
-            <HideOobe>False</HideOobe>
-          </Desktop>
-        </OOBE>
-        <Policies>
-          <ApplicationManagement>
-            <AllowAllTrustedApps>Yes</AllowAllTrustedApps>
-          </ApplicationManagement>
-        </Policies>
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
@@ -32,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_98.0.1108.55">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.55.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.55.msi" /passive</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_99.0.1150.39">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.39.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.39.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -42,23 +31,23 @@
               </CommandConfig>
               <CommandConfig Name="PowerShell_7.2.1">
                 <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
+                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_22.002.0103.0004">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.002.0103.0004.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.002.0103.0004.exe" /allusers /passive</CommandLine>
+              <CommandConfig Name="OneDrive_22.033.0213.0002">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.033.0213.0002.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.033.0213.0002.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_98.0.4758.102">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-98.0.4758.102.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-98.0.4758.102.msi" /passive</CommandLine>
+              <CommandConfig Name="Google_Chrome_99.0.4844.51">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -67,26 +56,16 @@
             </Command>
           </PrimaryContext>
         </ProvisioningCommands>
-        <TabletMode>
-          <ConvertibleSlateModePromptPreference>Disable prompting</ConvertibleSlateModePromptPreference>
-          <SignInMode>Desktop</SignInMode>
-        </TabletMode>
         <UniversalAppInstall>
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.50332.0\Microsoft.AV1VideoExtension_1.1.50332.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
-            </Application>
-            <Application PackageFamilyName="Microsoft.HEIFImageExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.50272.0\Microsoft.HEIFImageExtension_1.0.50272.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.50361.0\Microsoft.HEVCVideoExtension_1.0.50361.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
               <DependencyAppxFiles>
                 <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.50361.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
               </DependencyAppxFiles>
-            </Application>
-            <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.50274.0\Microsoft.VP9VideoExtensions_1.0.50274.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10393.0\364f5988d6b4454786a7f1084ca6d589.msixbundle</ApplicationFile>
@@ -98,21 +77,9 @@
         </UniversalAppInstall>
         <UniversalAppUninstall>
           <RemoveProvisionedApp>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdge_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdge_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Name="Microsoft.Xbox.TCUI_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MSPaint_8wekyb3d8bbwe" Name="Microsoft.MSPaint_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Getstarted_8wekyb3d8bbwe" Name="Microsoft.Getstarted_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Name="Microsoft.549981C3F5F10_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Name="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Name="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Name="Microsoft.MixedReality.Portal_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.XboxApp_8wekyb3d8bbwe" Name="Microsoft.XboxApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Name="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.GamingApp_8wekyb3d8bbwe" Name="Microsoft.GamingApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.GetHelp_8wekyb3d8bbwe" Name="Microsoft.GetHelp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
             <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.SkypeApp_kzf8qxf38zg5c" Name="Microsoft.SkypeApp_kzf8qxf38zg5c">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Office.OneNote_8wekyb3d8bbwe" Name="Microsoft.Office.OneNote_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
           </RemoveProvisionedApp>
         </UniversalAppUninstall>
       </Common>
@@ -122,34 +89,15 @@
             <Condition Name="ProcessorName" Value="Pattern:.*1065(G|g)7.*"/>
           </TargetState>
         </Target>
-        <Target Id="Aurora">
+        <Target Id="Alienware Aurora R8">
           <TargetState>
             <Condition Name="ProcessorName" Value="Pattern:.*9700.*"/>
-          </TargetState>
-        </Target>
-        <Target Id="Professional">
-          <TargetState>
-            <Condition Name="Edition" Value="Pattern:.*(P|p)ro.*"/>
           </TargetState>
         </Target>
       </Targets>
       <Variant>
         <TargetRefs>
-          <TargetRef Id="Professional"/>
-          <TargetRef Id="Aurora"/>
-          <TargetRef Id="Surface Laptop 3"/>
-        </TargetRefs>
-        <Settings>
-          <Policies>
-            <TimeLanguageSettings>
-              <ConfigureTimeZone>Eastern Standard Time</ConfigureTimeZone>
-            </TimeLanguageSettings>
-          </Policies>
-        </Settings>
-      </Variant>
-      <Variant>
-        <TargetRefs>
-          <TargetRef Id="Aurora"/>
+          <TargetRef Id="Alienware Aurora R8"/>
         </TargetRefs>
         <Settings>
           <DevDetail>
@@ -163,9 +111,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_98.0.1108.55">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.55.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.55.msi" /passive</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_99.0.1150.39">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.39.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.39.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -173,23 +121,23 @@
                 </CommandConfig>
                 <CommandConfig Name="PowerShell_7.2.1">
                   <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
+                  <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive_22.002.0103.0004">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.002.0103.0004.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-22.002.0103.0004.exe" /allusers /passive</CommandLine>
+                <CommandConfig Name="OneDrive_22.033.0213.0002">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.033.0213.0002.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-22.033.0213.0002.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome_98.0.4758.102">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-98.0.4758.102.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-98.0.4758.102.msi" /passive</CommandLine>
+                <CommandConfig Name="Google_Chrome_99.0.4844.51">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -235,9 +183,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1340">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1340.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_101.1340.exe" /s /report c:\Intel\30.0.101.1340.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1404">
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1404.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_101.1404.exe" /s /report c:\Intel\30.0.101.1404.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -262,7 +210,7 @@
         </TargetRefs>
         <Settings>
           <DevDetail>
-            <DNSComputerName>Anthony-Surface-Laptop-3</DNSComputerName>
+            <DNSComputerName>Anthony-Surface</DNSComputerName>
           </DevDetail>
           <Policies>
             <Bluetooth>
@@ -272,9 +220,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_98.0.1108.55">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-98.0.1108.55.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-98.0.1108.55.msi" /passive</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_99.0.1150.39">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.39.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.39.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -282,23 +230,23 @@
                 </CommandConfig>
                 <CommandConfig Name="PowerShell_7.2.1">
                   <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
+                  <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive_22.002.0103.0004">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.002.0103.0004.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-22.002.0103.0004.exe" /allusers /passive</CommandLine>
+                <CommandConfig Name="OneDrive_22.033.0213.0002">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.033.0213.0002.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-22.033.0213.0002.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome_98.0.4758.102">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-98.0.4758.102.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-98.0.4758.102.msi" /passive</CommandLine>
+                <CommandConfig Name="Google_Chrome_99.0.4844.51">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -320,9 +268,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1340">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1340.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win_101.1340.exe" /s /report c:\Intel\30.0.101.1340.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1404">
+                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1404.exe</CommandFile>
+                  <CommandLine>cmd /c "igfx_win_101.1404.exe" /s /report c:\Intel\30.0.101.1404.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>

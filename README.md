@@ -15,26 +15,49 @@ for the continuation and maintenance of this journey.
 >
 > [Here is a link to the Microsoft Documentation!](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) :thumbsup:
 
-## Provisioning Alignment
+## Documentation
 
-_Provisioning Alignment_ is the name given to the currently underway repository, codebase, and
-package cleanup. The goal:
+> Documentation is a work in progress.
 
-- [X] Align the packages' version numbers
-  etc. [Issue.](https://github.com/aisgbnok/provisioning/issues/3) [Pull Request.](https://github.com/aisgbnok/provisioning/pull/2)
-- [X] Provide improved repository documentation and roadmaps, like this. 😁
-- [X] [Explicitly Add Software Versions to Package Configurations](https://github.com/aisgbnok/provisioning/issues/10)
-- [ ] Add helpful custom templates & automations. (Issue Templates, GitHub Actions 🚀, etc.)
+You can access documentation in the [`docs`](docs) directory.
 
-_[Here is the link to the GitHub project for _Provisioning
-Alignment_.](https://github.com/aisgbnok/provisioning/projects/2) You can also access it by
-navigating to the **Projects** tab in GitHub._
+## OS Support
+
+**The packages contained in this repository are built exclusively for `x64` machines.**
+
+As long as you are using a supported version of Windows 10, and preferably 11, version support
+should not be an issue.
+
+<details>
+<summary>Click here for more details on OS support</summary>
+<br>
+
+I almost always use the latest OS version available whether Windows, Linux, or macOS. Therefore,
+these packages will always be developed and built using the most recent version of Windows. While
+packages have been written, built, and used on up-to-date Windows 11 machines, they should work on
+any supported Windows 10 versions.
+
+As an example, the *NetLab Core* package is built on Windows 11 but built for and used on Windows 10
+20H2 machines.
+
+For the most part provisioning packages are bound by the software they install and policies they
+deploy. [Terminal, for example, currently requires Windows 10 2004 or greater.](https://github.com/microsoft/terminal/issues/11371)
+*Windows 10 2004 has already stopped receiving support.* If you created a provisioning package today
+that solely installed Terminal, it would install on 2004, even though 2004 is EOL. However, It would
+most likely fail on any older Windows version as Terminal's min version is 2004.
+
+Knowing this, when developing and installing provisioning packages it is advised to check the min
+version of software and windows policies it installs and deploys. Although, as long as you are using
+a supported version of Windows 10, and preferably 11, version support should not be an issue.
+
+🔍 You can go [here](https://docs.microsoft.com/lifecycle/products/) to search for a Microsoft
+product's lifecycle.
+[Like Windows 10!](https://docs.microsoft.com/lifecycle/products/windows-10-home-and-pro)
+</details>
 
 ## Building & Installing Provisioning Packages
 
 How to build/compile the packages in this project.
-
-> These packages have been written, built, and used on a Windows 11 machine. However, they should work fine on recent Windows 10 versions, like 20H2. For example, the _NetLab Core_ package was built on W11 but used on W10 20H2 machines.
 
 ### Prerequisites
 
@@ -61,7 +84,7 @@ the respective package.
 #### Package (PPKG)
 
 If you want to rebuild an individual package run the corresponding ICD command in
-the [commands.md](packages/commands.md) file.
+the [`building.md`](packages/building.md) file.
 
 ### Installing
 
@@ -72,13 +95,8 @@ Execute or double-click the `ppkg` file on a Windows 10/11 device.
 ## Provisioning 4.0
 
 The plan for delivering Provisioning 4.0 is in progress and will be updated as the project continues
-to develop. The goal is to finish _Provisioning Alignment_ which will largely clean up this repo,
-then work can begin on v4. The goal of v4 is largely an extension of _Provisioning Alignment_,
-however with a clearer mission to improve the packages themselves.
-
-_Provisioning Alignment_'s goal is to clean up and add documentation for what is already present.
-v4's goal is to rewrite the packages for efficiency and introduce possibly breaking changes to
-improve long-term maintainability.
+to develop. The goal of v4 is to improve the packages themselves by rewriting for efficiency and
+introduce changes to improve long-term maintainability.
 
 ## License & Contribution
 
@@ -96,9 +114,4 @@ what you wish with your new knowledge. Providing attribution or thanks is recomm
 
 With that kept in mind, this software is licensed under the [MIT license.](LICENSE.md)
 
-_These sections may be improved or changed when needed._
-
-
-
-
-
+*These sections may be improved or changed if needed.*

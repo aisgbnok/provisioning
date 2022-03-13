@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <WindowsCustomizations>
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
-    <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8b}</ID>
+    <ID>{39f22247-e434-5fb7-9598-a86bb76fb3aa}</ID>
     <Name>Terminal</Name>
-    <Version>3.151</Version>
+    <Version>3.200</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>Installs PowerShellCore, Windows Terminal, and AV1, HEIF, HEVC, and VP9 Video Extensions on all computers and removes legacy Edge. All files are up-to-date as of 2/13/2022.</Notes>
+    <Notes>General package for installing Windows Terminal. (03/13/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -23,7 +23,7 @@
             <Command>
               <CommandConfig Name="PowerShell_7.2.1">
                 <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
+                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -37,17 +37,11 @@
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.50332.0\Microsoft.AV1VideoExtension_1.1.50332.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
-            <Application PackageFamilyName="Microsoft.HEIFImageExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEIFImageExtension_1.0.50272.0\Microsoft.HEIFImageExtension_1.0.50272.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
-            </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.50361.0\Microsoft.HEVCVideoExtension_1.0.50361.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
               <DependencyAppxFiles>
                 <Dependency Name="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.HEVCVideoExtension_1.0.50361.0\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx</Dependency>
               </DependencyAppxFiles>
-            </Application>
-            <Application PackageFamilyName="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.VP9VideoExtensions_1.0.50274.0\Microsoft.VP9VideoExtensions_1.0.50274.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
               <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10393.0\364f5988d6b4454786a7f1084ca6d589.msixbundle</ApplicationFile>
@@ -57,12 +51,6 @@
             <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_1.12.10393.0\364f5988d6b4454786a7f1084ca6d589_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
-        <UniversalAppUninstall>
-          <RemoveProvisionedApp>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftEdge_8wekyb3d8bbwe" Name="Microsoft.MicrosoftEdge_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-          </RemoveProvisionedApp>
-        </UniversalAppUninstall>
       </Common>
     </Customizations>
   </Settings>

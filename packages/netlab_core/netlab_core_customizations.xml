@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <WindowsCustomizations>
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8e}</ID>
     <Name>NetLab Core</Name>
-    <Version>3.151</Version>
+    <Version>3.200</Version>
     <OwnerType>ITAdmin</OwnerType>
-    <Rank>60</Rank>
-    <Notes>Made specifically for NetLab. Installs Chrome, PowerShellCore, and Windows Terminal. All files are up-to-date as of 2/16/2022.</Notes>
+    <Rank>40</Rank>
+    <Notes>Made specifically for the ISTE NetLab. (03/13/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -23,15 +23,15 @@
             <Command>
               <CommandConfig Name="PowerShell_7.2.1">
                 <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /passive</CommandLine>
+                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_98.0.4758.102">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-98.0.4758.102.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-98.0.4758.102.msi" /passive</CommandLine>
+              <CommandConfig Name="Google_Chrome_99.0.4844.51">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
