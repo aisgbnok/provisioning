@@ -17,6 +17,9 @@ for the continuation and maintenance of this journey.
 
 ## Support
 
+<details><summary>As long as you are using a supported version of Windows 10, and preferably 11, version support 
+should not be an issue.</summary>
+<p>
 I almost always use the latest OS version available whether Windows, Linux, or macOS. Therefore,
 these packages will always be developed and built using the most recent version of Windows. While
 packages have been written, built, and used on up-to-date Windows 11 machines, they should work on
@@ -38,6 +41,8 @@ a supported version of Windows 10, and preferably 11, version support should not
 🔍 You can go [here](https://docs.microsoft.com/lifecycle/products/) to search for a Microsoft
 product's lifecycle.
 [Like Windows 10!](https://docs.microsoft.com/lifecycle/products/windows-10-home-and-pro)
+</p>
+</details>
 
 ## Building & Installing Provisioning Packages
 
