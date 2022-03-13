@@ -15,9 +15,12 @@ packages/**/*.ppkg
 
 # Except for UWP directory
 !uwp/
+!uwp/**/*
 
 # Except for .github directory
 !.github/
+!.github/**/*
 
 # Except for docs directory
 !docs/
+!docs/**/*
