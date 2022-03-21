@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.200</Version>
+    <Version>3.201</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
-    <Notes>Personal package for setting up PCs after a Windows clean installation. (03/13/2022)</Notes>
+    <Notes>Personal package for setting up PCs after a Windows clean installation. (03/21/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,17 +21,17 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_99.0.1150.39">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.39.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.39.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_99.0.1150.46">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.46.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.46.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="PowerShell_7.2.1">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell_7.2.2">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.2-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.2-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -45,9 +45,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_99.0.4844.51">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_99.0.4844.82">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.82.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.82.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -111,17 +111,17 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_99.0.1150.39">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.39.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.39.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_99.0.1150.46">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.46.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.46.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="PowerShell_7.2.1">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
+                <CommandConfig Name="PowerShell_7.2.2">
+                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.2-win-x64.msi</CommandFile>
+                  <CommandLine>msiexec /i "powershell-7.2.2-win-x64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -135,9 +135,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome_99.0.4844.51">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google_Chrome_99.0.4844.82">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.82.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.82.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -167,17 +167,17 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_WiFi_Driver_22.110.1">
-                  <CommandFile>C:\provisioning\software\intel\WiFi-22.110.1-Driver64-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "wifi-22.110.1-driver64-win10-win11.exe" /s</CommandLine>
+                <CommandConfig Name="Intel_WiFi_Driver_22.120.1">
+                  <CommandFile>C:\provisioning\software\intel\WiFi-22.120.1-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.120.1-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Bluetooth_Driver_22.110.2">
-                  <CommandFile>C:\provisioning\software\intel\BT-22.110.2-32-64UWD-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "bt-22.110.2-32-64uwd-win10-win11.exe" /qn</CommandLine>
+                <CommandConfig Name="Intel_Bluetooth_Driver_22.120.0">
+                  <CommandFile>C:\provisioning\software\intel\BT-22.120.0-32-64UWD-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "bt-22.120.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -220,17 +220,17 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_99.0.1150.39">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.39.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.39.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_99.0.1150.46">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.46.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.46.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="PowerShell_7.2.1">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.1-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.2.1-win-x64.msi" /quiet</CommandLine>
+                <CommandConfig Name="PowerShell_7.2.2">
+                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.2-win-x64.msi</CommandFile>
+                  <CommandLine>msiexec /i "powershell-7.2.2-win-x64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -244,25 +244,25 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome_99.0.4844.51">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.51.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.51.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google_Chrome_99.0.4844.82">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.82.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.82.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_WiFi_Driver_22.110.1">
-                  <CommandFile>C:\provisioning\software\intel\WiFi-22.110.1-Driver64-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "wifi-22.110.1-driver64-win10-win11.exe" /s</CommandLine>
+                <CommandConfig Name="Intel_WiFi_Driver_22.120.1">
+                  <CommandFile>C:\provisioning\software\intel\WiFi-22.120.1-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.120.1-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Bluetooth_Driver_22.110.2">
-                  <CommandFile>C:\provisioning\software\intel\BT-22.110.2-32-64UWD-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "bt-22.110.2-32-64uwd-win10-win11.exe" /qn</CommandLine>
+                <CommandConfig Name="Intel_Bluetooth_Driver_22.120.0">
+                  <CommandFile>C:\provisioning\software\intel\BT-22.120.0-32-64UWD-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "bt-22.120.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
