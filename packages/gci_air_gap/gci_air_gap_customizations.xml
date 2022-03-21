@@ -6,7 +6,7 @@
     <Version>3.201</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for the GCI Air Gap Lab. (03/18/2022)</Notes>
+    <Notes>Made specifically for the GCI Air Gap Lab. (03/21/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -37,9 +37,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_99.0.4844.74">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.74.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.74.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_99.0.4844.82">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.82.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.82.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
