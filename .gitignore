@@ -7,9 +7,14 @@ packages/**/*.cat
 packages/**/*.ppkg
 
 # Except for OneDriveSetup.exe
+!software/
+!software/general/
+software/general/*
 !software/general/OneDriveSetup*.exe
 
 # Except for Intel Blutooth or WiFi
+!software/intel/
+software/intel/*
 !software/intel/BT*.exe
 !software/intel/WiFi*.exe
 

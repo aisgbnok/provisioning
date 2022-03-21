@@ -167,17 +167,17 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_WiFi_Driver_22.110.1">
-                  <CommandFile>C:\provisioning\software\intel\WiFi-22.110.1-Driver64-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "wifi-22.110.1-driver64-win10-win11.exe" /s</CommandLine>
+                <CommandConfig Name="Intel_WiFi_Driver_22.120.1">
+                  <CommandFile>C:\provisioning\software\intel\WiFi-22.120.1-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.120.1-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Bluetooth_Driver_22.110.2">
-                  <CommandFile>C:\provisioning\software\intel\BT-22.110.2-32-64UWD-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "bt-22.110.2-32-64uwd-win10-win11.exe" /qn</CommandLine>
+                <CommandConfig Name="Intel_Bluetooth_Driver_22.120.0">
+                  <CommandFile>C:\provisioning\software\intel\BT-22.120.0-32-64UWD-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "bt-22.120.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -252,17 +252,17 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_WiFi_Driver_22.110.1">
-                  <CommandFile>C:\provisioning\software\intel\WiFi-22.110.1-Driver64-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "wifi-22.110.1-driver64-win10-win11.exe" /s</CommandLine>
+                <CommandConfig Name="Intel_WiFi_Driver_22.120.1">
+                  <CommandFile>C:\provisioning\software\intel\WiFi-22.120.1-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.120.1-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Bluetooth_Driver_22.110.2">
-                  <CommandFile>C:\provisioning\software\intel\BT-22.110.2-32-64UWD-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "bt-22.110.2-32-64uwd-win10-win11.exe" /qn</CommandLine>
+                <CommandConfig Name="Intel_Bluetooth_Driver_22.120.0">
+                  <CommandFile>C:\provisioning\software\intel\BT-22.120.0-32-64UWD-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "bt-22.120.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
