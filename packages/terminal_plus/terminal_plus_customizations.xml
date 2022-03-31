@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{69f54890-b0fc-57db-b44e-627df747a906}</ID>
     <Name>Terminal+</Name>
-    <Version>3.201</Version>
+    <Version>3.202</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>General package for installing Windows Terminal and other common software. (03/21/2022)</Notes>
+    <Notes>General package for installing Windows Terminal and other common software. (03/31/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_99.0.1150.46">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.46.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.46.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_99.0.1150.55">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.55.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.55.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -37,17 +37,17 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_22.033.0213.0002">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.033.0213.0002.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.033.0213.0002.exe" /allusers /quiet</CommandLine>
+              <CommandConfig Name="OneDrive_22.055.0313.0001">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.055.0313.0001.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.055.0313.0001.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_99.0.4844.82">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-99.0.4844.82.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-99.0.4844.82.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_100.0.4896.60">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-100.0.4896.60.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-100.0.4896.60.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
