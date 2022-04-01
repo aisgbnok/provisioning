@@ -1,7 +1,7 @@
 # Terminal
 
 Terminal is a general purpose provisioning package built for installing and configuring Terminal.
-Its purpose is to install the latest version of Terminal, PowerShellCore, and Microsoft Media
+Its purpose is to install the latest version of Terminal, PowerShell, and Microsoft Media
 Extensions on PCs.
 
 Therefore, it can be built and installed on any PC that meets all the minimum requirements.
@@ -13,7 +13,7 @@ requirements for all software this package installs.
 
 This package will install and update the following software:
 
-* PowerShellCore
+* PowerShell
 * Terminal
 * Microsoft AV1 Video Extension
 * Microsoft HEVC Video Extension

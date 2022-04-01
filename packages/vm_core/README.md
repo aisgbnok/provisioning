@@ -10,7 +10,7 @@ the Terminal+ package but may contain specific configurations for VMs.
 This package will install and update the following software:
 
 * Microsoft Edge
-* PowerShellCore
+* PowerShell
 * OneDrive
 * Google Chrome
 * Terminal

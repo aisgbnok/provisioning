@@ -9,7 +9,7 @@ configures specific software and settings.
 This package will install and update the following software:
 
 * Microsoft Edge
-* PowerShellCore
+* PowerShell
 * Google Chrome
 * Terminal
 * Microsoft AV1 Video Extension

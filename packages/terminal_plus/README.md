@@ -14,7 +14,7 @@ requirements for all software this package installs.
 This package will install and update the following software:
 
 * Microsoft Edge
-* PowerShellCore
+* PowerShell
 * OneDrive
 * Google Chrome
 * Terminal

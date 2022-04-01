@@ -8,7 +8,7 @@ configures specific software and settings.
 
 This package will install and update the following software:
 
-* PowerShellCore
+* PowerShell
 * Google Chrome
 * Terminal
 
