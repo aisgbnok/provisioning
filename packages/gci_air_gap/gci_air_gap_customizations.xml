@@ -6,7 +6,7 @@
     <Version>3.202</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for the GCI Air Gap Lab. (03/31/2022)</Notes>
+    <Notes>Made specifically for the GCI Air Gap Lab. (04/02/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_99.0.1150.55">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-99.0.1150.55.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-99.0.1150.55.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_100.0.1185.29">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-100.0.1185.29.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-100.0.1185.29.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
