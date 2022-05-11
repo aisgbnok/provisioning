@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{39f22247-e434-5fb7-9598-a86bb76fb3aa}</ID>
     <Name>Terminal</Name>
-    <Version>3.201</Version>
+    <Version>3.210</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>General package for installing Windows Terminal. (03/18/2022)</Notes>
+    <Notes>General package for installing Windows Terminal. (05/11/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="PowerShell_7.2.2">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.2-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.2-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell_7.2.3">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.3-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.3-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>

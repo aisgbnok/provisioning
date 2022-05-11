@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.202</Version>
+    <Version>3.210</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
-    <Notes>Personal package for setting up PCs after a Windows clean installation. (04/02/2022)</Notes>
+    <Notes>Personal package for setting up PCs after a Windows clean installation. (05/11/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,33 +21,33 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_100.0.1185.29">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-100.0.1185.29.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-100.0.1185.29.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_101.0.1210.39">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.39.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.39.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="PowerShell_7.2.2">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.2-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.2-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell_7.2.3">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.3-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.3-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_22.055.0313.0001">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.055.0313.0001.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.055.0313.0001.exe" /allusers /quiet</CommandLine>
+              <CommandConfig Name="OneDrive_22.077.0410.0007">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.077.0410.0007.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.077.0410.0007.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_100.0.4896.60">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-100.0.4896.60.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-100.0.4896.60.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_101.0.4951.64">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.64.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -111,33 +111,33 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_100.0.1185.29">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-100.0.1185.29.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-100.0.1185.29.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_101.0.1210.39">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.39.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.39.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="PowerShell_7.2.2">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.2-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.2.2-win-x64.msi" /quiet</CommandLine>
+                <CommandConfig Name="PowerShell_7.2.3">
+                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.3-win-x64.msi</CommandFile>
+                  <CommandLine>msiexec /i "powershell-7.2.3-win-x64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive_22.055.0313.0001">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.055.0313.0001.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-22.055.0313.0001.exe" /allusers /quiet</CommandLine>
+                <CommandConfig Name="OneDrive_22.077.0410.0007">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.077.0410.0007.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-22.077.0410.0007.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome_100.0.4896.60">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-100.0.4896.60.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-100.0.4896.60.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google_Chrome_101.0.4951.64">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.64.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -220,33 +220,33 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_100.0.1185.29">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-100.0.1185.29.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-100.0.1185.29.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_101.0.1210.39">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.39.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.39.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="PowerShell_7.2.2">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.2-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.2.2-win-x64.msi" /quiet</CommandLine>
+                <CommandConfig Name="PowerShell_7.2.3">
+                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.3-win-x64.msi</CommandFile>
+                  <CommandLine>msiexec /i "powershell-7.2.3-win-x64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive_22.055.0313.0001">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.055.0313.0001.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-22.055.0313.0001.exe" /allusers /quiet</CommandLine>
+                <CommandConfig Name="OneDrive_22.077.0410.0007">
+                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.077.0410.0007.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-22.077.0410.0007.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome_100.0.4896.60">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-100.0.4896.60.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-100.0.4896.60.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google_Chrome_101.0.4951.64">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.64.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
