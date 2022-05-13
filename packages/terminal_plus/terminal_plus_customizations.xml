@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{69f54890-b0fc-57db-b44e-627df747a906}</ID>
     <Name>Terminal+</Name>
-    <Version>3.210</Version>
+    <Version>3.211</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>General package for installing Windows Terminal and other common software. (05/11/2022)</Notes>
+    <Notes>General package for installing Windows Terminal and other common software. (05/12/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -45,9 +45,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_101.0.4951.64">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.64.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.64.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_101.0.4951.67">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.67.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.67.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>

@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{a8dd246b-bb6f-4ba6-8664-a64444424b8e}</ID>
     <Name>NetLab Core</Name>
-    <Version>3.210</Version>
+    <Version>3.211</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for the ISTE NetLab. (04/11/2022)</Notes>
+    <Notes>Made specifically for the ISTE NetLab. (05/12/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -29,9 +29,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_101.0.4951.64">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.64.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.64.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_101.0.4951.67">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.67.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.67.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
