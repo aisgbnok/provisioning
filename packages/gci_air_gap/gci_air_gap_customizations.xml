@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{34c0eb4c-1c46-5d44-b9eb-9e49f2a054a8}</ID>
     <Name>GCI Air Gap</Name>
-    <Version>3.211</Version>
+    <Version>3.212</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for the GCI Air Gap Lab. (05/12/2022)</Notes>
+    <Notes>Made specifically for the GCI Air Gap Lab. (05/24/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_101.0.1210.39">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.39.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.39.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_101.0.1210.53">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.53.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.53.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -37,9 +37,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_101.0.4951.67">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.67.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.67.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_102.0.5005.63">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-102.0.5005.63.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-102.0.5005.63.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>

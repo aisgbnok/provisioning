@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.211</Version>
+    <Version>3.212</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
-    <Notes>Personal package for setting up PCs after a Windows clean installation. (05/12/2022)</Notes>
+    <Notes>Personal package for setting up PCs after a Windows clean installation. (05/24/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_101.0.1210.39">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.39.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.39.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_101.0.1210.53">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.53.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.53.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -45,9 +45,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_101.0.4951.67">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.67.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.67.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_102.0.5005.63">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-102.0.5005.63.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-102.0.5005.63.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -111,9 +111,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_101.0.1210.39">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.39.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.39.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_101.0.1210.53">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.53.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.53.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -135,9 +135,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome_101.0.4951.67">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.67.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.67.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google_Chrome_102.0.5005.63">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-102.0.5005.63.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-102.0.5005.63.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -220,9 +220,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft_Edge_101.0.1210.39">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.39.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.39.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft_Edge_101.0.1210.53">
+                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.53.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.53.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -244,9 +244,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google_Chrome_101.0.4951.67">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-101.0.4951.67.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-101.0.4951.67.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google_Chrome_102.0.5005.63">
+                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-102.0.5005.63.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-102.0.5005.63.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
