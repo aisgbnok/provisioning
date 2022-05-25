@@ -6,7 +6,7 @@
     <Version>3.212</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for the ISTE NetLab. (05/24/2022)</Notes>
+    <Notes>Made specifically for the ISTE NetLab. (05/25/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="PowerShell_7.2.3">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.3-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.3-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell_7.2.4">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.4-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.4-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
