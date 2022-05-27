@@ -6,7 +6,7 @@
     <Version>3.212</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>General package for installing Windows Terminal and other common software. (05/25/2022)</Notes>
+    <Notes>General package for installing Windows Terminal and other common software. (05/26/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -37,9 +37,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_22.077.0410.0007">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.077.0410.0007.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.077.0410.0007.exe" /allusers /quiet</CommandLine>
+              <CommandConfig Name="OneDrive_22.099.0508.0001">
+                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.099.0508.0001.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.099.0508.0001.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
