@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{34c0eb4c-1c46-5d44-b9eb-9e49f2a054a8}</ID>
     <Name>GCI Air Gap</Name>
-    <Version>3.212</Version>
+    <Version>3.220</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for the GCI Air Gap Lab. (05/25/2022)</Notes>
+    <Notes>Made specifically for the GCI Air Gap Lab. (07/24/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -57,14 +57,14 @@
               <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_2.0.51121.0\Microsoft.HEVCVideoExtension_2.0.51121.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.12.10982.0\e43ab5bc7f024e5cb2ab496a78a1966f.msixbundle</ApplicationFile>
+              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7.msixbundle</ApplicationFile>
               <DependencyAppxFiles>
-                <Dependency Name="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.12.10982.0\Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe.appx</Dependency>
+                <Dependency Name="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe.appx</Dependency>
               </DependencyAppxFiles>
             </Application>
           </DeviceContextApp>
           <DeviceContextAppLicense>
-            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.12.10982.0\e43ab5bc7f024e5cb2ab496a78a1966f_License1.xml</LicenseInstall>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
       </Common>
