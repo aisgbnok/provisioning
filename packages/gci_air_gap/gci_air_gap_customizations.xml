@@ -21,25 +21,25 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_101.0.1210.53">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-101.0.1210.53.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-101.0.1210.53.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft_Edge_103.0.1264.71">
+                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-103.0.1264.71.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-103.0.1264.71.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="PowerShell_7.2.4">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.4-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.4-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell_7.2.5">
+                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.5-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_102.0.5005.63">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-102.0.5005.63.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-102.0.5005.63.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google_Chrome_103.0.5060.134">
+                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-103.0.5060.134.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
