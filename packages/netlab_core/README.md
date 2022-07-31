@@ -17,8 +17,9 @@ profile to Terminal.
 
 ## Building
 
-[More details on building packages can be found at the main readme.](../../README.md#building--installing-provisioning-packages)
+You must run this command at the root of the `packages` directory.
+For more information on building packages, see [Building & Installing Provisioning Packages](../../README.md#building--installing-provisioning-packages).
 
 ```
-icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\netlab_core\netlab_core_customizations.xml /PackagePath:C:\provisioning\packages\netlab_core\NetLab_Core.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
+icd.exe /Build-ProvisioningPackage /CustomizationXML:.\netlab_core\netlab_core_customizations.xml /PackagePath:.\netlab_core\NetLab_Core.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
 ```

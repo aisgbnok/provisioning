@@ -8,7 +8,7 @@ You can see more details on each package by navigating to its directory and read
 
 > **Warning**\
 > When building packages you must execute all commands or scripts at the root of the `packages` directory.
-> For more information, see [the main readme.](../README.md#building)
+> For more information, see [Building Packages](../README.md#building-packages).
 
 ### Clean Setup
 

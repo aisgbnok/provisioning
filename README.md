@@ -66,7 +66,7 @@ How to build/compile the packages in this project.
 - Clone this repository into your preferred location.
   - I would recommend a memorable and easy to find location such as `C:\`.
 
-### Building
+### Building Packages
 
 Running [`Generate New Packages.bat`](packages/Generate%20New%20Packages.bat) will rebuild all the CAB asset packages and the provisioning packages.
 
@@ -91,7 +91,7 @@ the respective package.
 If you want to rebuild an individual package run the corresponding ICD command in
 the [`building.md`](packages/building.md) file.
 
-### Installing
+### Installing Packages
 
 Execute or double-click the `ppkg` file on a Windows 10/11 device.
 

@@ -19,8 +19,9 @@ This package will install and update the following software:
 
 ## Building
 
-[More details on building packages can be found at the main readme.](../../README.md#building--installing-provisioning-packages)
+You must run this command at the root of the `packages` directory.
+For more information on building packages, see [Building & Installing Provisioning Packages](../../README.md#building--installing-provisioning-packages).
 
 ```
-icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\vm_core\vm_core_customizations.xml /PackagePath:C:\provisioning\packages\vm_core\VM_Core.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
+icd.exe /Build-ProvisioningPackage /CustomizationXML:.\vm_core\vm_core_customizations.xml /PackagePath:.\vm_core\VM_Core.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
 ```
