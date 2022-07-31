@@ -14,10 +14,10 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.bat</CommandFile>
-              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.cab</CommandFile>
+              <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.bat</CommandFile>
+              <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.cab</CommandFile>
             </CommandFiles>
-            <CommandLine>cmd /c "clean-setup_custom-assets.bat"</CommandLine>
+            <CommandLine>cmd /c "core_assets.bat"</CommandLine>
           </DeviceContext>
           <PrimaryContext>
             <Command>
