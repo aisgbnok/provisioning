@@ -5,10 +5,20 @@
 !assets/
 !assets/**/*
 
+# Except for docs directory
+!docs/
+!docs/**/*
+
 # Except for packages, excluding *.cat and *.ppkg
 !packages/
+!packages/**/*
 packages/**/*.cat
 packages/**/*.ppkg
+
+# Except for scripts directory, excluding *.cab
+!scripts/
+!scripts/**/*
+scripts/**/*.cab
 
 # Except for OneDriveSetup.exe
 !software/
@@ -29,7 +39,3 @@ software/intel/*
 # Except for .github directory
 !.github/
 !.github/**/*
-
-# Except for docs directory
-!docs/
-!docs/**/*
