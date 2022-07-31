@@ -1,6 +1,10 @@
 ### Ignore All Directories
 /**/
 
+# Except for assets
+!assets/
+!assets/**/*
+
 # Except for packages, excluding *.cat and *.ppkg
 !packages/
 packages/**/*.cat
