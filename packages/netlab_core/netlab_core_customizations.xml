@@ -14,15 +14,15 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="NetLab_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\NetLab_Custom-Assets.bat</CommandFile>
-              <CommandFile Name="NetLab_Custom-Assets">C:\provisioning\packages\netlab_core\custom-scripts\NetLab_Custom-Assets.cab</CommandFile>
+              <CommandFile Name="NetLab_Custom-Assets">.\netlab_core\custom-scripts\NetLab_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="NetLab_Custom-Assets">.\netlab_core\custom-scripts\NetLab_Custom-Assets.cab</CommandFile>
             </CommandFiles>
             <CommandLine>cmd /c "netlab_custom-assets.bat"</CommandLine>
           </DeviceContext>
           <PrimaryContext>
             <Command>
               <CommandConfig Name="PowerShell_7.2.5">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
+                <CommandFile>..\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
                 <CommandLine>msiexec /i "powershell-7.2.5-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
@@ -30,7 +30,7 @@
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
               <CommandConfig Name="Google_Chrome_103.0.5060.134">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
+                <CommandFile>..\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
                 <CommandLine>msiexec /i "googlechromestandaloneenterprise64-103.0.5060.134.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
@@ -43,14 +43,14 @@
         <UniversalAppInstall>
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7.msixbundle</ApplicationFile>
+              <ApplicationFile>..\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7.msixbundle</ApplicationFile>
               <DependencyAppxFiles>
-                <Dependency Name="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe.appx</Dependency>
+                <Dependency Name="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe">..\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe.appx</Dependency>
               </DependencyAppxFiles>
             </Application>
           </DeviceContextApp>
           <DeviceContextAppLicense>
-            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7_License1.xml</LicenseInstall>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">..\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
       </Common>
