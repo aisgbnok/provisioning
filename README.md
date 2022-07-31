@@ -37,9 +37,6 @@ these packages will always be developed and built using the most recent version 
 packages have been written, built, and used on up-to-date Windows 11 machines, they should work on
 any supported Windows 10 versions.
 
-As an example, the *NetLab Core* package is built on Windows 11 but built for and used on Windows 10
-20H2 machines.
-
 For the most part provisioning packages are bound by the software they install and policies they
 deploy. [Terminal, for example, currently requires Windows 10 2004 or greater.](https://github.com/microsoft/terminal/issues/11371)
 *Windows 10 2004 has already stopped receiving support.* If you created a provisioning package today
