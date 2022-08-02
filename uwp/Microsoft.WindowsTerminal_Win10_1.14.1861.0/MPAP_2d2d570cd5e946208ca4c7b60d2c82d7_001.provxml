@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+                                                    <wap-provisioningdoc>
+                                                      <characteristic type="AppInstall">   
+                                                        <characteristic type="AppxPackage">
+                                                          <parm name="AppXPath" value="C:\PROGRAMS\CommonFiles\Xaps\2d2d570cd5e946208ca4c7b60d2c82d7.msixbundle" />
+                                                          <parm name="LicensePath" value="C:\PROGRAMS\CommonFiles\Xaps\2d2d570cd5e946208ca4c7b60d2c82d7_License1.xml" /><parm name="DependencyPackages" value="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe" />
+                                                        </characteristic>
+                                                      </characteristic>
+                                                    </wap-provisioningdoc>

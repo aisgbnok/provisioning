@@ -37,9 +37,6 @@ these packages will always be developed and built using the most recent version 
 packages have been written, built, and used on up-to-date Windows 11 machines, they should work on
 any supported Windows 10 versions.
 
-As an example, the *NetLab Core* package is built on Windows 11 but built for and used on Windows 10
-20H2 machines.
-
 For the most part provisioning packages are bound by the software they install and policies they
 deploy. [Terminal, for example, currently requires Windows 10 2004 or greater.](https://github.com/microsoft/terminal/issues/11371)
 *Windows 10 2004 has already stopped receiving support.* If you created a provisioning package today
@@ -61,16 +58,21 @@ How to build/compile the packages in this project.
 
 ### Prerequisites
 
-- [Windows Imaging and Configuration Designer (ICD)](https://www.microsoft.com/store/apps/9nblggh4tx22)
-- [Read ICD CLI Reference](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-command-line)
-- Clone this repository into the `C:\provisioning\` directory.
-    - This is required as I'm not sure if ICD accepts relative paths.
-    - [Will look into this later, relative paths would provide more flexibility. #7](https://github.com/aisgbnok/provisioning/issues/7)
+- Install the [Windows Imaging and Configuration Designer (ICD).](https://www.microsoft.com/store/apps/9nblggh4tx22)
+- Read the [ICD command-line interface reference.](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-command-line)
+- Clone this repository into your preferred location.
+  - I would recommend a memorable and easy to find location such as `C:\`.
 
-### Building
+### Building Packages
 
-Running [Generate New Packages.bat](packages/Generate%20New%20Packages.bat), will rebuild all the
-CAB asset packages and then rebuild all the provisioning packages.
+Running [`Generate New Packages.bat`](packages/Generate%20New%20Packages.bat) will rebuild all the CAB asset packages and the provisioning packages.
+
+> **Warning**\
+> When building packages you must execute all commands or scripts at the root of the `packages` directory.
+> For example:
+> ```text
+> C:\provisioning\packages> <-- Must be at the packages directory, wherever that is.
+> ```
 
 #### Assets (CAB)
 
@@ -78,7 +80,7 @@ If you want to rebuild an individual CAB file, run the `Create [Package Name] As
 the respective package.
 
 ```
-./packages/[Package Name]/custom-scripts/Create [Package Name] Assets.bat
+./[Package Name]/custom-scripts/Create [Package Name] Assets.bat
 ```
 
 #### Package (PPKG)
@@ -86,7 +88,7 @@ the respective package.
 If you want to rebuild an individual package run the corresponding ICD command in
 the [`building.md`](packages/building.md) file.
 
-### Installing
+### Installing Packages
 
 Execute or double-click the `ppkg` file on a Windows 10/11 device.
 
