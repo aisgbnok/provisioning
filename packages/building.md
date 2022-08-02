@@ -18,22 +18,6 @@ Personal package for setting up PCs after a Windows clean installation.
 icd.exe /Build-ProvisioningPackage /CustomizationXML:.\clean_setup\clean_setup_customizations.xml /PackagePath:.\clean_setup\Clean_Setup.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
 ```
 
-### GCI Air Gap
-
-Made specifically for the GCI Air Gap Lab.
-
-```
-icd.exe /Build-ProvisioningPackage /CustomizationXML:.\gci_air_gap\gci_air_gap_customizations.xml /PackagePath:.\gci_air_gap\GCI_Air_Gap.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
-```
-
-### NetLab Core
-
-Made specifically for the ISTE NetLab.
-
-```
-icd.exe /Build-ProvisioningPackage /CustomizationXML:.\netlab_core\netlab_core_customizations.xml /PackagePath:.\netlab_core\NetLab_Core.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
-```
-
 ### Terminal
 
 General package for installing Windows Terminal.
