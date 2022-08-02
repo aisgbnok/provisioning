@@ -11,7 +11,7 @@ use this package on your machine.**
 This package installs and updates a lot of core software including:
 
 * Microsoft Edge
-* PowerShellCore
+* PowerShell
 * OneDrive
 * Google Chrome
 * Terminal
