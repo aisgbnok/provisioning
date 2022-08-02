@@ -14,15 +14,15 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.bat</CommandFile>
-              <CommandFile Name="Clean-Setup_Custom-Assets">C:\provisioning\packages\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.cab</CommandFile>
+              <CommandFile Name="Clean-Setup_Custom-Assets">.\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.bat</CommandFile>
+              <CommandFile Name="Clean-Setup_Custom-Assets">.\clean_setup\custom-scripts\Clean-Setup_Custom-Assets.cab</CommandFile>
             </CommandFiles>
             <CommandLine>cmd /c "clean-setup_custom-assets.bat"</CommandLine>
           </DeviceContext>
           <PrimaryContext>
             <Command>
               <CommandConfig Name="Microsoft_Edge_103.0.1264.71">
-                <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-103.0.1264.71.msi</CommandFile>
+                <CommandFile>..\software\general\MicrosoftEdgeEnterpriseX64-103.0.1264.71.msi</CommandFile>
                 <CommandLine>msiexec /i "microsoftedgeenterprisex64-103.0.1264.71.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
@@ -30,7 +30,7 @@
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
               <CommandConfig Name="PowerShell_7.2.5">
-                <CommandFile>C:\provisioning\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
+                <CommandFile>..\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
                 <CommandLine>msiexec /i "powershell-7.2.5-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
@@ -38,7 +38,7 @@
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
               <CommandConfig Name="OneDrive_22.141.0703.0002">
-                <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
+                <CommandFile>..\software\general\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
                 <CommandLine>cmd /c "onedrivesetup-22.141.0703.0002.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
@@ -46,7 +46,7 @@
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
               <CommandConfig Name="Google_Chrome_103.0.5060.134">
-                <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
+                <CommandFile>..\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
                 <CommandLine>msiexec /i "googlechromestandaloneenterprise64-103.0.5060.134.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
@@ -59,20 +59,20 @@
         <UniversalAppInstall>
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.AV1VideoExtension_1.1.51091.0\Microsoft.AV1VideoExtension_1.1.51091.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>..\uwp\Microsoft.AV1VideoExtension_1.1.51091.0\Microsoft.AV1VideoExtension_1.1.51091.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.HEVCVideoExtension_2.0.51121.0\Microsoft.HEVCVideoExtension_2.0.51121.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>..\uwp\Microsoft.HEVCVideoExtension_2.0.51121.0\Microsoft.HEVCVideoExtension_2.0.51121.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.WindowsTerminal_8wekyb3d8bbwe">
-              <ApplicationFile>C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7.msixbundle</ApplicationFile>
+              <ApplicationFile>..\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7.msixbundle</ApplicationFile>
               <DependencyAppxFiles>
-                <Dependency Name="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe">C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe.appx</Dependency>
+                <Dependency Name="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe">..\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe.appx</Dependency>
               </DependencyAppxFiles>
             </Application>
           </DeviceContextApp>
           <DeviceContextAppLicense>
-            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">C:\provisioning\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7_License1.xml</LicenseInstall>
+            <LicenseInstall LicenseProductId="5c0db099-f413-5aa0-afc0-f40f668da91c">..\uwp\Microsoft.WindowsTerminal_Win10_1.14.1861.0\2d2d570cd5e946208ca4c7b60d2c82d7_License1.xml</LicenseInstall>
           </DeviceContextAppLicense>
         </UniversalAppInstall>
         <UniversalAppUninstall>
@@ -112,7 +112,7 @@
             <PrimaryContext>
               <Command>
                 <CommandConfig Name="Microsoft_Edge_103.0.1264.71">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-103.0.1264.71.msi</CommandFile>
+                  <CommandFile>..\software\general\MicrosoftEdgeEnterpriseX64-103.0.1264.71.msi</CommandFile>
                   <CommandLine>msiexec /i "microsoftedgeenterprisex64-103.0.1264.71.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -120,7 +120,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="PowerShell_7.2.5">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
+                  <CommandFile>..\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
                   <CommandLine>msiexec /i "powershell-7.2.5-win-x64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -128,7 +128,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="OneDrive_22.141.0703.0002">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
+                  <CommandFile>..\software\general\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
                   <CommandLine>cmd /c "onedrivesetup-22.141.0703.0002.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -136,7 +136,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Google_Chrome_103.0.5060.134">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
+                  <CommandFile>..\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
                   <CommandLine>msiexec /i "googlechromestandaloneenterprise64-103.0.5060.134.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -144,7 +144,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Chipset_Driver">
-                  <CommandFile>C:\provisioning\software\aurora\Intel-Chipset-Device-Software_5MPRF_WIN_10.1.18121.8164_A09.exe</CommandFile>
+                  <CommandFile>..\software\aurora\Intel-Chipset-Device-Software_5MPRF_WIN_10.1.18121.8164_A09.exe</CommandFile>
                   <CommandLine>cmd /c "intel-chipset-device-software_5mprf_win_10.1.18121.8164_A09.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
@@ -152,7 +152,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Serial_IO_Driver">
-                  <CommandFile>C:\provisioning\software\aurora\Intel-Serial-IO-Driver_6CYP4_WIN_30.100.1943.2_A09_04.EXE</CommandFile>
+                  <CommandFile>..\software\aurora\Intel-Serial-IO-Driver_6CYP4_WIN_30.100.1943.2_A09_04.EXE</CommandFile>
                   <CommandLine>cmd /c "intel-serial-io-driver_6cyp4_win_30.100.1943.2_a09_04.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
@@ -160,7 +160,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Rapid_Storage_Technology_Driver">
-                  <CommandFile>C:\provisioning\software\aurora\Intel-Rapid-Storage-Technology-Driver_62C56_WIN64_17.9.6.1019_A04_01.EXE</CommandFile>
+                  <CommandFile>..\software\aurora\Intel-Rapid-Storage-Technology-Driver_62C56_WIN64_17.9.6.1019_A04_01.EXE</CommandFile>
                   <CommandLine>cmd /c "intel-rapid-storage-technology-driver_62c56_win64_17.9.6.1019_a04_01.exe" /s /accepteula</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
@@ -168,7 +168,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_WiFi_Driver_22.150.0">
-                  <CommandFile>C:\provisioning\software\intel\WiFi-22.150.0-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandFile>..\software\intel\WiFi-22.150.0-Driver64-Win10-Win11.exe</CommandFile>
                   <CommandLine>cmd /c "wifi-22.150.0-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -176,7 +176,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Bluetooth_Driver_22.150.0">
-                  <CommandFile>C:\provisioning\software\intel\BT-22.150.0-32-64UWD-Win10-Win11.exe</CommandFile>
+                  <CommandFile>..\software\intel\BT-22.150.0-32-64UWD-Win10-Win11.exe</CommandFile>
                   <CommandLine>cmd /c "bt-22.150.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -184,7 +184,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1994">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1994.exe</CommandFile>
+                  <CommandFile>..\software\intel\igfx_win_101.1994.exe</CommandFile>
                   <CommandLine>cmd /c "igfx_win_101.1994.exe" /s /report c:\Intel\30.0.101.1994.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
@@ -192,7 +192,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Realtek_Audio_Driver">
-                  <CommandFile>C:\provisioning\software\aurora\Realtek-High-Definition-Audio-Driver_N9X47_WIN_6.0.8996.1_A03.exe</CommandFile>
+                  <CommandFile>..\software\aurora\Realtek-High-Definition-Audio-Driver_N9X47_WIN_6.0.8996.1_A03.exe</CommandFile>
                   <CommandLine>cmd /c "realtek-high-definition-audio-driver_n9x47_win_6.0.8996.1_a03.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
@@ -221,7 +221,7 @@
             <PrimaryContext>
               <Command>
                 <CommandConfig Name="Microsoft_Edge_103.0.1264.71">
-                  <CommandFile>C:\provisioning\software\general\MicrosoftEdgeEnterpriseX64-103.0.1264.71.msi</CommandFile>
+                  <CommandFile>..\software\general\MicrosoftEdgeEnterpriseX64-103.0.1264.71.msi</CommandFile>
                   <CommandLine>msiexec /i "microsoftedgeenterprisex64-103.0.1264.71.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -229,7 +229,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="PowerShell_7.2.5">
-                  <CommandFile>C:\provisioning\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
+                  <CommandFile>..\software\general\PowerShell-7.2.5-win-x64.msi</CommandFile>
                   <CommandLine>msiexec /i "powershell-7.2.5-win-x64.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -237,7 +237,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="OneDrive_22.141.0703.0002">
-                  <CommandFile>C:\provisioning\software\general\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
+                  <CommandFile>..\software\general\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
                   <CommandLine>cmd /c "onedrivesetup-22.141.0703.0002.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -245,7 +245,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Google_Chrome_103.0.5060.134">
-                  <CommandFile>C:\provisioning\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
+                  <CommandFile>..\software\general\GoogleChromeStandaloneEnterprise64-103.0.5060.134.msi</CommandFile>
                   <CommandLine>msiexec /i "googlechromestandaloneenterprise64-103.0.5060.134.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -253,7 +253,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_WiFi_Driver_22.150.0">
-                  <CommandFile>C:\provisioning\software\intel\WiFi-22.150.0-Driver64-Win10-Win11.exe</CommandFile>
+                  <CommandFile>..\software\intel\WiFi-22.150.0-Driver64-Win10-Win11.exe</CommandFile>
                   <CommandLine>cmd /c "wifi-22.150.0-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -261,7 +261,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Bluetooth_Driver_22.150.0">
-                  <CommandFile>C:\provisioning\software\intel\BT-22.150.0-32-64UWD-Win10-Win11.exe</CommandFile>
+                  <CommandFile>..\software\intel\BT-22.150.0-32-64UWD-Win10-Win11.exe</CommandFile>
                   <CommandLine>cmd /c "bt-22.150.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
@@ -269,7 +269,7 @@
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
                 <CommandConfig Name="Intel_Graphics_Driver_30.0.101.1994">
-                  <CommandFile>C:\provisioning\software\intel\igfx_win_101.1994.exe</CommandFile>
+                  <CommandFile>..\software\intel\igfx_win_101.1994.exe</CommandFile>
                   <CommandLine>cmd /c "igfx_win_101.1994.exe" /s /report c:\Intel\30.0.101.1994.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
