@@ -65,7 +65,7 @@ How to build/compile the packages in this project.
 
 ### Building Packages
 
-Running [`Generate New Packages.bat`](packages/Generate%20New%20Packages.bat) will rebuild all the CAB asset packages and the provisioning packages.
+Running [`Generate New Packages.bat`](packages/Generate%20New%20Packages.bat) will rebuild all the CAB assets and the provisioning packages.
 
 > **Warning**\
 > When building packages you must execute all commands or scripts at the root of the `packages` directory.
@@ -74,14 +74,10 @@ Running [`Generate New Packages.bat`](packages/Generate%20New%20Packages.bat) wi
 > C:\provisioning\packages> <-- Must be at the packages directory, wherever that is.
 > ```
 
-#### Assets (CAB)
+#### Scripts & Assets (CAB)
 
-If you want to rebuild an individual CAB file, run the `Create [Package Name] Assets.bat` file for
-the respective package.
-
-```
-./[Package Name]/custom-scripts/Create [Package Name] Assets.bat
-```
+If you want to rebuild an individual CAB file, run the `Create [Name] Assets.bat` file for the respective set of scripts.
+For more information, see the [readme for the `scripts` directory](scripts/README.md).
 
 #### Package (PPKG)
 
