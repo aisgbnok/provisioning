@@ -14,10 +14,10 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="VM-Core_Custom-Assets">.\vm_core\custom-scripts\VM-Core_Custom-Assets.bat</CommandFile>
-              <CommandFile Name="VM-Core_Custom-Assets">.\vm_core\custom-scripts\VM-Core_Custom-Assets.cab</CommandFile>
+              <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.bat</CommandFile>
+              <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.cab</CommandFile>
             </CommandFiles>
-            <CommandLine>cmd /c "vm-core_custom-assets.bat"</CommandLine>
+            <CommandLine>cmd /c "core_assets.bat"</CommandLine>
           </DeviceContext>
           <PrimaryContext>
             <Command>
