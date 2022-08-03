@@ -11,7 +11,7 @@ use this package on your machine.**
 This package installs and updates a lot of core software including:
 
 * Microsoft Edge
-* PowerShellCore
+* PowerShell
 * OneDrive
 * Google Chrome
 * Terminal
@@ -43,8 +43,9 @@ with all machines running an Intel 9700.
 
 ## Building
 
-[More details on building packages can be found at the main readme.](../../README.md#building--installing-provisioning-packages)
+You must run this command at the root of the `packages` directory.
+For more information on building packages, see [Building & Installing Provisioning Packages](../../README.md#building--installing-provisioning-packages).
 
 ```
-icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\clean_setup\clean_setup_customizations.xml /PackagePath:C:\provisioning\packages\clean_setup\Clean_Setup.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
+icd.exe /Build-ProvisioningPackage /CustomizationXML:.\clean_setup\clean_setup_customizations.xml /PackagePath:.\clean_setup\Clean_Setup.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
 ```

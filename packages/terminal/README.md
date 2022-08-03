@@ -1,7 +1,7 @@
 # Terminal
 
 Terminal is a general purpose provisioning package built for installing and configuring Terminal.
-Its purpose is to install the latest version of Terminal, PowerShellCore, and Microsoft Media
+Its purpose is to install the latest version of Terminal, PowerShell, and Microsoft Media
 Extensions on PCs.
 
 Therefore, it can be built and installed on any PC that meets all the minimum requirements.
@@ -13,15 +13,16 @@ requirements for all software this package installs.
 
 This package will install and update the following software:
 
-* PowerShellCore
+* PowerShell
 * Terminal
 * Microsoft AV1 Video Extension
 * Microsoft HEVC Video Extension
 
 ## Building
 
-[More details on building packages can be found at the main readme.](../../README.md#building--installing-provisioning-packages)
+You must run this command at the root of the `packages` directory.
+For more information on building packages, see [Building & Installing Provisioning Packages](../../README.md#building--installing-provisioning-packages).
 
 ```
-icd.exe /Build-ProvisioningPackage /CustomizationXML:C:\provisioning\packages\terminal\terminal_customizations.xml /PackagePath:C:\provisioning\packages\terminal\Terminal.ppkg /StoreFile:C:\provisioning\packages\Microsoft-Desktop-Provisioning.dat +Overwrite
+icd.exe /Build-ProvisioningPackage /CustomizationXML:.\terminal\terminal_customizations.xml /PackagePath:.\terminal\Terminal.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
 ```
