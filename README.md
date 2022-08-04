@@ -7,15 +7,16 @@ The Microsoft provisioning documentation supplies a basis for understanding Wind
 I started this journey in December 2020, and since then, I have had many questions, completed lots of experiments, and still have more to understand.
 This repository acts as a living space for the continuation and maintenance of this journey.
 
-> Do not be afraid to ask for help or open an issue, but please have a basic understanding of Windows provisioning first. Thanks!
+> **Note**\
+> Please have a basic understanding of Windows provisioning before opening an issue, but do not be afraid to ask for help. Thanks!
 >
-> For more information, see Microsoft's [Provisioning packages for Windows](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) documentation.
+> For more information, see [Provisioning packages for Windows](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).
 
 ## Documentation
 
-While I try my best to make meaningful [contributions to the official Microsoft documentation](https://github.com/MicrosoftDocs/windows-itpro-docs/pulls?q=author%3Aaisgbnok), this project has its own set of documentation housed in the [docs](docs) directory. 
+This project has its own set of documentation housed in the [docs](docs) directory. 
 This documentation aims to consolidate and streamline information or commands that aid the users of this project.
-Therefore, there might be some overlap and some things that aren't in the Microsoft Docs.
+While I try my best to make meaningful [contributions to the official Microsoft documentation](https://github.com/MicrosoftDocs/windows-itpro-docs/pulls?q=author%3Aaisgbnok), there might be some overlap and some things that aren't in the Microsoft Docs.
 
 ## OS Support
 
@@ -34,30 +35,30 @@ Therefore, some packages may deploy perfectly fine on Windows 10, as long as all
 
 ## Repository Structure
 
-Each directory has its own readme that provides further details explaining its purpose. However, here is a brief overview:
+This repository tends to revolve around predefined provisioning packages defined in the [packages](packages) directory.
+These are personal packages that I use for my personal devices.
+However, there are other important scripts and information held in this repository for you to reference and learn from.
+As an overview:
 
 | Directory                | Purpose                                               |
-|--------------------------|-------------------------------------------------------|
+|:-------------------------|:------------------------------------------------------|
 | [**assets**](assets)     | Assets that will be bundled with packages.            |
 | [**docs**](docs)         | Helpful commands, information, and data.              |
 | [**packages**](packages) | Predefined packages that can be used as references.   |
 | [**scripts**](scripts)   | Scripts that help with bundling and deploying assets. |
 
+Each directory has a readme to explain its purpose in more detail.
 
 ## Building & Installing Provisioning Packages
 
-This section explains how to build the predefined packages in this project.
-
 ### Prerequisites
 
-- Install the [Windows Imaging and Configuration Designer (ICD).](https://www.microsoft.com/store/apps/9nblggh4tx22)
-- Read the [ICD command-line interface reference.](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-command-line)
-- Clone this repository into your preferred location.
-  - I would recommend a memorable and easy to find location such as `C:\`.
+- Install the [Windows Imaging and Configuration Designer (ICD)](https://www.microsoft.com/store/apps/9nblggh4tx22).
+- Read the [ICD command-line interface reference](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-command-line).
 
 ### Building Packages
 
-Running [`Generate New Packages.bat`](packages/Generate%20New%20Packages.bat) will rebuild all the CAB assets and the provisioning packages.
+Running [`Generate New Packages.bat`](packages/Generate%20New%20Packages.bat) will rebuild all the predefined CAB assets and provisioning packages in this repository.
 
 > **Warning**\
 > When building packages you must execute all commands or scripts at the root of the `packages` directory.
@@ -78,7 +79,7 @@ For rebuilding individual packages, see [Building Commands](packages/building.md
 ### Installing Packages
 
 Execute or double-click the `ppkg` file on a Windows device.
-For more information, see [Apply a provisioning package](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-apply-package).
+For more information, see [Apply a provisioning package](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-apply-package).
 
 ## License & Contribution
 
