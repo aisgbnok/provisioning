@@ -49,7 +49,7 @@ As an overview:
 
 Each directory has a readme to explain its purpose in more detail.
 
-## Building & Installing Provisioning Packages
+## Building Provisioning Packages
 
 ### Prerequisites
 
@@ -58,23 +58,7 @@ Each directory has a readme to explain its purpose in more detail.
 
 ### Building Packages
 
-Running [`Generate New Packages.bat`](packages/Generate%20New%20Packages.bat) will rebuild all the predefined CAB assets and provisioning packages in this repository.
-
-> **Warning**\
-> When building packages you must execute all commands or scripts at the root of the `packages` directory.
-> 
-> ```text
-> C:\provisioning\packages> <-- Must be at the packages directory, wherever that is.
-> ```
-
-#### Scripts & Assets (CAB)
-
-If you want to rebuild an individual CAB file, run the `Create [Name] Assets.bat` file for the respective set of scripts.
-For more information, see the [scripts directory](scripts).
-
-#### Package (PPKG)
-
-For rebuilding individual packages, see [Building Commands](packages/building.md).
+See [Building Provisioning Packages](packages/building.md).
 
 ### Installing Packages
 

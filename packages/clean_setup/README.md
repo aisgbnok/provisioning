@@ -14,15 +14,14 @@ This package installs and updates a lot of core software including:
 * PowerShell
 * OneDrive
 * Google Chrome
-* Terminal
 * Microsoft AV1 Video Extension
 * Microsoft HEVC Video Extension
 
 ### Intel Drivers
 
-Installs the latest Intel Drivers for modern processors and adapters. For graphics this generally
-means Intel 6th gen and up. However, it is recommended to check your specific system and the driver
-information on Intel's website for support details.
+Installs the latest Intel drivers for supported processors and adapters.
+The included Intel drivers are for "modern" devices, but your device may require an older or a more advanced driver depending on your system for best performance.
+Check your specific system and the driver information on Intel's website for support details.
 
 * [Wi-Fi](https://www.intel.com/content/www/us/en/download/19351/)
 * [Bluetooth](https://www.intel.com/content/www/us/en/download/18649/)
@@ -40,12 +39,3 @@ pattern. Therefore, any device with that specific processor will be assumed to b
 Similarly, this package will assume that any device with an Intel 9700 processor is my Alienware
 Aurora R8. It configures and install specific drivers for my PC that may not be needed or compatible
 with all machines running an Intel 9700.
-
-## Building
-
-You must run this command at the root of the `packages` directory.
-For more information on building packages, see [Building & Installing Provisioning Packages](../../README.md#building--installing-provisioning-packages).
-
-```
-icd.exe /Build-ProvisioningPackage /CustomizationXML:.\clean_setup\clean_setup_customizations.xml /PackagePath:.\clean_setup\Clean_Setup.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
-```
