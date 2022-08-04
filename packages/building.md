@@ -1,18 +1,32 @@
-# Building Commands
+# Building Provisioning Packages
 
-All packages and their ICD build commands are listed below.
-To rebuild an individual package run the ICD build command below the package name.
-To rebuild all packages run [Generate New Packages.bat](Generate%20New%20Packages.bat).
+## Building All Packages
 
-You can see more details on each package by navigating to its directory and reading its readme.
+Running [`Generate New Packages.bat`](Generate%20New%20Packages.bat) will rebuild all the predefined CAB assets and provisioning packages in this repository.
 
 > **Warning**\
 > When building packages you must execute all commands or scripts at the root of the `packages` directory.
-> For more information, see [Building Packages](../README.md#building-packages).
+>
+> ```text
+> C:\provisioning\packages> <-- Must be at the packages directory, wherever that is.
+> ```
+
+## CAB Assets
+
+Many packages use CAB files for bundling and deploying assets during provisioning.
+These CAB files must be generated before you can build a provisioning package that depends on them.
+
+If you want to rebuild an individual CAB file, run the `Create [Name] Assets.bat` file for the respective set of scripts.
+For more information, see the [scripts directory](../scripts).
+
+## Building Individual Packages
+
+To rebuild an individual package run its respective ICD command listed below.
+You can see more details on each package by navigating to its directory and reading its readme.
 
 ### Clean Setup
 
-Personal package for setting up PCs after a Windows clean installation.
+Personal package for setting up devices after a Windows clean installation.
 
 ```
 icd.exe /Build-ProvisioningPackage /CustomizationXML:.\clean_setup\clean_setup_customizations.xml /PackagePath:.\clean_setup\Clean_Setup.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
@@ -20,7 +34,7 @@ icd.exe /Build-ProvisioningPackage /CustomizationXML:.\clean_setup\clean_setup_c
 
 ### Terminal
 
-General package for installing Windows Terminal.
+General package for configuring Terminal.
 
 ```
 icd.exe /Build-ProvisioningPackage /CustomizationXML:.\terminal\terminal_customizations.xml /PackagePath:.\terminal\Terminal.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
@@ -28,7 +42,7 @@ icd.exe /Build-ProvisioningPackage /CustomizationXML:.\terminal\terminal_customi
 
 ### Terminal Plus
 
-General package for installing Windows Terminal and other common software.
+General package for configuring Terminal and installing other common software.
 
 ```
 icd.exe /Build-ProvisioningPackage /CustomizationXML:.\terminal_plus\terminal_plus_customizations.xml /PackagePath:.\terminal_plus\Terminal_Plus.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
