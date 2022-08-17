@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{26e7fa9d-bbe4-5055-8e92-8d45e934bcfb}</ID>
     <Name>Virtual Machine Core</Name>
-    <Version>3.220</Version>
+    <Version>3.224</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for Virtual Machines. (07/24/2022)</Notes>
+    <Notes>Made specifically for Virtual Machines. (08/17/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,23 +21,23 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft_Edge_103.0.1264.77">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-103.0.1264.77.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-103.0.1264.77.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 104.0.1293.54">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.54.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.54.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="PowerShell_7.2.5">
-                <CommandFile>..\software\core\PowerShell-7.2.5-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.5-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell 7.2.6">
+                <CommandFile>..\software\core\PowerShell-7.2.6-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.2.6-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive_22.141.0703.0002">
+              <CommandConfig Name="OneDrive 22.141.0703.0002">
                 <CommandFile>..\software\core\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
                 <CommandLine>cmd /c "onedrivesetup-22.141.0703.0002.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
@@ -45,9 +45,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google_Chrome_104.0.5112.81">
-                <CommandFile>..\software\core\GoogleChromeStandaloneEnterprise64-104.0.5112.81.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-104.0.5112.81.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google Chrome 104.0.5112.102">
+                <CommandFile>..\software\core\GoogleChromeStandaloneEnterprise64-104.0.5112.102.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-104.0.5112.102.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -59,7 +59,7 @@
         <UniversalAppInstall>
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.51091.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.52074.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>..\software\core\Microsoft.HEVCVideoExtension_2.0.51121.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
