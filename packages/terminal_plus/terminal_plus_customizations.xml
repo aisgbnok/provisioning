@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{69f54890-b0fc-57db-b44e-627df747a906}</ID>
     <Name>Terminal+</Name>
-    <Version>3.224</Version>
+    <Version>3.225</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>General package for installing Windows Terminal and other common software. (08/17/2022)</Notes>
+    <Notes>General package for installing Windows Terminal and other common software. (08/20/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft Edge 104.0.1293.54">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.54.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.54.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 104.0.1293.63">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.63.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.63.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
