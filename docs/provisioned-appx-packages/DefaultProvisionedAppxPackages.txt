@@ -1,307 +1,300 @@
-Deployment Image Servicing and Management tool
-Version: 10.0.22000.1
-
-Image Version: 10.0.22000.318
-
-Getting the list of app packages (.appx or .appxbundle) in this image...
-
-DisplayName : Microsoft.549981C3F5F10
-Version : 2.2106.2807.0
+DisplayName  : Microsoft.549981C3F5F10
+Version      : 2.2106.2807.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.549981C3F5F10_2.2106.2807.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.549981C3F5F10_2.2106.2807.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.BingNews
-Version : 4.7.28001.0
+DisplayName  : Microsoft.BingNews
+Version      : 4.7.28001.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.BingNews_4.7.28001.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.BingNews_4.7.28001.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.BingWeather
-Version : 4.9.2002.0
+DisplayName  : Microsoft.BingWeather
+Version      : 4.9.2002.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.BingWeather_4.9.2002.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.BingWeather_4.9.2002.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.DesktopAppInstaller
-Version : 2020.812.2125.0
+DisplayName  : Microsoft.DesktopAppInstaller
+Version      : 2020.812.2125.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.DesktopAppInstaller_2020.812.2125.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.DesktopAppInstaller_2020.812.2125.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.GamingApp
-Version : 2021.427.138.0
+DisplayName  : Microsoft.GamingApp
+Version      : 2021.427.138.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.GamingApp_2021.427.138.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.GamingApp_2021.427.138.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.GetHelp
-Version : 10.2008.32311.0
+DisplayName  : Microsoft.GetHelp
+Version      : 10.2008.32311.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.GetHelp_10.2008.32311.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.GetHelp_10.2008.32311.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.Getstarted
-Version : 10.2.41172.0
+DisplayName  : Microsoft.Getstarted
+Version      : 10.2.41172.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.Getstarted_10.2.41172.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.Getstarted_10.2.41172.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.HEIFImageExtension
-Version : 1.0.40978.0
+DisplayName  : Microsoft.HEIFImageExtension
+Version      : 1.0.40978.0
 Architecture : x64
-ResourceId : 
-PackageName : Microsoft.HEIFImageExtension_1.0.40978.0_x64__8wekyb3d8bbwe
-Regions :  
+ResourceId   :
+PackageName  : Microsoft.HEIFImageExtension_1.0.40978.0_x64__8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.MicrosoftOfficeHub
-Version : 18.2104.12721.0
+DisplayName  : Microsoft.MicrosoftOfficeHub
+Version      : 18.2104.12721.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.MicrosoftOfficeHub_18.2104.12721.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.MicrosoftOfficeHub_18.2104.12721.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.MicrosoftSolitaireCollection
-Version : 4.6.3102.0
+DisplayName  : Microsoft.MicrosoftSolitaireCollection
+Version      : 4.6.3102.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.MicrosoftSolitaireCollection_4.6.3102.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.MicrosoftSolitaireCollection_4.6.3102.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.MicrosoftStickyNotes
-Version : 4.1.2.0
+DisplayName  : Microsoft.MicrosoftStickyNotes
+Version      : 4.1.2.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.MicrosoftStickyNotes_4.1.2.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.MicrosoftStickyNotes_4.1.2.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.Paint
-Version : 10.2104.17.0
+DisplayName  : Microsoft.Paint
+Version      : 10.2104.17.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.Paint_10.2104.17.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.Paint_10.2104.17.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.People
-Version : 2020.901.1724.0
+DisplayName  : Microsoft.People
+Version      : 2020.901.1724.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.People_2020.901.1724.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.People_2020.901.1724.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.PowerAutomateDesktop
-Version : 10.0.561.0
+DisplayName  : Microsoft.PowerAutomateDesktop
+Version      : 10.0.561.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.PowerAutomateDesktop_10.0.561.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.PowerAutomateDesktop_10.0.561.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.ScreenSketch
-Version : 2021.2104.2.0
+DisplayName  : Microsoft.ScreenSketch
+Version      : 2021.2104.2.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.ScreenSketch_2021.2104.2.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.ScreenSketch_2021.2104.2.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.SecHealthUI
-Version : 1000.22000.1.0
+DisplayName  : Microsoft.SecHealthUI
+Version      : 1000.22000.1.0
 Architecture : neutral
-ResourceId : 
-PackageName : Microsoft.SecHealthUI_1000.22000.1.0_neutral__8wekyb3d8bbwe
-Regions :  
+ResourceId   :
+PackageName  : Microsoft.SecHealthUI_1000.22000.1.0_neutral__8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.StorePurchaseApp
-Version : 12008.1001.113.0
+DisplayName  : Microsoft.StorePurchaseApp
+Version      : 12008.1001.113.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.StorePurchaseApp_12008.1001.113.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.StorePurchaseApp_12008.1001.113.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.Todos
-Version : 2.33.33351.0
+DisplayName  : Microsoft.Todos
+Version      : 2.33.33351.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.Todos_2.33.33351.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.Todos_2.33.33351.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.UI.Xaml.2.4
-Version : 2.42007.9001.0
+DisplayName  : Microsoft.UI.Xaml.2.4
+Version      : 2.42007.9001.0
 Architecture : x64
-ResourceId : 
-PackageName : Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64__8wekyb3d8bbwe
-Regions :  
+ResourceId   :
+PackageName  : Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64__8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.VCLibs.140.00
-Version : 14.0.29231.0
+DisplayName  : Microsoft.VCLibs.140.00
+Version      : 14.0.29231.0
 Architecture : x64
-ResourceId : 
-PackageName : Microsoft.VCLibs.140.00_14.0.29231.0_x64__8wekyb3d8bbwe
-Regions :  
+ResourceId   :
+PackageName  : Microsoft.VCLibs.140.00_14.0.29231.0_x64__8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.VP9VideoExtensions
-Version : 1.0.41182.0
+DisplayName  : Microsoft.VP9VideoExtensions
+Version      : 1.0.41182.0
 Architecture : x64
-ResourceId : 
-PackageName : Microsoft.VP9VideoExtensions_1.0.41182.0_x64__8wekyb3d8bbwe
-Regions :  
+ResourceId   :
+PackageName  : Microsoft.VP9VideoExtensions_1.0.41182.0_x64__8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WebMediaExtensions
-Version : 1.0.40831.0
+DisplayName  : Microsoft.WebMediaExtensions
+Version      : 1.0.40831.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WebMediaExtensions_1.0.40831.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WebMediaExtensions_1.0.40831.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WebpImageExtension
-Version : 1.0.32731.0
+DisplayName  : Microsoft.WebpImageExtension
+Version      : 1.0.32731.0
 Architecture : x64
-ResourceId : 
-PackageName : Microsoft.WebpImageExtension_1.0.32731.0_x64__8wekyb3d8bbwe
-Regions :  
+ResourceId   :
+PackageName  : Microsoft.WebpImageExtension_1.0.32731.0_x64__8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.Windows.Photos
-Version : 21.21030.25003.0
+DisplayName  : Microsoft.Windows.Photos
+Version      : 21.21030.25003.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.Windows.Photos_21.21030.25003.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.Windows.Photos_21.21030.25003.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsAlarms
-Version : 2021.2101.27.0
+DisplayName  : Microsoft.WindowsAlarms
+Version      : 2021.2101.27.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsAlarms_2021.2101.27.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsAlarms_2021.2101.27.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsCalculator
-Version : 2020.2012.21.0
+DisplayName  : Microsoft.WindowsCalculator
+Version      : 2020.2012.21.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsCalculator_2020.2012.21.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsCalculator_2020.2012.21.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsCamera
-Version : 2020.503.58.0
+DisplayName  : Microsoft.WindowsCamera
+Version      : 2020.503.58.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsCamera_2020.503.58.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsCamera_2020.503.58.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : microsoft.windowscommunicationsapps
-Version : 16005.12827.20400.0
+DisplayName  : microsoft.windowscommunicationsapps
+Version      : 16005.12827.20400.0
 Architecture : neutral
-ResourceId : ~
-PackageName : microsoft.windowscommunicationsapps_16005.12827.20400.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : microsoft.windowscommunicationsapps_16005.12827.20400.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsFeedbackHub
-Version : 2021.427.1821.0
+DisplayName  : Microsoft.WindowsFeedbackHub
+Version      : 2021.427.1821.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsFeedbackHub_2021.427.1821.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsFeedbackHub_2021.427.1821.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsMaps
-Version : 2021.2012.10.0
+DisplayName  : Microsoft.WindowsMaps
+Version      : 2021.2012.10.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsMaps_2021.2012.10.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsMaps_2021.2012.10.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsNotepad
-Version : 10.2102.13.0
+DisplayName  : Microsoft.WindowsNotepad
+Version      : 10.2102.13.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsNotepad_10.2102.13.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsNotepad_10.2102.13.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsSoundRecorder
-Version : 2021.2012.41.0
+DisplayName  : Microsoft.WindowsSoundRecorder
+Version      : 2021.2012.41.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsSoundRecorder_2021.2012.41.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsSoundRecorder_2021.2012.41.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsStore
-Version : 12104.1001.113.0
+DisplayName  : Microsoft.WindowsStore
+Version      : 12104.1001.113.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsStore_12104.1001.113.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsStore_12104.1001.113.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.WindowsTerminal
-Version : 2021.226.1915.0
+DisplayName  : Microsoft.WindowsTerminal
+Version      : 2021.226.1915.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.WindowsTerminal_2021.226.1915.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.WindowsTerminal_2021.226.1915.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.Xbox.TCUI
-Version : 1.23.28002.0
+DisplayName  : Microsoft.Xbox.TCUI
+Version      : 1.23.28002.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.Xbox.TCUI_1.23.28002.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.Xbox.TCUI_1.23.28002.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.XboxGameOverlay
-Version : 1.46.11001.0
+DisplayName  : Microsoft.XboxGameOverlay
+Version      : 1.46.11001.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.XboxGameOverlay_1.46.11001.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.XboxGameOverlay_1.46.11001.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.XboxGamingOverlay
-Version : 2.50.24002.0
+DisplayName  : Microsoft.XboxGamingOverlay
+Version      : 2.50.24002.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.XboxGamingOverlay_2.50.24002.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.XboxGamingOverlay_2.50.24002.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.XboxIdentityProvider
-Version : 12.50.6001.0
+DisplayName  : Microsoft.XboxIdentityProvider
+Version      : 12.50.6001.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.XboxIdentityProvider_12.50.6001.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.XboxIdentityProvider_12.50.6001.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.XboxSpeechToTextOverlay
-Version : 1.17.29001.0
+DisplayName  : Microsoft.XboxSpeechToTextOverlay
+Version      : 1.17.29001.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.XboxSpeechToTextOverlay_1.17.29001.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.XboxSpeechToTextOverlay_1.17.29001.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.YourPhone
-Version : 2019.430.2026.0
+DisplayName  : Microsoft.YourPhone
+Version      : 2019.430.2026.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.YourPhone_2019.430.2026.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.YourPhone_2019.430.2026.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.ZuneMusic
-Version : 2019.21012.10511.0
+DisplayName  : Microsoft.ZuneMusic
+Version      : 2019.21012.10511.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.ZuneMusic_2019.21012.10511.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.ZuneMusic_2019.21012.10511.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : Microsoft.ZuneVideo
-Version : 2019.21012.10511.0
+DisplayName  : Microsoft.ZuneVideo
+Version      : 2019.21012.10511.0
 Architecture : neutral
-ResourceId : ~
-PackageName : Microsoft.ZuneVideo_2019.21012.10511.0_neutral_~_8wekyb3d8bbwe
-Regions :  
+ResourceId   : ~
+PackageName  : Microsoft.ZuneVideo_2019.21012.10511.0_neutral_~_8wekyb3d8bbwe
+Regions      :
 
-DisplayName : MicrosoftWindows.Client.WebExperience
-Version : 321.14700.0.9
+DisplayName  : MicrosoftWindows.Client.WebExperience
+Version      : 321.14700.0.9
 Architecture : neutral
-ResourceId : ~
-PackageName : MicrosoftWindows.Client.WebExperience_321.14700.0.9_neutral_~_cw5n1h2txyewy
-Regions :
+ResourceId   : ~
+PackageName  : MicrosoftWindows.Client.WebExperience_321.14700.0.9_neutral_~_cw5n1h2txyewy
+Regions      :
