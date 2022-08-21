@@ -5,7 +5,7 @@
 A list of the default apps that will be installed for each new user.
 This is helpful for determining what apps you want a provisioning package to remove, as well as know if an app is not included and needs to be added.
 
-***Command:*** *[Get Provisioned Appx Packages](../dism.md#get-provisioned-appx-packages)*
+***Command:*** *[Get Provisioned Appx Packages](../dism.md#get-appxprovisionedpackage)*
 
 ### Data
 
