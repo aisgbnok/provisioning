@@ -46,7 +46,7 @@ The **Get-AppxProvisionedPackage** cmdlet gets information about app packages (`
 For more information, see [Get-AppxProvisionedPackage](https://docs.microsoft.com/powershell/module/dism/get-appxprovisionedpackage).
 
 > **Note**\
-> For information about app packages (`.appx`) that are not provisioned, use the **Get-AppxPackage** cmdlet instead.
+> For information about app packages (`.appx`) that are not provisioned, use the [**Get-AppxPackage**](appx.md#get-appxpackage) cmdlet instead.
 
 ```shell
 Get-AppxProvisionedPackage -Path "C:\offline"
