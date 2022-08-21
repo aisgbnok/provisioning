@@ -1,13 +1,13 @@
 # Provisioned Appx Packages
 
-### Description
+## Description
 
 A list of the default apps that will be installed for each new user.
 This is helpful for determining what apps you want a provisioning package to remove, as well as know if an app is not included and needs to be added.
 
 ***Command:*** *[Get Provisioned Appx Packages](../dism.md#get-appxprovisionedpackage)*
 
-### Data
+## Data
 
 **Version:** Windows 11 21H2\
 **Build:** 22000.318\
@@ -18,7 +18,7 @@ This is helpful for determining what apps you want a provisioning package to rem
 > Microsoft must provision them during first run.
 > This list is gathered from an offline mounted image, which doesn't list them.
 
-### Cortana
+## Cortana
 
 The Cortana app is one of the apps I like to remove; however, its package name is obscure, unlike the other apps.
 If you want to remove the Cortana app, use the package family name listed below.

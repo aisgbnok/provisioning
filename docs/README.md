@@ -22,6 +22,7 @@ This is not a comprehensive set of commands, but a curated set from Microsoft's 
 A set of information to help with making decisions during provisioning work.
 For example, a list of default Windows apps to inform you when deciding what your provisioning package will uninstall or install.
 
-| Category                                               | Description                                 |
-|:-------------------------------------------------------|:--------------------------------------------|
-| [Provisioned Appx Packages](provisioned-appx-packages) | List of default apps included with Windows. |
+| Category                                               | Description                                                  |
+|:-------------------------------------------------------|:-------------------------------------------------------------|
+| [Provisioned Appx Packages](provisioned-appx-packages) | List of default apps included with Windows.                  |
+| [Surface Laptop 3 Drivers](surface-laptop-3)           | A list of components in the Surface Laptop 3 driver package. |
