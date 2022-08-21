@@ -7,8 +7,12 @@ For more information on each individual set of scripts, each child directory has
 
 [`CreatePartitions-UEFI.txt`](CreatePartitions-UEFI.txt) configures the local disk for Windows installation.
 The local disk, `Disk 0`, will be wiped during this process.
+*Remove any extra drives and ensure your data is backed up before proceeding, we are not responsible for lost data.*
 
-![Windows Setup](../docs/images/windows-setup/windows-setup-install-location.webp)
+> **Note**\
+> For legacy [BIOS–based devices](https://docs.microsoft.com/windows-hardware/manufacture/desktop/configure-biosmbr-based-hard-drive-partitions), use [`CreatePartitions-BIOS.txt`](CreatePartitions-BIOS.txt).
+
+![Windows Setup UEFI Partition Layout](../docs/images/windows-setup/windows-setup-install-location.webp)
 
 1. Select <kbd>Shift</kbd> + <kbd>F10</kbd> to open Command Prompt.
 1. Execute the script through DiskPart, and provide the location of the script (e.g. USB flash drive).
@@ -19,7 +23,7 @@ The local disk, `Disk 0`, will be wiped during this process.
 
 1. Select **Local Disk** and then select **Next**.
 
-For more information, see [To partition hard drives and prepare to apply images](https://docs.microsoft.com/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions?view=windows-11#to-partition-hard-drives-and-prepare-to-apply-images).
+For more information, see [To partition hard drives and prepare to apply images](https://docs.microsoft.com/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions#to-partition-hard-drives-and-prepare-to-apply-images).
 
 ## Windows Setup Edition Configuration
 
