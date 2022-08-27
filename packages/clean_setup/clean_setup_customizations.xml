@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.225</Version>
+    <Version>3.226</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
-    <Notes>Personal package for setting up PCs after a Windows clean installation. (08/20/2022)</Notes>
+    <Notes>Personal package for setting up PCs after a Windows clean installation. (08/27/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft Edge 104.0.1293.63">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.63.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.63.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 104.0.1293.70">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.70.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.70.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -37,9 +37,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive 22.141.0703.0002">
-                <CommandFile>..\software\core\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.141.0703.0002.exe" /allusers /quiet</CommandLine>
+              <CommandConfig Name="OneDrive 22.156.0724.0002">
+                <CommandFile>..\software\core\OneDriveSetup-22.156.0724.0002.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.156.0724.0002.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -102,9 +102,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft Edge 104.0.1293.63">
-                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.63.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.63.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft Edge 104.0.1293.70">
+                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.70.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.70.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -118,9 +118,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive 22.141.0703.0002">
-                  <CommandFile>..\software\core\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-22.141.0703.0002.exe" /allusers /quiet</CommandLine>
+                <CommandConfig Name="OneDrive 22.156.0724.0002">
+                  <CommandFile>..\software\core\OneDriveSetup-22.156.0724.0002.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-22.156.0724.0002.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -211,9 +211,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft Edge 104.0.1293.63">
-                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.63.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.63.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft Edge 104.0.1293.70">
+                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-104.0.1293.70.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-104.0.1293.70.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -227,9 +227,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive 22.141.0703.0002">
-                  <CommandFile>..\software\core\OneDriveSetup-22.141.0703.0002.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-22.141.0703.0002.exe" /allusers /quiet</CommandLine>
+                <CommandConfig Name="OneDrive 22.156.0724.0002">
+                  <CommandFile>..\software\core\OneDriveSetup-22.156.0724.0002.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-22.156.0724.0002.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
