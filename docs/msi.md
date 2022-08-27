@@ -12,7 +12,7 @@ For more information, see [TARGETDIR property](https://docs.microsoft.com/window
 > It will not create directories for you.
 
 ```shell
-msiexec /a "SurfaceLaptop3_Win11_22000_22.011.9779.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
+msiexec /a "SurfaceLaptop3_Win11_22000_22.081.11638.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
 ```
 
 | Option          | Meaning                                                                                                                    |

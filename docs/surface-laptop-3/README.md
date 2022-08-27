@@ -10,8 +10,8 @@ I keep track of this because I have a Surface Laptop 3, and it's nice to know wh
 ## Data
 
 **Device:** [Surface Laptop 3 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=100429)\
-**File Name:** `SurfaceLaptop3_Win11_22000_22.011.9779.0.msi`\
-**Date Published:** 8/11/2022\
+**File Name:** `SurfaceLaptop3_Win11_22000_22.081.11638.0.msi`\
+**Date Published:** 8/25/2022\
 **OS:** Windows 11 22000\
-**Driver:** 22.011.9779.0\
+**Driver:** 22.081.11638.0\
 **List:** [SurfaceLaptop3Drivers](SurfaceLaptop3Drivers.txt)
