@@ -1,11 +1,28 @@
 # Documentation
 
-This directory holds helpful commands and information relating to Windows provisioning.
+This directory contains documentation such as commands, information, and data relating to this project.
+You will find a curated list of commands to aid in analyzing Windows images and creating provisioning packages.
+You will find curated information that allows you to make intelligent decisions while creating provisioning packages.
 
-## DISM Commands
+**The goal is to provide documentation that helps you with provisioning work.**
 
-[Here you will find some helpful dism commands.](dism-commands.md)
+## Commands
 
-## Provisioned Appx Packages
+A list of commands for working with Windows images, to extracting MSI executables, to getting a list of installed apps.
+This is not a comprehensive set of commands, but a curated set from Microsoft's expansive documentation.
 
-[Here you will find information on the default Provisioned Appx Packages in Windows 11.](provisioned-appx-packages.md)
+| Module          | Description                                                          |
+|:----------------|:---------------------------------------------------------------------|
+| [AppX](appx.md) | A set of commands for MSIX or AppX package management.               |
+| [DISM](dism.md) | A set of commands for modifying and analyzing Windows images (.wim). |
+| [MSI](msi.md)   | A set of commands for MSI package management.                        |
+
+## Information
+
+A set of information to help with making decisions during provisioning work.
+For example, a list of default Windows apps to inform you when deciding what your provisioning package will uninstall or install.
+
+| Category                                               | Description                                                  |
+|:-------------------------------------------------------|:-------------------------------------------------------------|
+| [Provisioned Appx Packages](provisioned-appx-packages) | List of default apps included with Windows.                  |
+| [Surface Laptop 3 Drivers](surface-laptop-3)           | A list of components in the Surface Laptop 3 driver package. |
