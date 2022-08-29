@@ -1,6 +1,7 @@
-# DISM Cmdlets
+# Deployment Image Servicing and Management (DISM) Cmdlets
 
-A curated list of [Deployment Image Servicing and Management (DISM)](https://docs.microsoft.com/powershell/module/dism/) cmdlets.
+A curated list of [Deployment Image Servicing and Management](https://docs.microsoft.com/powershell/module/dism/) cmdlets.
+The Deployment Image Servicing and Management platform is used to mount and service Windows images.
 
 ## Clear-WindowsCorruptMountPoint
 
@@ -72,7 +73,7 @@ Get-AppxProvisionedPackage -Online
 ## Get-WindowsImage
 
 The **Get-WindowsImage** cmdlet gets information about a Windows image in a WIM or VHD file.
-For more information, see [Mount-WindowsImage](https://docs.microsoft.com/powershell/module/dism/get-windowsimage).
+For more information, see [Get-WindowsImage](https://docs.microsoft.com/powershell/module/dism/get-windowsimage).
 
 ```shell
 Get-WindowsImage -ImagePath "C:\provisioning\images\install.wim"
