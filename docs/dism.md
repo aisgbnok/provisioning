@@ -106,6 +106,30 @@ Mount-WindowsImage -Path "C:\offline" -ImagePath "C:\provisioning\images\install
 ```shell
 Mount-WindowsImage -Path "C:\offline" -ImagePath "C:\provisioning\images\install.wim" -Index 1 -ReadOnly -CheckIntegrity
 ```
+## Repair-WindowsImage
+
+The **Repair-WindowsImage** cmdlet repairs a Windows image in a WIM or VHD file.
+For more information, see [Repair-WindowsImage](https://docs.microsoft.com/powershell/module/dism/repair-windowsimage).
+
+```shell
+Repair-WindowsImage -Path 'C:\offline' -CheckHealth
+```
+
+```shell
+Repair-WindowsImage -Path 'C:\offline' -ScanHealth
+```
+
+```shell
+Repair-WindowsImage -Path 'C:\offline' -RestoreHealth
+```
+
+```shell
+Repair-WindowsImage -Path "C:\offline" -StartComponentCleanup -ResetBase
+```
+
+```shell
+Repair-WindowsImage -Online -StartComponentCleanup -ResetBase
+```
 
 ## Split-WindowsImage
 
