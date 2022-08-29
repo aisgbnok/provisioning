@@ -24,6 +24,19 @@ Dismount-WindowsImage -Path "C:\offline" -Discard
 Dismount-WindowsImage -Path "C:\offline" -Save -CheckIntegrity
 ```
 
+## Expand-WindowsImage
+
+The **Expand-WindowsImage** cmdlet applies an image to a specified location.
+For more information, see [Expand-WindowsImage](https://docs.microsoft.com/powershell/module/dism/expand-windowsimage).
+
+```shell
+Expand-WindowsImage -ImagePath "C:\provisioning\images\install.wim" -Index 1 -ApplyPath "D:\" -CheckIntegrity -Verify
+```
+
+```shell
+Expand-WindowsImage -ImagePath "C:\provisioning\images\install.wim" -Name "Windows 11 Home" -ApplyPath "D:\" -CheckIntegrity -Verify
+```
+
 ## Export-WindowsImage
 
 The **Export-WindowsImage** cmdlet exports a copy of the specified image to another image file.
