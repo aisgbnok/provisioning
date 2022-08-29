@@ -16,6 +16,7 @@ This is not a comprehensive set of commands, but a curated set from Microsoft's 
 | [AppX](appx.md) | A set of commands for MSIX or AppX package management.  |
 | [DISM](dism.md) | A set of commands for servicing Windows images.         |
 | [MSI](msi.md)   | A set of commands for the Microsoft Windows Installer.  |
+| [SFC](sfc.md)   | A set of commands for repairing protected system files. |
 
 ## Information
 
