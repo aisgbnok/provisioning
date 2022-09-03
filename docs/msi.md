@@ -1,6 +1,7 @@
-# Windows Installer (MSI) Commands
+# Microsoft Windows Installer (MSI) Commands
 
 A curated list of [Windows Installer](https://docs.microsoft.com/windows/win32/msi/windows-installer-portal) commands.
+The Microsoft Windows Installer service enables better corporate deployment and provides a standard format for component management.
 
 ## Unpacking MSI into Directory (TARGETDIR)
 

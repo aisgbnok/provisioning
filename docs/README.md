@@ -11,11 +11,12 @@ You will find curated information that allows you to make intelligent decisions 
 A list of commands for working with Windows images, to extracting MSI executables, to getting a list of installed apps.
 This is not a comprehensive set of commands, but a curated set from Microsoft's expansive documentation.
 
-| Module          | Description                                                          |
-|:----------------|:---------------------------------------------------------------------|
-| [AppX](appx.md) | A set of commands for MSIX or AppX package management.               |
-| [DISM](dism.md) | A set of commands for modifying and analyzing Windows images (.wim). |
-| [MSI](msi.md)   | A set of commands for MSI package management.                        |
+| Module          | Description                                             |
+|:----------------|:--------------------------------------------------------|
+| [AppX](appx.md) | A set of commands for MSIX or AppX package management.  |
+| [DISM](dism.md) | A set of commands for servicing Windows images.         |
+| [MSI](msi.md)   | A set of commands for the Microsoft Windows Installer.  |
+| [SFC](sfc.md)   | A set of commands for repairing protected system files. |
 
 ## Information
 
@@ -24,5 +25,5 @@ For example, a list of default Windows apps to inform you when deciding what you
 
 | Category                                               | Description                                                  |
 |:-------------------------------------------------------|:-------------------------------------------------------------|
-| [Provisioned Appx Packages](provisioned-appx-packages) | List of default apps included with Windows.                  |
+| [Provisioned Appx Packages](provisioned-appx-packages) | A list of the default apps included with Windows.            |
 | [Surface Laptop 3 Drivers](surface-laptop-3)           | A list of components in the Surface Laptop 3 driver package. |

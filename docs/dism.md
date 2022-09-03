@@ -1,6 +1,7 @@
-# DISM Cmdlets
+# Deployment Image Servicing and Management (DISM) Cmdlets
 
-A curated list of [Deployment Image Servicing and Management (DISM)](https://docs.microsoft.com/powershell/module/dism/) cmdlets.
+A curated list of [Deployment Image Servicing and Management](https://docs.microsoft.com/powershell/module/dism/) cmdlets.
+The Deployment Image Servicing and Management platform is used to mount and service Windows images.
 
 ## Clear-WindowsCorruptMountPoint
 
@@ -22,6 +23,19 @@ Dismount-WindowsImage -Path "C:\offline" -Discard
 
 ```shell
 Dismount-WindowsImage -Path "C:\offline" -Save -CheckIntegrity
+```
+
+## Expand-WindowsImage
+
+The **Expand-WindowsImage** cmdlet applies an image to a specified location.
+For more information, see [Expand-WindowsImage](https://docs.microsoft.com/powershell/module/dism/expand-windowsimage).
+
+```shell
+Expand-WindowsImage -ImagePath "C:\provisioning\images\install.wim" -Index 1 -ApplyPath "D:\" -CheckIntegrity -Verify
+```
+
+```shell
+Expand-WindowsImage -ImagePath "C:\provisioning\images\install.wim" -Name "Windows 11 Home" -ApplyPath "D:\" -CheckIntegrity -Verify
 ```
 
 ## Export-WindowsImage
@@ -59,7 +73,7 @@ Get-AppxProvisionedPackage -Online
 ## Get-WindowsImage
 
 The **Get-WindowsImage** cmdlet gets information about a Windows image in a WIM or VHD file.
-For more information, see [Mount-WindowsImage](https://docs.microsoft.com/powershell/module/dism/get-windowsimage).
+For more information, see [Get-WindowsImage](https://docs.microsoft.com/powershell/module/dism/get-windowsimage).
 
 ```shell
 Get-WindowsImage -ImagePath "C:\provisioning\images\install.wim"
@@ -92,6 +106,30 @@ Mount-WindowsImage -Path "C:\offline" -ImagePath "C:\provisioning\images\install
 
 ```shell
 Mount-WindowsImage -Path "C:\offline" -ImagePath "C:\provisioning\images\install.wim" -Index 1 -ReadOnly -CheckIntegrity
+```
+## Repair-WindowsImage
+
+The **Repair-WindowsImage** cmdlet repairs a Windows image in a WIM or VHD file.
+For more information, see [Repair-WindowsImage](https://docs.microsoft.com/powershell/module/dism/repair-windowsimage).
+
+```shell
+Repair-WindowsImage -Path 'C:\offline' -CheckHealth
+```
+
+```shell
+Repair-WindowsImage -Path 'C:\offline' -ScanHealth
+```
+
+```shell
+Repair-WindowsImage -Path 'C:\offline' -RestoreHealth
+```
+
+```shell
+Repair-WindowsImage -Path "C:\offline" -StartComponentCleanup -ResetBase
+```
+
+```shell
+Repair-WindowsImage -Online -StartComponentCleanup -ResetBase
 ```
 
 ## Split-WindowsImage
