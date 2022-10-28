@@ -67,7 +67,7 @@ For more information, see [Apply a provisioning package](https://docs.microsoft.
 
 ## Contribution
 
-The core goal of this project is to organize and provide Windows provisioning documentation and resources for me, students, IT administrators, and whoever might benefit from it.
+The core goal of this project is to organize and provide Windows provisioning documentation and resources for me, students, IT administrators, and whomever it might benefit.
 
 While this is a personal project, contributing is welcome!
 Please be professional and mindful of others while engaging with members or guests of this project.
