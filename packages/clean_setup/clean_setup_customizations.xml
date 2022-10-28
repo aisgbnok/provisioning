@@ -158,25 +158,25 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel WiFi Driver 22.160.0">
-                  <CommandFile>..\software\intel\WiFi-22.160.0-Driver64-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "wifi-22.160.0-driver64-win10-win11.exe" /s</CommandLine>
+                <CommandConfig Name="Intel WiFi Driver 22.170.0">
+                  <CommandFile>..\software\intel\WiFi-22.170.0-Driver64-Win10-Win11</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.170.0-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Bluetooth Driver 22.160.0">
-                  <CommandFile>..\software\intel\BT-22.160.0-32-64UWD-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "bt-22.160.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
+                <CommandConfig Name="Intel Bluetooth Driver 22.170.0">
+                  <CommandFile>..\software\intel\BT-22.170.0-32-64UWD-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "bt-22.170.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Graphics Driver 31.0.101.2111-3413">
-                  <CommandFile>..\software\intel\gfx_win_101.3413_101.2111.exe</CommandFile>
-                  <CommandLine>cmd /c "gfx_win_101.3413_101.2111.exe" /s /report c:\Intel\31.0.101.2111-3413.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel Graphics Driver 31.0.101.2114-3790">
+                  <CommandFile>..\software\intel\gfx_win_101.3790_101.2114.exe</CommandFile>
+                  <CommandLine>cmd /c "gfx_win_101.3790_101.2114.exe" /s /report c:\Intel\31.0.101.2114-3790.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -243,25 +243,25 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel WiFi Driver 22.160.0">
-                  <CommandFile>..\software\intel\WiFi-22.160.0-Driver64-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "wifi-22.160.0-driver64-win10-win11.exe" /s</CommandLine>
+                <CommandConfig Name="Intel WiFi Driver 22.170.0">
+                  <CommandFile>..\software\intel\WiFi-22.170.0-Driver64-Win10-Win11</CommandFile>
+                  <CommandLine>cmd /c "wifi-22.170.0-driver64-win10-win11.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Bluetooth Driver 22.160.0">
-                  <CommandFile>..\software\intel\BT-22.160.0-32-64UWD-Win10-Win11.exe</CommandFile>
-                  <CommandLine>cmd /c "bt-22.160.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
+                <CommandConfig Name="Intel Bluetooth Driver 22.170.0">
+                  <CommandFile>..\software\intel\BT-22.170.0-32-64UWD-Win10-Win11.exe</CommandFile>
+                  <CommandLine>cmd /c "bt-22.170.0-32-64uwd-win10-win11.exe" /qn</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Graphics Driver 31.0.101.2111-3413">
-                  <CommandFile>..\software\intel\gfx_win_101.3413_101.2111.exe</CommandFile>
-                  <CommandLine>cmd /c "gfx_win_101.3413_101.2111.exe" /s /report c:\Intel\31.0.101.2111-3413.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel Graphics Driver 31.0.101.2114-3790">
+                  <CommandFile>..\software\intel\gfx_win_101.3790_101.2114.exe</CommandFile>
+                  <CommandLine>cmd /c "gfx_win_101.3790_101.2114.exe" /s /report c:\Intel\31.0.101.2114-3790.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
