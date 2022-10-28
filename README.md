@@ -65,15 +65,15 @@ See [Building Provisioning Packages](packages/building.md).
 Execute or double-click the `ppkg` file on a Windows device.
 For more information, see [Apply a provisioning package](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-apply-package).
 
-## License & Contribution
+## Contribution
 
-The main goal of this project is to provide Windows provisioning documentation for myself, students, IT administrators, and whomever.
+The core goal of this project is to organize and provide Windows provisioning documentation and resources for me, students, IT administrators, and whomever it might benefit.
 
-So far this is a personal project, but contributing is welcome!
-Please be thoughtful and adhere to the [code of conduct](CODE_OF_CONDUCT.md), as well as the [contributor guide](CONTRIBUTING.md).
+While this is a personal project, contributing is welcome!
+Please be professional and mindful of others while engaging with members or guests of this project.
+If you are not sure what that entails, read the [code of conduct](CODE_OF_CONDUCT.md) as well as the [contributor guide](CONTRIBUTING.md).
 
-While not explicitly enforced, it is preferred to keep this software and anything emanated from it open for others to learn from;
-however, if referencing and learning from this software you may build what you wish with your new knowledge. 
-Providing adequate attribution whether propitiatory or open-source is highly requested. Thanks!
-
-With that kept in mind, this software is licensed under the [MIT license](LICENSE.md).
+While not explicitly enforced, it is preferred to keep this software and anything emanated from it open for others;
+however, if referencing and learning from this software you may build what you wish with your new knowledge.
+Providing adequate attribution is requested.
+Thank you!

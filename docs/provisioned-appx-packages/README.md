@@ -9,14 +9,24 @@ This is helpful for determining what apps you want a provisioning package to rem
 
 ## Data
 
-**Version:** Windows 11 21H2\
-**Build:** 22000.318\
+**Version:** Windows 11 22H2\
+**Build:** 22621.525\
 **List:** [DefaultProvisionedAppxPackages](ProvisionedAppxPackages.txt)
 
 > **Note**\
 > I have seen Edge and Teams be added to the list during OOBE.
 > Microsoft must provision them during first run.
 > This list is gathered from an offline mounted image, which doesn't list them.
+
+### New in 22H2
+
+* `Clipchamp` is now included.
+* `HEVCVideoExtension` is now included.
+* `RawImageExtension` is now included.
+* `MicrosoftFamily` is now included (Windows 11 Home only).
+* `QuickAssist` is now included.
+* Most packages have been updated.
+* Some packages have been removed. Mainly no longer supported packages.
 
 ## Cortana
 
