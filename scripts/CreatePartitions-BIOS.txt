@@ -7,25 +7,25 @@ rem == Clear all information on disk.
 select disk 0
 clean
 
-rem == System Partition ==
+rem == 1. System Partition ==
 create partition primary size=100
 format quick fs=ntfs label="System"
 assign letter=S
 active
 
-rem == Windows Partition ==
+rem == 2. Windows Partition ==
 rem == Create the Windows partition.
 create partition primary
 
-rem == Create space for the recovery tools ==
+rem == Create space for the recovery tools
 rem == Update this size to match the size of the recovery tools (winre.wim) plus some free space.
 shrink minimum=650
 
-rem == Windows Partition ==
+rem == Prepare Windows Partition
 format quick fs=ntfs label="Local Disk"
 assign letter=W
 
-rem == Recovery Partition ==
+rem == 3. Recovery Partition ==
 create partition primary size=650
 format quick fs=ntfs label="Recovery"
 assign letter=R
