@@ -136,7 +136,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel Chipset Driver">
                   <CommandFile>..\software\aurora\Intel-Chipset-Device-Software_5MPRF_WIN_10.1.18121.8164_A09.exe</CommandFile>
-                  <CommandLine>cmd /c "intel-chipset-device-software_5mprf_win_10.1.18121.8164_A09.exe" /s</CommandLine>
+                  <CommandLine>cmd /c "intel-chipset-device-software_5mprf_win_10.1.18121.8164_a09.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
