@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{26e7fa9d-bbe4-5055-8e92-8d45e934bcfb}</ID>
     <Name>Virtual Machine Core</Name>
-    <Version>3.230</Version>
+    <Version>3.241</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for Virtual Machines. (10/28/2022)</Notes>
+    <Notes>Made specifically for Virtual Machines. (12/28/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,33 +21,33 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft Edge 107.0.1418.24">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-107.0.1418.24.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-107.0.1418.24.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 108.0.1462.54">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-108.0.1462.54.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-108.0.1462.54.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="PowerShell 7.2.7">
-                <CommandFile>..\software\core\PowerShell-7.2.7-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.2.7-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell 7.3.1">
+                <CommandFile>..\software\core\PowerShell-7.3.1-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.3.1-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive 22.212.1009.0004">
-                <CommandFile>..\software\core\OneDriveSetup-22.212.1009.0004.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-22.212.1009.0004.exe" /allusers /quiet</CommandLine>
+              <CommandConfig Name="OneDrive 22.248.1127.0001">
+                <CommandFile>..\software\core\OneDriveSetup-22.248.1127.0001.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-22.248.1127.0001.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google Chrome 107.0.5304.88">
-                <CommandFile>..\software\core\GoogleChromeStandaloneEnterprise64-107.0.5304.88.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-107.0.5304.88.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google Chrome 108.0.5359.125">
+                <CommandFile>..\software\core\googlechromestandaloneenterprise64-108.0.5359.125.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-108.0.5359.125.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -59,10 +59,10 @@
         <UniversalAppInstall>
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.52074.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.52851.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>..\software\core\Microsoft.HEVCVideoExtension_2.0.52911.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>..\software\core\Microsoft.HEVCVideoExtension_2.0.53348.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
           </DeviceContextApp>
         </UniversalAppInstall>
