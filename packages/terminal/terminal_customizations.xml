@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{39f22247-e434-5fb7-9598-a86bb76fb3aa}</ID>
     <Name>Terminal</Name>
-    <Version>3.241</Version>
+    <Version>3.250</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
-    <Notes>General package for installing Windows Terminal. (12/28/2022)</Notes>
+    <Notes>General package for installing Windows Terminal. (03/25/2022)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="PowerShell 7.3.1">
-                <CommandFile>..\software\core\PowerShell-7.3.1-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.3.1-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell 7.3.3">
+                <CommandFile>..\software\core\PowerShell-7.3.3-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.3.3-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -38,7 +38,7 @@
               <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.52851.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
             </Application>
             <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>..\software\core\Microsoft.HEVCVideoExtension_2.0.53348.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
+              <ApplicationFile>..\software\core\Microsoft.HEVCVideoExtension_2.0.60531.0_neutral___8wekyb3d8bbwe.AppxBundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
         </UniversalAppInstall>
