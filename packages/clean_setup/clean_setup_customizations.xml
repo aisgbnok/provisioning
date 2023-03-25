@@ -3,7 +3,7 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.250</Version>
+    <Version>3.251</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
     <Notes>Personal package for setting up PCs after a Windows clean installation. (03/25/2022)</Notes>
@@ -134,25 +134,17 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Chipset_Driver">
+                <CommandConfig Name="Intel Chipset Driver">
                   <CommandFile>..\software\aurora\Intel-Chipset-Device-Software_5MPRF_WIN_10.1.18121.8164_A09.exe</CommandFile>
-                  <CommandLine>cmd /c "intel-chipset-device-software_5mprf_win_10.1.18121.8164_A09.exe" /s</CommandLine>
+                  <CommandLine>cmd /c "intel-chipset-device-software_5mprf_win_10.1.18121.8164_a09.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel_Serial_IO_Driver">
-                  <CommandFile>..\software\aurora\Intel-Serial-IO-Driver_6CYP4_WIN_30.100.1943.2_A09_04.EXE</CommandFile>
+                <CommandConfig Name="Intel Serial IO Driver">
+                  <CommandFile>..\software\aurora\Intel-Serial-IO-Driver_6CYP4_WIN_30.100.1943.2_A09_04.exe</CommandFile>
                   <CommandLine>cmd /c "intel-serial-io-driver_6cyp4_win_30.100.1943.2_a09_04.exe" /s</CommandLine>
-                  <ContinueInstall>True</ContinueInstall>
-                  <RestartRequired>True</RestartRequired>
-                  <ReturnCodeRestart>3010</ReturnCodeRestart>
-                  <ReturnCodeSuccess>0</ReturnCodeSuccess>
-                </CommandConfig>
-                <CommandConfig Name="Intel_Rapid_Storage_Technology_Driver">
-                  <CommandFile>..\software\aurora\Intel-Rapid-Storage-Technology-Driver_62C56_WIN64_17.9.6.1019_A04_01.EXE</CommandFile>
-                  <CommandLine>cmd /c "intel-rapid-storage-technology-driver_62c56_win64_17.9.6.1019_a04_01.exe" /s /accepteula</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -182,9 +174,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Realtek_Audio_Driver">
-                  <CommandFile>..\software\aurora\Realtek-High-Definition-Audio-Driver_N9X47_WIN_6.0.8996.1_A03.exe</CommandFile>
-                  <CommandLine>cmd /c "realtek-high-definition-audio-driver_n9x47_win_6.0.8996.1_a03.exe" /s</CommandLine>
+                <CommandConfig Name="Realtek Audio Driver">
+                  <CommandFile>..\software\aurora\Realtek-High-Definition-Audio-Driver_X3H2T_WIN_6.0.9394.1_A01.exe</CommandFile>
+                  <CommandLine>cmd /c "realtek-high-definition-audio-driver_x3h2t_win_6.0.9394.1_a01.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
