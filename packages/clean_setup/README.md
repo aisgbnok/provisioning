@@ -20,12 +20,27 @@ This package installs and updates a lot of core software including:
 ### Intel Drivers
 
 Installs the latest Intel drivers for supported processors and adapters.
-The included Intel drivers are for "modern" devices, but your device may require an older or a more advanced driver depending on your system for best performance.
+
+#### Intel Wireless (Wi-Fi & Bluetooth)
+
+The included Intel wireless drivers are for "modern" devices, but your device may require an older or a more advanced driver depending on your system for best performance.
 Check your specific system and the driver information on Intel's website for support details.
 
-* [Wi-Fi](https://www.intel.com/content/www/us/en/download/19351/)
-* [Bluetooth](https://www.intel.com/content/www/us/en/download/18649/)
-* [Graphics](https://www.intel.com/content/www/us/en/download/19344/)
+* [Intel Wireless Adapters (Wi-Fi)](https://www.intel.com/content/www/us/en/download/19351)
+* [Intel Wireless Bluetooth](https://www.intel.com/content/www/us/en/download/18649)
+
+#### Intel Graphics
+
+Intel separates their graphics drivers based on pre- and post-Xe architecture. 6th-10th Gen Processors have a shared driver, while Intel Arc and Iris Xe (11th-13th Gen) share a driver.
+This package specifically targets the Surface laptop 3 and Alienware Aurora R8, both of which have a 6th-10th Gen Processor.
+Therefore, on those two devices the Intel 6th-10th Gen Processor Graphics driver will be installed.
+
+* [Intel 6th-10th Gen Processor Graphics](https://www.intel.com/content/www/us/en/download/762755)
+* [Intel Arc & Iris Xe Graphics (11th-13th Gen)](https://www.intel.com/content/www/us/en/download/726609)
+
+> **Note**\
+> This package does not target any 11th-13th Gen Processor and therefore does not include the Intel Arc & Iris Xe Graphics driver.
+> It has been linked above for easy access if your device requires it.
 
 ### Surface Laptop 3
 

@@ -174,9 +174,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Graphics Driver 31.0.101.2114-3790">
-                  <CommandFile>..\software\intel\gfx_win_101.3790_101.2114.exe</CommandFile>
-                  <CommandLine>cmd /c "gfx_win_101.3790_101.2114.exe" /s /report c:\Intel\31.0.101.2114-3790.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel Graphics Driver 31.0.101.2115">
+                  <CommandFile>..\software\intel\gfx_win_101.2115.exe</CommandFile>
+                  <CommandLine>cmd /c "gfx_win_101.2115.exe" /s /report c:\Intel\31.0.101.2115.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -259,9 +259,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Graphics Driver 31.0.101.2114-3790">
-                  <CommandFile>..\software\intel\gfx_win_101.3790_101.2114.exe</CommandFile>
-                  <CommandLine>cmd /c "gfx_win_101.3790_101.2114.exe" /s /report c:\Intel\31.0.101.2114-3790.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel Graphics Driver 31.0.101.2115">
+                  <CommandFile>..\software\intel\gfx_win_101.2115.exe</CommandFile>
+                  <CommandLine>cmd /c "gfx_win_101.2115.exe" /s /report c:\Intel\31.0.101.2115.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
