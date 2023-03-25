@@ -3,7 +3,7 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{26e7fa9d-bbe4-5055-8e92-8d45e934bcfb}</ID>
     <Name>Virtual Machine Core</Name>
-    <Version>3.250</Version>
+    <Version>3.252</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
     <Notes>Made specifically for Virtual Machines. (03/25/2023)</Notes>
@@ -60,9 +60,6 @@
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.52851.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
-            </Application>
-            <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>..\software\core\Microsoft.HEVCVideoExtension_2.0.60531.0_neutral___8wekyb3d8bbwe.AppxBundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
         </UniversalAppInstall>

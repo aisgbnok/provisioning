@@ -3,7 +3,7 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{39f22247-e434-5fb7-9598-a86bb76fb3aa}</ID>
     <Name>Terminal</Name>
-    <Version>3.250</Version>
+    <Version>3.252</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>30</Rank>
     <Notes>General package for installing Windows Terminal. (03/25/2022)</Notes>
@@ -36,9 +36,6 @@
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
               <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.52851.0_x64__8wekyb3d8bbwe.Appx</ApplicationFile>
-            </Application>
-            <Application PackageFamilyName="Microsoft.HEVCVideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>..\software\core\Microsoft.HEVCVideoExtension_2.0.60531.0_neutral___8wekyb3d8bbwe.AppxBundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
         </UniversalAppInstall>
