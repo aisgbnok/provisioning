@@ -8,8 +8,8 @@ Device(s): Surface Laptop 3
 List of Included Firmware and Drivers
 ====================================================================================================================
 
-Class              InfName                                 Version         Date
------              -------                                 -------         ----
+Class              InfName                                 Version         Date      
+-----              -------                                 -------         ----      
 Battery            SurfaceBattery.inf                      1.60.139.0      08/22/2019
 Bluetooth          ibtusb.inf                              22.40.0.2       09/26/2021
 CTA Driver Devices MiniCtaDriver.inf                       27.20.100.9621  06/15/2021
@@ -17,8 +17,9 @@ Display            iigd_dch.inf                            27.20.100.9621  06/15
 Display            iigd_dch_d.inf                          27.20.100.9621  06/15/2021
 Extension          HdBusExt.inf                            27.20.100.9621  06/15/2021
 Extension          iigd_ext_Av.inf                         27.20.100.9621  06/16/2021
+Extension          IntcOED_OemLibPathExt.inf               10.24.245.1     01/19/2023
 Extension          OemExtension.inf                        1952.14.0.1470  12/25/2019
-Extension          RealtekExt.inf                          6.1.0.6         03/25/2020
+Extension          RealtekExt.inf                          6.1.0.16        08/17/2021
 Extension          SurfaceDigitizerVirtualFunctionEnum.inf 1.13.139.0      08/05/2019
 Extension          SurfaceDock2FwUpdate.inf                6.8.137.0       08/26/2021
 Extension          SurfaceHIDFriendlyNames.inf             1.8.137.0       08/10/2019
@@ -44,18 +45,15 @@ HIDClass           SurfaceHidMiniDriver.inf                3.31.139.0      10/16
 HIDClass           SurfacePen217Integration.inf            1.5.139.0       08/02/2019
 HIDClass           SurfaceTconDriver.inf                   3.50.139.0      08/22/2019
 HIDClass           SurfaceVirtualFunctionEnum.inf          1.18.139.0      08/10/2019
-MEDIA              HDXACPM.inf                             6.0.8936.1      04/13/2020
-MEDIA              HDXHAPM.inf                             6.0.8936.1      04/13/2020
-MEDIA              HDXHAPMRTKWOV.inf                       6.0.8936.1      04/13/2020
-MEDIA              HDXSSTM.inf                             6.0.8936.1      04/13/2020
-MEDIA              HDXSSTM2.inf                            6.0.8936.1      04/13/2020
-MEDIA              HDXSSTMCO.inf                           6.0.8936.1      04/13/2020
-MEDIA              HDXSSTMD3A.inf                          6.0.8936.1      04/13/2020
-MEDIA              HDXSSTMND.inf                           6.0.8936.1      04/13/2020
+MEDIA              HDXSSTM2.inf                            6.0.9249.2      10/08/2021
+MEDIA              IntcBTAu.inf                            10.24.0.7927    08/02/2022
 MEDIA              IntcDAud.inf                            10.26.0.10      04/16/2021
 MEDIA              IntcDAud.inf                            10.27.0.10      04/16/2021
 MEDIA              IntcDAud.inf                            11.1.0.18       04/16/2021
 MEDIA              IntcDAud.inf                            11.2.0.8        04/16/2021
+MEDIA              IntcDMic.inf                            10.24.0.7927    08/02/2022
+MEDIA              IntcSDW.inf                             10.24.0.7927    08/02/2022
+MEDIA              IntcSST.inf                             10.24.0.7927    08/02/2022
 MEDIA              MSHdaDac.inf                            27.20.100.9621  06/15/2021
 Monitor            SurfaceOemPanel.inf                     6.81.139.0      07/15/2021
 net                Netwtw08.INF                            22.40.0.7       09/19/2021
@@ -63,7 +61,8 @@ SoftwareComponent  cui_dch.inf                             27.20.100.9621  06/15
 SoftwareComponent  iclsClient.inf                          1.63.1155.2     12/01/2021
 SoftwareComponent  igcc_dch.inf                            27.20.100.9621  06/15/2021
 SoftwareComponent  RealtekHSA.inf                          11.0.6000.92    05/29/2018
-System             DetectionVerificationDrv.inf            1.0.1069.0      06/13/2019
+System             DetectionVerificationDrv.inf            1.0.2283.0      05/17/2022
+System             DetectionVerificationDrv.inf            1.0.2283.0      05/17/2022
 System             dptf_acpi.inf                           8.6.10401.9906  06/14/2019
 System             dptf_cpu.inf                            8.6.10401.9906  06/14/2019
 System             GSCAuxDriver.inf                        2110.0.9.0      03/03/2021
@@ -76,8 +75,9 @@ System             iaLPSS2_UART2_ICL.inf                   30.100.1932.6   08/08
 System             IceLakePCH-LPSystem.inf                 10.1.12.2       07/18/1968
 System             IceLakePCH-LPSystemLPSS.inf             10.1.12.2       07/18/1968
 System             IceLakePCH-LPSystemNorthpeak.inf        10.1.12.2       07/18/1968
-System             IntcAudioBus.inf                        10.24.0.3694    03/13/2020
-System             IntcOED.inf                             10.24.0.3694    03/13/2020
+System             IntcAudioBus.inf                        10.24.0.7927    08/02/2022
+System             IntcOED.inf                             10.24.0.7927    08/02/2022
+System             IntcOED.inf                             10.24.0.7927    08/02/2022
 System             memcntrl.inf                            27.20.100.9621  06/15/2021
 System             SurfaceAcpiNotifyDriver.inf             7.52.139.0      08/22/2019
 System             SurfaceButton.inf                       3.43.139.0      08/22/2019
@@ -88,5 +88,7 @@ System             SurfacePen217FwUpdate.inf               1.7.139.0       08/02
 System             SurfacePenPairing.inf                   4.13.139.0      08/02/2019
 System             SurfacePowerTrackerCore.inf             1.44.139.0      08/22/2019
 System             SurfaceSerialHubDriver.inf              9.54.139.0      01/22/2021
-System             SurfaceServiceNullDriver.inf            6.119.139.0     03/17/2021
+System             SurfaceServiceNullDriver.inf            6.201.139.0     09/12/2022
 UCM                SurfaceUcmUcsiHidClient.inf             1.19.139.0      07/28/2019
+
+
