@@ -13,7 +13,6 @@ This package will install and update the following software:
 * OneDrive
 * Google Chrome
 * Microsoft AV1 Video Extension
-* Microsoft HEVC Video Extension
 
 ## Removed Software
 
