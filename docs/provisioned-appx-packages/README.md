@@ -10,7 +10,7 @@ This is helpful for determining what apps you want a provisioning package to rem
 ## Data
 
 **Version:** Windows 11 22H2\
-**Build:** 22621.525\
+**Build:** 22621.1702\
 **List:** [DefaultProvisionedAppxPackages](ProvisionedAppxPackages.txt)
 
 > **Note**\
