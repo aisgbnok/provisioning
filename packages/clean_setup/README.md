@@ -31,11 +31,12 @@ Check your specific system and the driver information on Intel's website for sup
 
 #### Intel Graphics
 
-Intel separates their graphics drivers based on pre- and post-Xe architecture. 6th-10th Gen Processors have a shared driver, while Intel Arc and Iris Xe (11th-13th Gen) share a driver.
-This package specifically targets the Surface laptop 3 and Alienware Aurora R8, both of which have a 6th-10th Gen Processor.
-Therefore, on those two devices the Intel 6th-10th Gen Processor Graphics driver will be installed.
+Intel separates their graphics drivers based on pre- and post-Xe architecture.
+7th-10th Gen Processors have a shared driver, while Intel Arc and Iris Xe (11th-13th Gen) share a driver.
+This package specifically targets the Surface laptop 3 and Alienware Aurora R8, both of which have a 7th-10th Gen Processor.
+Therefore, on those two devices the Intel 7th-10th Gen Processor Graphics driver will be installed.
 
-* [Intel 6th-10th Gen Processor Graphics](https://www.intel.com/content/www/us/en/download/762755)
+* [Intel 7th-10th Gen Processor Graphics](https://www.intel.com/content/www/us/en/download/776137)
 * [Intel Arc & Iris Xe Graphics (11th-13th Gen)](https://www.intel.com/content/www/us/en/download/726609)
 
 > **Note**\
