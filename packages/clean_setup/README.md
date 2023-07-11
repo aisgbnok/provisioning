@@ -15,7 +15,6 @@ This package installs and updates a lot of core software including:
 * OneDrive
 * Google Chrome
 * Microsoft AV1 Video Extension
-* Microsoft HEVC Video Extension
 
 ### Intel Drivers
 
