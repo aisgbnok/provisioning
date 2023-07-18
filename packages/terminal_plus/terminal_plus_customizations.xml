@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{69f54890-b0fc-57db-b44e-627df747a906}</ID>
     <Name>Terminal+</Name>
-    <Version>3.262</Version>
+    <Version>3.263</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>General package for installing Windows Terminal and other common software. (07/15/2023)</Notes>
+    <Notes>General package for installing Windows Terminal and other common software. (07/18/2023)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft Edge 114.0.1823.82">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.82.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.82.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 114.0.1823.86">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.86.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.86.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -45,9 +45,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google Chrome 114.0.5735.199">
-                <CommandFile>..\software\core\googlechromestandaloneenterprise64-114.0.5735.199.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-114.0.5735.199.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google Chrome 115.0.5790.99">
+                <CommandFile>..\software\core\googlechromestandaloneenterprise64-115.0.5790.99.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-115.0.5790.99.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>

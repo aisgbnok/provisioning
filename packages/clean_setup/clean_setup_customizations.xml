@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.262</Version>
+    <Version>3.263</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
-    <Notes>Personal package for setting up PCs after a Windows clean installation. (07/15/2023)</Notes>
+    <Notes>Personal package for setting up PCs after a Windows clean installation. (07/18/2023)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft Edge 114.0.1823.82">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.82.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.82.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 114.0.1823.86">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.86.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.86.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -45,9 +45,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google Chrome 114.0.5735.199">
-                <CommandFile>..\software\core\googlechromestandaloneenterprise64-114.0.5735.199.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-114.0.5735.199.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google Chrome 115.0.5790.99">
+                <CommandFile>..\software\core\googlechromestandaloneenterprise64-115.0.5790.99.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-115.0.5790.99.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -99,9 +99,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft Edge 114.0.1823.82">
-                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.82.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.82.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft Edge 114.0.1823.86">
+                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.86.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.86.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -123,9 +123,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google Chrome 114.0.5735.199">
-                  <CommandFile>..\software\core\googlechromestandaloneenterprise64-114.0.5735.199.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-114.0.5735.199.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google Chrome 115.0.5790.99">
+                  <CommandFile>..\software\core\googlechromestandaloneenterprise64-115.0.5790.99.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-115.0.5790.99.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -200,9 +200,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft Edge 114.0.1823.82">
-                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.82.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.82.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft Edge 114.0.1823.86">
+                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.86.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.86.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -224,9 +224,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google Chrome 114.0.5735.199">
-                  <CommandFile>..\software\core\googlechromestandaloneenterprise64-114.0.5735.199.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-114.0.5735.199.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google Chrome 115.0.5790.99">
+                  <CommandFile>..\software\core\googlechromestandaloneenterprise64-115.0.5790.99.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-115.0.5790.99.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
