@@ -1,23 +1,25 @@
 {
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions":
+    [
         {
-            "command": {
+            "command":
+            {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command": {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command":
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -29,68 +31,45 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "profiles": {
-        "defaults": {
-            "acrylicOpacity": 0.6,
-            "colorScheme": "AS Dark",
-            "font": {
-                "face": "JetBrains Mono",
-                "size": 11
-            },
-            "useAcrylic": true
-        },
-        "list": [
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "commandline": "cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
-                "commandline": "powershell.exe",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            }
-        ]
-    },
-    "schemes": [
+    "profiles":
+    {
+        "defaults":
         {
-            "background": "#121212",
-            "black": "#000000",
-            "blue": "#1967D2",
-            "brightBlack": "#A0A0A0",
-            "brightBlue": "#0F99FF",
-            "brightCyan": "#05FBBD",
-            "brightGreen": "#4BF778",
-            "brightPurple": "#AB00FF",
-            "brightRed": "#FF002C",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFE005",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#03DAC6",
-            "foreground": "#D0D0D0",
-            "green": "#34AB53",
-            "name": "AS Dark",
-            "purple": "#8A00FF",
-            "red": "#CB0527",
-            "selectionBackground": "#FFFFFF",
-            "white": "#E8E8E8",
-            "yellow": "#FBBC05"
+            "colorScheme": "AJS",
+            "font":
+            {
+                "face": "JetBrains Mono",
+                "size": 11.0
+            },
+            "opacity": 60,
+            "useAcrylic": true
+        }
+    },
+    "schemes":
+    [
+        {
+            "background": "#1B1B1F",
+            "black": "#191C1D",
+            "blue": "#0031C5",
+            "brightBlack": "#899294",
+            "brightBlue": "#BAC3FF",
+            "brightCyan": "#97CBFF",
+            "brightGreen": "#61E14F",
+            "brightPurple": "#FCAAFF",
+            "brightRed": "#E32C31",
+            "brightWhite": "#FFF8F0",
+            "brightYellow": "#EBC236",
+            "cursorColor": "#767680",
+            "cyan": "#004A77",
+            "foreground": "#FEFBFF",
+            "green": "#005300",
+            "name": "AJS",
+            "purple": "#7C008D",
+            "red": "#930011",
+            "selectionBackground": "#E3E1EC",
+            "white": "#FFF0CB",
+            "yellow": "#AF8D00"
         }
     ],
-    "theme": "system",
     "useAcrylicInTabRow": true
 }
