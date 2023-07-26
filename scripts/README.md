@@ -10,7 +10,7 @@ The local disk, `Disk 0`, will be wiped during this process.
 *Remove any extra drives and ensure your data is backed up before proceeding, we are not responsible for lost data.*
 
 > **Note**\
-> For legacy [BIOS–based devices](https://docs.microsoft.com/windows-hardware/manufacture/desktop/configure-biosmbr-based-hard-drive-partitions), use [`CreatePartitions-BIOS.txt`](CreatePartitions-BIOS.txt).
+> For legacy [BIOS–based devices](https://learn.microsoft.com/windows-hardware/manufacture/desktop/configure-biosmbr-based-hard-drive-partitions), use [`CreatePartitions-BIOS.txt`](CreatePartitions-BIOS.txt).
 
 ![Windows Setup UEFI Partition Layout](../docs/images/windows-setup/windows-setup-install-location.webp)
 
@@ -23,7 +23,7 @@ The local disk, `Disk 0`, will be wiped during this process.
 
 1. Select **Local Disk** and then select **Next**.
 
-For more information, see [To partition hard drives and prepare to apply images](https://docs.microsoft.com/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions#to-partition-hard-drives-and-prepare-to-apply-images).
+For more information, see [To partition hard drives and prepare to apply images](https://learn.microsoft.com/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions#to-partition-hard-drives-and-prepare-to-apply-images).
 
 ## Windows Setup Edition Configuration
 
@@ -35,4 +35,4 @@ The [`EI.cfg`](EI.cfg) configuration file ensures that Windows Setup always asks
 1. Copy the [`EI.cfg`](EI.cfg) configuration file into the `\sources` directory on the Windows installation media.
 1. When using the installation media, Windows Setup will always ask what Windows edition (e.g., Home or Pro) to install.
 
-For more information, see [Windows Setup Edition Configuration and Product ID Files](https://docs.microsoft.com/windows-hardware/manufacture/desktop/windows-setup-edition-configuration-and-product-id-files--eicfg-and-pidtxt).
+For more information, see [Windows Setup Edition Configuration and Product ID Files](https://learn.microsoft.com/windows-hardware/manufacture/desktop/windows-setup-edition-configuration-and-product-id-files--eicfg-and-pidtxt).
