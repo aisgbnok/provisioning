@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{26e7fa9d-bbe4-5055-8e92-8d45e934bcfb}</ID>
     <Name>Virtual Machine Core</Name>
-    <Version>3.263</Version>
+    <Version>3.264</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>40</Rank>
-    <Notes>Made specifically for Virtual Machines. (07/18/2023)</Notes>
+    <Notes>Made specifically for Virtual Machines. (07/26/2023)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,9 +21,9 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft Edge 114.0.1823.86">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-114.0.1823.86.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-114.0.1823.86.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 115.0.1901.183">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-115.0.1901.183.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-115.0.1901.183.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -37,17 +37,17 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive 23.132.0625.0001">
-                <CommandFile>..\software\core\OneDriveSetup-23.132.0625.0001.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-23.132.0625.0001.exe" /allusers /quiet</CommandLine>
+              <CommandConfig Name="OneDrive 23.142.0709.0001">
+                <CommandFile>..\software\core\OneDriveSetup-23.142.0709.0001.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-23.142.0709.0001.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google Chrome 115.0.5790.99">
-                <CommandFile>..\software\core\googlechromestandaloneenterprise64-115.0.5790.99.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-115.0.5790.99.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google Chrome 115.0.5790.110">
+                <CommandFile>..\software\core\googlechromestandaloneenterprise64-115.0.5790.110.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-115.0.5790.110.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
