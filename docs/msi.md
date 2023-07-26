@@ -1,12 +1,12 @@
 # Microsoft Windows Installer (MSI) Commands
 
-A curated list of [Windows Installer](https://docs.microsoft.com/windows/win32/msi/windows-installer-portal) commands.
+A curated list of [Windows Installer](https://learn.microsoft.com/windows/win32/msi/windows-installer-portal) commands.
 The Microsoft Windows Installer service enables better corporate deployment and provides a standard format for component management.
 
 ## Unpacking MSI into Directory (TARGETDIR)
 
 The **TARGETDIR** property specifies the root destination directory for the installation.
-For more information, see [TARGETDIR property](https://docs.microsoft.com/windows/win32/msi/targetdir).
+For more information, see [TARGETDIR property](https://learn.microsoft.com/windows/win32/msi/targetdir).
 
 This should not install the product, but instead simply unpack it into the target directory.
 *[I use this for comparing driver changes in Microsoft Surface driver packages without having to actually install them.](surface-laptop-3)*
@@ -28,7 +28,7 @@ msiexec /a "C:\provisioning\software\surface\SurfaceLaptop3_Win11_22000_23.062.2
 
 | Option            | Meaning                                                                                                                    |
 |:------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| `/a`              | [Administrative Installation](https://docs.microsoft.com/windows/win32/msi/administrative-installation)                    |
+| `/a`              | [Administrative Installation](https://learn.microsoft.com/windows/win32/msi/administrative-installation)                    |
 | `<installer.msi>` | Microsoft Windows Installer package to install.                                                                            |
-| `/passive`        | [Only shows a progress bar.](https://docs.microsoft.com/windows/win32/msi/standard-installer-command-line-options#passive) |
-| `TARGETDIR=`      | [Unpacks the installer into the specified location.](https://docs.microsoft.com/windows/win32/msi/targetdir)               |
+| `/passive`        | [Only shows a progress bar.](https://learn.microsoft.com/windows/win32/msi/standard-installer-command-line-options#passive) |
+| `TARGETDIR=`      | [Unpacks the installer into the specified location.](https://learn.microsoft.com/windows/win32/msi/targetdir)               |

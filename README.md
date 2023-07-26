@@ -10,7 +10,7 @@ This repository acts as a living space for the continuation and maintenance of t
 > **Note**\
 > Please have a basic understanding of Windows provisioning before opening an issue, but do not be afraid to ask for help. Thanks!
 >
-> For more information, see [Provisioning packages for Windows](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).
+> For more information, see [Provisioning packages for Windows](https://learn.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).
 
 ## Documentation
 
@@ -53,8 +53,8 @@ Each directory has a readme to explain its purpose in more detail.
 
 ### Prerequisites
 
-- Install the [Windows Imaging and Configuration Designer (ICD)](https://www.microsoft.com/store/apps/9nblggh4tx22).
-- Read the [ICD command-line interface reference](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-command-line).
+- Install the [Windows Imaging and Configuration Designer (ICD)](https://www.microsoft.com/store/productId/9NBLGGH4TX22).
+- Read the [ICD command-line interface reference](https://learn.microsoft.com/windows/configuration/provisioning-packages/provisioning-command-line).
 
 ### Building Packages
 
@@ -63,7 +63,7 @@ See [Building Provisioning Packages](packages/building.md).
 ### Installing Packages
 
 Execute or double-click the `ppkg` file on a Windows device.
-For more information, see [Apply a provisioning package](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-apply-package).
+For more information, see [Apply a provisioning package](https://learn.microsoft.com/windows/configuration/provisioning-packages/provisioning-apply-package).
 
 ## Contribution
 

@@ -15,4 +15,4 @@ The resulting package is outputted as a `.ppkg` file, along with a `.cat` file.
 The `.cat` file contains basic information about the package, but is generally useless unless you are password protecting or signing your package with a certificate.
 The `.ppkg` file contains all scripts, assets, and binaries and is used to provision a device during or after Windows OOBE.
 
-For more information, see [Provisioning packages for Windows](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).
+For more information, see [Provisioning packages for Windows](https://learn.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).

@@ -1,6 +1,6 @@
 # System File Checker (SFC) Commands
 
-A curated list of [System File Checker](https://docs.microsoft.com/windows/win32/wfp/system-file-checker) commands.
+A curated list of [System File Checker](https://learn.microsoft.com/windows/win32/wfp/system-file-checker) commands.
 The System File Checker scans the integrity of all protected system files and repairs files with problems when possible.
 
 ## Online Repair
