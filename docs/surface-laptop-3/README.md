@@ -1,5 +1,7 @@
 # Surface Laptop 3
 
+[Surface Laptop 3 Firmware and Driver List](SurfaceLaptop3Drivers.txt)
+
 ## Description
 
 A list of components and their versions in the cumulative Surface Laptop 3 firmware and driver package.
