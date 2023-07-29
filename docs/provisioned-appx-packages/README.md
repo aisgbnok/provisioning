@@ -4,8 +4,8 @@
 
 ## Description
 
-A list of the default apps that will be installed for each new user.
-This is helpful for determining what apps you want a provisioning package to remove, as well as know if an app is not included and needs to be added.
+A descriptive list of the default apps that are installed for each new user.
+This is helpful for determining what apps you want a provisioning package to add or remove.
 
 ***Command:*** *[Get Provisioned Appx Packages](../dism.md#get-appxprovisionedpackage)*
 
@@ -36,7 +36,7 @@ This is helpful for determining what apps you want a provisioning package to rem
 ## Cortana
 
 The Cortana app is one of the apps I like to remove; however, its package name is obscure, unlike the other apps.
-If you want to remove the Cortana app, use the package family name listed below.
+If you want to remove the Cortana app, use the "Package Family Name" listed below.
 
 | *Field*                 | *Data*                                                                                                         |
 |:------------------------|:---------------------------------------------------------------------------------------------------------------|

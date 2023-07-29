@@ -4,12 +4,12 @@ This directory contains documentation such as commands, information, and data re
 You will find a curated list of commands to aid in analyzing Windows images and creating provisioning packages.
 You will find curated information that allows you to make intelligent decisions while creating provisioning packages.
 
-**The goal is to provide documentation that helps you with provisioning work.**
+*The goal is to provide documentation that helps you with provisioning work.*
 
 ## Commands
 
 A list of commands for working with Windows images, to extracting MSI executables, to getting a list of installed apps.
-This is not a comprehensive set of commands, but a curated set from Microsoft's expansive documentation.
+This is not a comprehensive set of commands, but a curated set from Microsoft's extensive documentation.
 
 | Module          | Description                                             |
 |:----------------|:--------------------------------------------------------|

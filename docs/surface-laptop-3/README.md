@@ -4,10 +4,10 @@
 
 ## Description
 
-A list of components and their versions in the cumulative Surface Laptop 3 firmware and driver package.
-I keep track of this because I have a Surface Laptop 3, and it's nice to know what gets updated.
+A descriptive list of components in the cumulative Surface Laptop 3 firmware and driver update package.
 
 ***Command:*** *[MSI TARGETDIR](../msi.md#unpacking-msi-into-directory-targetdir)*
+*I keep track of this because I have a Surface Laptop 3, and it's nice to know what gets updated.*
 
 ## Data
 
@@ -20,3 +20,7 @@ I keep track of this because I have a Surface Laptop 3, and it's nice to know wh
 | **File Size**      | `625 MB`                                                                                           |
 | **Date Published** | 7/15/2023                                                                                          |
 | **Date Signed**    | Thursday, June 15, 2023 8:49:09 PM                                                                 |
+
+*"Date Published" represents the last time the file was updated on the Microsoft site,
+so the file may be older than the actual "Date Published".
+Instead, look at the "Date Signed" to see when the file was signed by Microsoft.*
