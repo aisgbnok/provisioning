@@ -6,8 +6,9 @@
 
 A descriptive list of components in the cumulative Surface Laptop 3 firmware and driver update package.
 
-***Command:*** *[MSI TARGETDIR](../msi.md#unpacking-msi-into-directory-targetdir)*
 *I keep track of this because I have a Surface Laptop 3, and it's nice to know what gets updated.*
+
+***Related Command:** [MSI TARGETDIR](../msi.md#unpacking-msi-into-directory-targetdir)*
 
 ## Data
 

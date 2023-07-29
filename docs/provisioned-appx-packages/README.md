@@ -7,7 +7,7 @@
 A descriptive list of the default apps that are installed for each new user.
 This is helpful for determining what apps you want a provisioning package to add or remove.
 
-***Command:*** *[Get Provisioned Appx Packages](../dism.md#get-appxprovisionedpackage)*
+***Related Command:** [Get Provisioned Appx Packages](../dism.md#get-appxprovisionedpackage)*
 
 ## Data
 
