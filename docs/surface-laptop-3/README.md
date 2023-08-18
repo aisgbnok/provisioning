@@ -15,13 +15,13 @@ A descriptive list of components in the cumulative Surface Laptop 3 firmware and
 | *Field*            | *Data*                                                                                             |
 |:-------------------|:---------------------------------------------------------------------------------------------------|
 | **Device**         | [Surface Laptop 3 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=100429) |
-| **File Name**      | `SurfaceLaptop3_Win11_22000_23.062.21635.0.msi`                                                    |
+| **File Name**      | `SurfaceLaptop3_Intel_Win11_22000_23.080.5498.0.msi`                                               |
 | **Target OS**      | `Windows 11 22000`                                                                                 |
-| **Driver Version** | `23.062.21635.0`                                                                                   |
-| **File Size**      | `625 MB`                                                                                           |
-| **Date Published** | 7/15/2023                                                                                          |
-| **Date Signed**    | Thursday, June 15, 2023 8:49:09 PM                                                                 |
+| **Driver Version** | `23.080.5498.0`                                                                                    |
+| **File Size**      | `625.4 MB`                                                                                         |
+| **Date Published** | 8/18/2023                                                                                          |
+| **Date Signed**    | Friday, August 4, 2023 3:53:42 PM                                                                  |
 
 *"Date Published" represents the last time the file was updated on the Microsoft site,
 so the file may be older than the actual "Date Published".
-Instead, look at the "Date Signed" to see when the file was signed by Microsoft.*
+Instead, look at the "Date Signed" to see when Microsoft signed the file.*
