@@ -35,7 +35,7 @@
         <UniversalAppInstall>
           <DeviceContextApp>
             <Application PackageFamilyName="Microsoft.AV1VideoExtension_8wekyb3d8bbwe">
-              <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.61781.0_neutral__8wekyb3d8bbwe.appxbundle</ApplicationFile>
+              <ApplicationFile>..\software\core\Microsoft.AV1VideoExtension_1.1.62361.0_neutral_~_8wekyb3d8bbwe.AppxBundle</ApplicationFile>
             </Application>
           </DeviceContextApp>
         </UniversalAppInstall>
