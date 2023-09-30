@@ -1,17 +1,27 @@
 # Surface Laptop 3
 
+[Surface Laptop 3 Firmware and Driver List](SurfaceLaptop3Drivers.txt)
+
 ## Description
 
-A list of components and their versions in the cumulative Surface Laptop 3 firmware and driver package.
-I keep track of this because I have a Surface Laptop 3, and it's nice to know what gets updated.
+A descriptive list of components in the cumulative Surface Laptop 3 firmware and driver update package.
 
-***Command:*** *[MSI TARGETDIR](../msi.md#unpacking-msi-into-directory-targetdir)*
+*I keep track of this because I have a Surface Laptop 3, and it's nice to know what gets updated.*
+
+***Related Command:** [MSI TARGETDIR](../msi.md#unpacking-msi-into-directory-targetdir)*
 
 ## Data
 
-**Device:** [Surface Laptop 3 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=100429)\
-**File Name:** `SurfaceLaptop3_Win11_22000_22.081.11638.0.msi`\
-**Date Published:** 8/25/2022\
-**OS:** Windows 11 22000\
-**Driver:** 22.081.11638.0\
-**List:** [SurfaceLaptop3Drivers](SurfaceLaptop3Drivers.txt)
+| *Field*            | *Data*                                                                                             |
+|:-------------------|:---------------------------------------------------------------------------------------------------|
+| **Device**         | [Surface Laptop 3 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=100429) |
+| **File Name**      | `SurfaceLaptop3_Intel_Win11_22000_23.091.15598.0.msi`                                              |
+| **Target OS**      | `Windows 11 22000`                                                                                 |
+| **Driver Version** | `23.091.15598.0`                                                                                   |
+| **File Size**      | `625.4 MB`                                                                                         |
+| **Date Published** | 9/15/2023                                                                                          |
+| **Date Signed**    | Monday, September 11, 2023 4:12:36 PM                                                              |
+
+*"Date Published" represents the last time the file was updated on the Microsoft site,
+so the file may be older than the actual "Date Published".
+Instead, look at the "Date Signed" to see when Microsoft signed the file.*

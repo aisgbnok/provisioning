@@ -38,7 +38,7 @@ Therefore, on those two devices the Intel 7th-10th Gen Processor Graphics driver
 * [Intel 7th-10th Gen Processor Graphics](https://www.intel.com/content/www/us/en/download/776137)
 * [Intel Arc & Iris Xe Graphics (11th-13th Gen)](https://www.intel.com/content/www/us/en/download/726609)
 
-> **Note**\
+> [!NOTE]  
 > This package does not target any 11th-13th Gen Processor and therefore does not include the Intel Arc & Iris Xe Graphics driver.
 > It has been linked above for easy access if your device requires it.
 
