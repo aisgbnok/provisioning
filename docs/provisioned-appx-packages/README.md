@@ -18,7 +18,7 @@ This is helpful for determining what apps you want a provisioning package to add
 | **OS Build**   | `22621.525`  |
 | **Build Date** | Not Recorded |
 
-> **Note**\
+> [!NOTE]  
 > I have seen Edge and Teams be added to the list during OOBE.
 > Microsoft must provision them during first run.
 > This list is gathered from an offline mounted image, which doesn't list them.

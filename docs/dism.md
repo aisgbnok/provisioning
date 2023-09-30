@@ -5,7 +5,7 @@ The Deployment Image Servicing and Management platform is used to mount and serv
 
 ## Clear-WindowsCorruptMountPoint
 
-The **Clear-WindowsCorruptMountPoint** cmdlet deletes all of the resources associated with a mounted image that has been corrupted.
+The **Clear-WindowsCorruptMountPoint** cmdlet deletes all the resources associated with a mounted image that has been corrupted.
 For more information, see [Clear-WindowsCorruptMountPoint](https://learn.microsoft.com/powershell/module/dism/clear-windowscorruptmountpoint).
 
 ```shell
@@ -43,7 +43,7 @@ Expand-WindowsImage -ImagePath "C:\provisioning\images\install.wim" -Name "Windo
 The **Export-WindowsImage** cmdlet exports a copy of the specified image to another image file.
 For more information, see [Export-WindowsImage](https://learn.microsoft.com/powershell/module/dism/export-windowsimage).
 
-> **Note**\
+> [!NOTE]  
 > This cmdlet does not support the "recovery" compression type. Use DISM instead.
 
 ```shell
@@ -59,7 +59,7 @@ Export-WindowsImage -DestinationImagePath "C:\provisioning\images\export\install
 The **Get-AppxProvisionedPackage** cmdlet gets information about app packages (`.appx`) in an image that are set to install for each new user.
 For more information, see [Get-AppxProvisionedPackage](https://learn.microsoft.com/powershell/module/dism/get-appxprovisionedpackage).
 
-> **Note**\
+> [!NOTE]  
 > For information about app packages (`.appx`) that are not provisioned, use the [**Get-AppxPackage**](appx.md#get-appxpackage) cmdlet instead.
 
 ```shell
@@ -107,6 +107,7 @@ Mount-WindowsImage -Path "C:\offline" -ImagePath "C:\provisioning\images\install
 ```shell
 Mount-WindowsImage -Path "C:\offline" -ImagePath "C:\provisioning\images\install.wim" -Index 1 -ReadOnly -CheckIntegrity
 ```
+
 ## Repair-WindowsImage
 
 The **Repair-WindowsImage** cmdlet repairs a Windows image in a WIM or VHD file.
