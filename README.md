@@ -1,35 +1,36 @@
 # Welcome to Provisioning
 
 This repository holds the configuration files for compiling the personal Windows provisioning packages I have created.
-These packages are for personal usage; however, they may be beneficial to others looking for examples, references, or more extensive documentation. 
+These packages are for personal usage; however, they may be beneficial to others looking for examples, references, or more extensive documentation.
 The Microsoft provisioning documentation supplies a basis for understanding Windows provisioning, but there is more to discover.
 
 I started this journey in December 2020, and since then, I have had many questions, completed lots of experiments, and still have more to understand.
 This repository acts as a living space for the continuation and maintenance of this journey.
 
-> **Note**\
+> [!NOTE]  
 > Please have a basic understanding of Windows provisioning before opening an issue, but do not be afraid to ask for help. Thanks!
 >
 > For more information, see [Provisioning packages for Windows](https://learn.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).
 
 ## Documentation
 
-This project has its own set of documentation housed in the [docs](docs) directory. 
+This project has its own set of documentation housed in the [docs](docs) directory.
 This documentation aims to consolidate and streamline information or commands that aid the users of this project.
 While I try my best to make meaningful [contributions to the official Microsoft documentation](https://github.com/MicrosoftDocs/windows-itpro-docs/pulls?q=author%3Aaisgbnok), there might be some overlap and some things that aren't in the Microsoft Docs.
 
 ## OS Support
 
 **The predefined packages contained in this repository are built exclusively for Windows 11 `x64` machines.**
-However, the documentation and provisioning syntax is universal for all supported version of Windows (`ARM` and `x64`), unless specified otherwise.
+However, the documentation and provisioning syntax is universal for all supported versions of Windows (`ARM` and `x64`),
+unless specified otherwise.
 
 <details>
-<summary>Select for more details on OS support</summary>
+<summary>Select for more details on OS support.</summary>
 
 These packages will always be developed and built using the most up-to-date version of Windows.
 While packages have been written, built, and used on up-to-date or beta Windows 11 machines, they should work on any supported Windows 11 versions.
 
-Provisioning packages are bound by the software they install and policies they deploy.
+Provisioning packages are bound by the software they install and the policies they deploy.
 Therefore, some packages may deploy perfectly fine on Windows 10, as long as all the software and policies included in that package support Windows 10.
 </details>
 
@@ -74,6 +75,6 @@ Please be professional and mindful of others while engaging with members or gues
 If you are not sure what that entails, read the [code of conduct](CODE_OF_CONDUCT.md) as well as the [contributor guide](CONTRIBUTING.md).
 
 While not explicitly enforced, it is preferred to keep this software and anything emanated from it open for others;
-however, if referencing and learning from this software you may build what you wish with your new knowledge.
+however, if referencing and learning from this software, you may build what you wish with your new knowledge.
 Providing adequate attribution is requested.
 Thank you!
