@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{69f54890-b0fc-57db-b44e-627df747a906}</ID>
     <Name>Terminal+</Name>
-    <Version>3.266</Version>
+    <Version>3.270</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>20</Rank>
-    <Notes>General package for installing Windows Terminal and other common software. (09/12/2023)</Notes>
+    <Notes>General package for installing Windows Terminal and other common software. (09/30/2023)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -21,33 +21,33 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft Edge 116.0.1938.81">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-116.0.1938.81.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-116.0.1938.81.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 117.0.2045.47">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-117.0.2045.47.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-117.0.2045.47.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="PowerShell 7.3.6">
-                <CommandFile>..\software\core\PowerShell-7.3.6-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.3.6-win-x64.msi" /quiet</CommandLine>
+              <CommandConfig Name="PowerShell 7.3.7">
+                <CommandFile>..\software\core\PowerShell-7.3.7-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.3.7-win-x64.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive 23.180.0828.0001">
-                <CommandFile>..\software\core\OneDriveSetup-23.180.0828.0001.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-23.180.0828.0001.exe" /allusers /quiet</CommandLine>
+              <CommandConfig Name="OneDrive 23.194.0917.0001">
+                <CommandFile>..\software\core\OneDriveSetup-23.194.0917.0001.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-23.194.0917.0001.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google Chrome 117.0.5938.63">
-                <CommandFile>..\software\core\googlechromestandaloneenterprise64-117.0.5938.63.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-117.0.5938.63.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google Chrome 117.0.5938.92">
+                <CommandFile>..\software\core\googlechromestandaloneenterprise64-117.0.5938.92.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-117.0.5938.92.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
