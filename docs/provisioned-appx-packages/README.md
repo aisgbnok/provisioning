@@ -4,19 +4,28 @@
 
 ## Description
 
-A descriptive list of the default apps that are installed for each new user.
-This is helpful for determining what apps you want a provisioning package to add or remove.
+A descriptive list of the default apps that are installed for every new user.
+This is helpful for discerning which applications you may want a provisioning package to include or exclude.
 
 ***Related Command:** [Get Provisioned Appx Packages](../dism.md#get-appxprovisionedpackage)*
 
 ## Data
 
-| *Field*        | *Data*       |
-|:---------------|:-------------|
-| **Edition**    | Windows 11   |
-| **Version**    | 22H2         |
-| **OS Build**   | `22621.1702` |
-| **Build Date** | Not Recorded |
+This data originated from an [official Microsoft ISO](https://www.microsoft.com/software-download/windows11),
+generated utilizing their [Media Creation tool](https://go.microsoft.com/fwlink/?linkid=2156295).
+The data presented in the succeeding table is specific to the **Core** edition (also known as **Windows 11 Home**).
+However, similar characteristics should be observed across all editions.
+
+Minor discrepancies might occur in certain data fields such as **Creation Time**,
+but others like **OS Build** will remain consistent.
+
+| *Field*          | *Data*                  |
+|:-----------------|:------------------------|
+| **Edition**      | Windows 11              |
+| **Version**      | 22H2                    |
+| **OS Build**     | `22621.1702`            |
+| **EditionID**    | Core                    |
+| **Created Time** | 5/5/2023 9:09:25 AM EST |
 
 > [!NOTE]  
 > I have seen Edge and Teams be added to the list during OOBE.
