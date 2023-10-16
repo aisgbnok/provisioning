@@ -35,15 +35,15 @@ else {
 Write-Output "Disk $diskNumber is ready"
 
 # Set TLS 1.3
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls13
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 # Define files to download
 $files = @(
-    @{Uri = 'https://drive.google.com/uc?export=download&id=1O3bf7YrvdrUOtYdevVjQK1fTKHcYCn8h&confirm=t'; OutFile = "${driveLetter}:\License.txt" },
-    @{Uri = 'https://drive.google.com/uc?export=download&id=13DNONjBzl2KCJJidgQbql_549gSOvYcb&confirm=t'; OutFile = "${driveLetter}:\CreatePartitions-UEFI.txt" },
-    @{Uri = 'https://drive.google.com/uc?export=download&id=10HJkwXOvm_mp_Ww08_WZ09D1qqXTBQkI&confirm=t'; OutFile = "${driveLetter}:\uupdump-x64.zip" },
-    @{Uri = 'https://drive.google.com/uc?export=download&id=10JRa1RT9pSGnvt8SJzwiuJhcj-c5HuuS&confirm=t'; OutFile = "${driveLetter}:\VMware-tools-12.3.0-22234872-x86_64.exe" },
-    @{Uri = 'https://drive.google.com/uc?export=download&id=1PvcnXa35rVkxPJ_gCsux6ZTgYs43ZzOe&confirm=t'; OutFile = "${driveLetter}:\Windows_InsiderPreview_Server_vNext_en-us_25951e.iso" }
+    @{Uri = 'https://drive.google.com/uc?export=download&id=17TtXAVmB6k6g8iGJaRPIIBAO__6guNXW&confirm=t'; OutFile = "${driveLetter}:\CreatePartitions-UEFI.txt" },
+    @{Uri = 'https://drive.google.com/uc?export=download&id=16wLnZAXlCBwkUinE3KBV-eLZcQ4jhq7D&confirm=t'; OutFile = "${driveLetter}:\uupdump-x64.zip" },
+    @{Uri = 'https://drive.google.com/uc?export=download&id=17mgJ7h8Hqnpvbt9O1H-pORCxEBoljuMf&confirm=t'; OutFile = "${driveLetter}:\VMware-Tools-12.3.0-22234872-x86_64.exe" },
+    @{Uri = 'https://drive.google.com/uc?export=download&id=10dtlBAM52eccq5s1yYEKGiOgArBFtHd3&confirm=t'; OutFile = "${driveLetter}:\Windows_InsiderPreview_Server_vNext_en-us_25967.iso" }
+    @{Uri = 'https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi'; OutFile = "${driveLetter}:\googlechromestandaloneenterprise64.msi" }
 )
 
 # Install ThreadJob module if needed
@@ -72,7 +72,7 @@ foreach ($job in $jobs) {
 }
 
 # Mount ISO
-$isoPath = "${driveLetter}:\Windows_InsiderPreview_Server_vNext_en-us_25951e.iso"
+$isoPath = "${driveLetter}:\Windows_InsiderPreview_Server_vNext_en-us_25967.iso"
 $mount = Mount-DiskImage -ImagePath $isoPath -PassThru
 
 # Copy all files from ISO to disk
