@@ -11,7 +11,7 @@ List of Included Firmware and Drivers
 Class              InfName                                 Version         Date      
 -----              -------                                 -------         ----      
 Battery            SurfaceBattery.inf                      1.60.139.0      08/22/2019
-Bluetooth          ibtusb.inf                              22.190.0.2      11/08/2022
+Bluetooth          ibtusb.inf                              22.230.0.2      04/26/2023
 CTA Driver Devices MiniCtaDriver.inf                       27.20.100.9621  06/15/2021
 Display            iigd_dch.inf                            27.20.100.9621  06/15/2021
 Display            iigd_dch_d.inf                          27.20.100.9621  06/15/2021
@@ -32,7 +32,7 @@ Firmware           SurfaceKIP.inf                          14.204.139.0    01/27
 Firmware           SurfaceME.inf                           13.0.2101.2     07/08/2022
 Firmware           SurfacePD.inf                           3.6.1.0         07/24/2019
 Firmware           SurfaceRETIMER.inf                      0.42.0.0        03/27/2021
-Firmware           SurfaceSAM.inf                          14.602.139.0    05/09/2022
+Firmware           SurfaceSAM.inf                          14.800.139.0    07/25/2023
 Firmware           SurfaceStorageFwUpdate.inf              5.34.139.0      07/28/2019
 Firmware           SurfaceTCON.inf                         160.35.13.0     06/13/2019
 Firmware           SurfaceTCON.inf                         160.35.15.0     06/13/2019
@@ -60,7 +60,7 @@ MEDIA              MSHdaDac.inf                            27.20.100.9621  06/15
 Monitor            SurfaceOemPanel.inf                     6.81.139.0      07/15/2021
 Net                msu53cx22x64sta.INF                     1153.9.20.823   08/23/2022
 Net                msu56cx22x64sta.INF                     1156.9.20.823   08/23/2022
-net                Netwtw08.INF                            22.190.0.4      11/23/2022
+net                Netwtw08.INF                            22.230.0.8      05/09/2023
 SoftwareComponent  cui_dch.inf                             27.20.100.9621  06/15/2021
 SoftwareComponent  iclsClient.inf                          1.63.1155.2     12/01/2021
 SoftwareComponent  igcc_dch.inf                            27.20.100.9621  06/15/2021

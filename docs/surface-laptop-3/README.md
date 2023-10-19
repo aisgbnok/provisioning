@@ -15,12 +15,12 @@ A descriptive list of components in the cumulative Surface Laptop 3 firmware and
 | *Field*            | *Data*                                                                                             |
 |:-------------------|:---------------------------------------------------------------------------------------------------|
 | **Device**         | [Surface Laptop 3 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=100429) |
-| **File Name**      | `SurfaceLaptop3_Intel_Win11_22000_23.091.15598.0.msi`                                              |
+| **File Name**      | `SurfaceLaptop3_Intel_Win11_22000_23.101.7094.0.msi`                                               |
 | **Target OS**      | `Windows 11 22000`                                                                                 |
-| **Driver Version** | `23.091.15598.0`                                                                                   |
-| **File Size**      | `625.4 MB`                                                                                         |
-| **Date Published** | 9/15/2023                                                                                          |
-| **Date Signed**    | Monday, September 11, 2023 4:12:36 PM                                                              |
+| **Driver Version** | `23.101.7094.0`                                                                                    |
+| **File Size**      | `626.2 MB`                                                                                         |
+| **Date Published** | 10/13/2023                                                                                         |
+| **Date Signed**    | Thursday, October 5, 2023 6:28:25 PM                                                               |
 
 *"Date Published" represents the last time the file was updated on the Microsoft site,
 so the file may be older than the actual "Date Published".
