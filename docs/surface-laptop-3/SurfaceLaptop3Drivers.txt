@@ -8,16 +8,14 @@ Device(s): Surface Laptop 3
 List of Included Firmware and Drivers
 ====================================================================================================================
 
-Class              InfName                                 Version         Date      
------              -------                                 -------         ----      
+Class              InfName                                 Version         Date
+-----              -------                                 -------         ----
 Battery            SurfaceBattery.inf                      1.60.139.0      08/22/2019
 Bluetooth          ibtusb.inf                              22.230.0.2      04/26/2023
-CTA Driver Devices MiniCtaDriver.inf                       27.20.100.9621  06/15/2021
-Display            iigd_dch.inf                            27.20.100.9621  06/15/2021
-Display            iigd_dch_d.inf                          27.20.100.9621  06/15/2021
+Display            iigd_dch.inf                            31.0.101.2125   05/24/2023
 Extension          DevicesTelemetryServiceDriver.inf       6.196.139.0     02/16/2023
-Extension          HdBusExt.inf                            27.20.100.9621  06/15/2021
-Extension          iigd_ext_Av.inf                         27.20.100.9621  06/16/2021
+Extension          HdBusExt.inf                            31.0.101.2125   05/24/2023
+Extension          iigd_ext_av.inf                         31.0.101.2125   05/24/2023
 Extension          IntcOED_OemLibPathExt.inf               10.24.245.1     01/19/2023
 Extension          OemExtension.inf                        1952.14.0.1470  12/25/2019
 Extension          RealtekExt.inf                          6.1.0.16        08/17/2021
@@ -49,28 +47,26 @@ HIDClass           SurfaceTconDriver.inf                   3.50.139.0      08/22
 HIDClass           SurfaceVirtualFunctionEnum.inf          1.18.139.0      08/10/2019
 MEDIA              HDXSSTM2.inf                            6.0.9249.2      10/08/2021
 MEDIA              IntcBTAu.inf                            10.24.0.7927    08/02/2022
-MEDIA              IntcDAud.inf                            10.26.0.10      04/16/2021
-MEDIA              IntcDAud.inf                            10.27.0.10      04/16/2021
-MEDIA              IntcDAud.inf                            11.1.0.18       04/16/2021
-MEDIA              IntcDAud.inf                            11.2.0.8        04/16/2021
+MEDIA              IntcDAud.inf                            10.26.0.12      11/21/2021
+MEDIA              IntcDAud.inf                            10.27.0.12      11/21/2021
+MEDIA              IntcDAud.inf                            11.1.0.20       11/21/2021
+MEDIA              IntcDAud.inf                            11.2.0.10       11/21/2021
 MEDIA              IntcDMic.inf                            10.24.0.7927    08/02/2022
 MEDIA              IntcSDW.inf                             10.24.0.7927    08/02/2022
 MEDIA              IntcSST.inf                             10.24.0.7927    08/02/2022
-MEDIA              MSHdaDac.inf                            27.20.100.9621  06/15/2021
+MEDIA              MSHdaDac.inf                            31.0.101.2125   05/24/2023
 Monitor            SurfaceOemPanel.inf                     6.81.139.0      07/15/2021
 Net                msu53cx22x64sta.INF                     1153.9.20.823   08/23/2022
 Net                msu56cx22x64sta.INF                     1156.9.20.823   08/23/2022
 net                Netwtw08.INF                            22.230.0.8      05/09/2023
-SoftwareComponent  cui_dch.inf                             27.20.100.9621  06/15/2021
+SoftwareComponent  cui_dch.inf                             31.0.101.2125   05/24/2023
 SoftwareComponent  iclsClient.inf                          1.66.712.0      12/08/2022
-SoftwareComponent  igcc_dch.inf                            27.20.100.9621  06/15/2021
+SoftwareComponent  igcc_dch.inf                            31.0.101.2125   05/24/2023
 SoftwareComponent  RealtekHSA.inf                          11.0.6000.92    05/29/2018
 System             DetectionVerificationDrv.inf            1.0.2283.0      05/17/2022
 System             DetectionVerificationDrv.inf            1.0.2283.0      05/17/2022
 System             dptf_acpi.inf                           8.6.10401.9906  06/14/2019
 System             dptf_cpu.inf                            8.6.10401.9906  06/14/2019
-System             GSCAuxDriver.inf                        2110.0.9.0      03/03/2021
-System             gscheci.inf                             2110.100.0.1057 03/04/2021
 System             heci.inf                                2251.4.2.0      12/11/2022
 System             iaLPSS2_GPIO2_ICL.inf                   30.100.1916.1   04/15/2019
 System             iaLPSS2_I2C_ICL.inf                     30.100.1916.1   04/15/2019
@@ -82,7 +78,6 @@ System             IceLakePCH-LPSystemNorthpeak.inf        10.1.12.2       07/18
 System             IntcAudioBus.inf                        10.24.0.7927    08/02/2022
 System             IntcOED.inf                             10.24.0.7927    08/02/2022
 System             IntcOED.inf                             10.24.0.7927    08/02/2022
-System             memcntrl.inf                            27.20.100.9621  06/15/2021
 System             SurfaceAcpiNotifyDriver.inf             7.52.139.0      08/22/2019
 System             SurfaceButton.inf                       3.43.139.0      08/22/2019
 System             SurfaceHotPlug.inf                      2.40.139.0      08/22/2019

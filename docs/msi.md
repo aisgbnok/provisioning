@@ -16,14 +16,14 @@ This should not install the product, but instead simply unpack it into the targe
 
 In the first example, the installer is in my shell's current working directory, so it still executes fine.
 The second example explicitly uses the installer's absolute path, so the shell's working directory can be anywhere.
-*I like to put quotes around `<installer.msi>`, but they aren't necessary.*
+*I like to put quotes around `<installer.msi>`, but they are not necessary.*
 
 ```PowerShell
-msiexec /a "SurfaceLaptop3_Intel_Win11_22000_23.102.18472.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
+msiexec /a "SurfaceLaptop3_Intel_Win11_22000_23.111.10140.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
 ```
 
 ```PowerShell
-msiexec /a "C:\provisioning\software\surface\SurfaceLaptop3_Intel_Win11_22000_23.102.18472.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
+msiexec /a "C:\provisioning\software\surface\SurfaceLaptop3_Intel_Win11_22000_23.111.10140.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
 ```
 
 | Option            | Meaning                                                                                                                     |
