@@ -19,18 +19,26 @@ However, similar characteristics should be observed across all editions.
 Minor discrepancies might occur in certain data fields such as **Creation Time**,
 but others like **OS Build** will remain consistent.
 
-| *Field*          | *Data*                  |
-|:-----------------|:------------------------|
-| **Edition**      | Windows 11              |
-| **Version**      | 22H2                    |
-| **OS Build**     | `22621.1702`            |
-| **EditionID**    | Core                    |
-| **Created Time** | 5/5/2023 9:09:25 AM EST |
+| *Field*          | *Data*                   |
+|:-----------------|:-------------------------|
+| **Edition**      | Windows 11               |
+| **Version**      | 23H2                     |
+| **OS Build**     | `22621.2861`             |
+| **EditionID**    | Core                     |
+| **Created Time** | 12/4/2023 1:40:40 AM EST |
 
-> [!NOTE]  
-> I have seen Edge and Teams be added to the list during OOBE.
-> Microsoft must provision them during first run.
-> This list is gathered from an offline mounted image, which doesn't list them.
+### New in 23H2
+
+The provisioned Appx packages in the offline image have remained consistent.
+No modifications have been made; no packages have been added, removed, or updated.
+The version numbers of these packages have also remained the same.
+
+During the Out-Of-Box Experience (OOBE), additional Appx packages may be automatically added.
+This will include apps such as Teams depending on the user's geographic location.
+Some packages that are added are contingent on the preferences selected during the OOBE.
+For example, selecting the 'Development Intent' will result in the addition of the Dev Home app to the user account.
+
+For more information, see Microsoft's [What's new in Windows 11, version 23H2](https://learn.microsoft.com/windows/whats-new/whats-new-windows-11-version-23h2) page for more information.
 
 ### New in 22H2
 
@@ -41,6 +49,8 @@ but others like **OS Build** will remain consistent.
 * `QuickAssist` is now included.
 * Most packages have been updated.
 * Some packages have been removed. Mainly no longer supported packages.
+
+See Microsoft's [What's new in Windows 11, version 22H2](https://learn.microsoft.com/windows/whats-new/whats-new-windows-11-version-22h2) page for more information.
 
 ## Cortana
 
