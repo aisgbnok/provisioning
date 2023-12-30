@@ -44,6 +44,10 @@ but others like **OS Build** will remain consistent.
 
 ## Cortana
 
+> [!NOTE]  
+> [Cortana is no longer supported.](https://support.microsoft.com/topic/end-of-support-for-cortana-d025b39f-ee5b-4836-a954-0ab646ee1efa)
+> The Cortana app will be removed from the OS in a future update.
+
 The Cortana app is one of the apps I like to remove; however, its package name is obscure, unlike the other apps.
 If you want to remove the Cortana app, use the "Package Family Name" listed below.
 

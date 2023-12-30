@@ -7,7 +7,7 @@ The Microsoft provisioning documentation supplies a basis for understanding Wind
 I started this journey in December 2020, and since then, I have had many questions, completed lots of experiments, and still have more to understand.
 This repository acts as a living space for the continuation and maintenance of this journey.
 
-> [!NOTE]  
+> [!IMPORTANT]  
 > Please have a basic understanding of Windows provisioning before opening an issue, but do not be afraid to ask for help. Thanks!
 >
 > For more information, see [Provisioning packages for Windows](https://learn.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).
@@ -21,7 +21,7 @@ While I try my best to make meaningful [contributions to the official Microsoft 
 ## OS Support
 
 **The predefined packages contained in this repository are built exclusively for Windows 11 `x64` machines.**
-However, the documentation and provisioning syntax is universal for all supported versions of Windows (`ARM` and `x64`),
+However, the documentation and provisioning syntax are universal for all supported versions of Windows (`ARM` and `x64`),
 unless specified otherwise.
 
 <details>
