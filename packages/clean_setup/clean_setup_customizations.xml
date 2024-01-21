@@ -16,6 +16,7 @@
             <CommandFiles>
               <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.bat</CommandFile>
               <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.cab</CommandFile>
+              <CommandFile Name="Explorer">..\scripts\Explorer.ps1</CommandFile>
             </CommandFiles>
             <CommandLine>cmd /c "core_assets.bat"</CommandLine>
           </DeviceContext>
