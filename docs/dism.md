@@ -44,7 +44,7 @@ The **Export-WindowsImage** cmdlet exports a copy of the specified image to anot
 For more information, see [Export-WindowsImage](https://learn.microsoft.com/powershell/module/dism/export-windowsimage).
 
 > [!NOTE]  
-> This cmdlet does not support the "recovery" compression type. Use DISM instead.
+> This cmdlet does not support the "recovery" compression type. Use `dism.exe` instead.
 
 ```shell
 Export-WindowsImage -DestinationImagePath "C:\provisioning\images\export\install.wim" -SourceImagePath "C:\provisioning\images\install.wim" -SourceIndex 1 -CheckIntegrity -CompressionType "max"
@@ -59,7 +59,7 @@ Export-WindowsImage -DestinationImagePath "C:\provisioning\images\export\install
 The **Get-AppxProvisionedPackage** cmdlet gets information about app packages (`.appx`) in an image that are set to install for each new user.
 For more information, see [Get-AppxProvisionedPackage](https://learn.microsoft.com/powershell/module/dism/get-appxprovisionedpackage).
 
-> [!NOTE]  
+> [!TIP]  
 > For information about app packages (`.appx`) that are not provisioned, use the [**Get-AppxPackage**](appx.md#get-appxpackage) cmdlet instead.
 
 ```shell
