@@ -285,7 +285,7 @@
               <Command>
                 <CommandConfig Name="Intel Chipset Driver">
                   <CommandFile>..\software\spectre\sp108845.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108845.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108845.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -293,7 +293,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel Management Engine Driver">
                   <CommandFile>..\software\spectre\sp111746.exe</CommandFile>
-                  <CommandLine>cmd /c "sp111746.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp111746.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -301,7 +301,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel HID Event Filter Driver">
                   <CommandFile>..\software\spectre\sp108853.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108853.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108853.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -309,7 +309,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel Serial IO Driver">
                   <CommandFile>..\software\spectre\sp108854.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108854.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108854.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -317,7 +317,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel Dynamic Tuning Driver">
                   <CommandFile>..\software\spectre\sp108848.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108848.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108848.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -325,7 +325,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel Rapid Storage Driver">
                   <CommandFile>..\software\spectre\sp108849.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108849.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108849.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -333,7 +333,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel Thunderbolt Driver">
                   <CommandFile>..\software\spectre\sp112061.exe</CommandFile>
-                  <CommandLine>cmd /c "sp112061.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp112061.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -341,7 +341,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Realtek Card Reader Driver">
                   <CommandFile>..\software\spectre\sp108852.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108852.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108852.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -349,7 +349,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel Integrated Sensor Driver">
                   <CommandFile>..\software\spectre\sp108855.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108855.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108855.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -357,7 +357,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Intel Gaussian Neural Driver">
                   <CommandFile>..\software\spectre\sp108856.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108856.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108856.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -365,7 +365,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Synaptics Touchpad Driver">
                   <CommandFile>..\software\spectre\sp108857.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108857.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108857.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -373,7 +373,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Synaptics Fingerprint Driver">
                   <CommandFile>..\software\spectre\sp108858.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108858.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108858.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -419,9 +419,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Graphics Driver">
-                  <CommandFile>C:\mount\software\int driv\igfx_win10_100.9168.exe</CommandFile>
-                  <CommandLine>cmd /c "igfx_win10_100.9168.exe -s -report c:\SWSetup\Intel\27Graphics.log"</CommandLine>
+                <CommandConfig Name="Intel Graphics Driver 31.0.101.5085">
+                  <CommandFile>..\software\intel\gfx_win_101.5085_101.5122.exe</CommandFile>
+                  <CommandLine>cmd /c "gfx_win_101.5085_101.5122.exe" /s /report c:\Intel\31.0.101.5085.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -429,7 +429,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Realtek Audio Driver">
                   <CommandFile>..\software\spectre\sp108851.exe</CommandFile>
-                  <CommandLine>cmd /c "sp108851.exe" -s</CommandLine>
+                  <CommandLine>cmd /c "sp108851.exe" /s</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
