@@ -12,13 +12,9 @@ echo Jetbrains Mono Italic >> %LOGFILE%
 copy "JetBrainsMono-Italic[wght].ttf" "%WINDIR%\Fonts" >> %LOGFILE%
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrains Mono Italic (TrueType)" /t REG_SZ /d JetBrainsMono-Italic[wght].ttf /f >> %LOGFILE%
 echo result: %ERRORLEVEL% >> %LOGFILE%
-echo . >> %LOGFILE%
-echo Setting Up Windows Terminal Settings >> %LOGFILE%
-echo Creating Terminal Folder >> %LOGFILE%
-mkdir "%UserProfile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\" >> %LOGFILE%
-echo result: %ERRORLEVEL% >> %LOGFILE%
-echo Copying Terminal Settings >> %LOGFILE%
-copy "core_settings.json" "%UserProfile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" >> %LOGFILE%
+echo Roboto Flex Regular (TrueType) >> %LOGFILE%
+copy "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf" "%WINDIR%\Fonts" >> %LOGFILE%
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Roboto Flex Regular (TrueType)" /t REG_SZ /d RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf /f >> %LOGFILE%
 echo result: %ERRORLEVEL% >> %LOGFILE%
 echo . >> %LOGFILE%
 echo Core Assets Installed and Configured >> %LOGFILE%
