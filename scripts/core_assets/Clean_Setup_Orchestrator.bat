@@ -1,4 +1,9 @@
-set LOGFILE=%temp%\Core_Assets.log
+set LOGFILE=%SystemDrive%\Clean_Setup_Orchestrator.log
+echo Running Explorer.ps1 in system context >> %LOGFILE%
+echo Executing "PsExec.exe -accepteula -i -s cmd.exe /c powershell.exe explorer.ps1" >> %LOGFILE%
+PsExec.exe -accepteula -i -s cmd.exe /c 'powershell.exe explorer.ps1' >> %LOGFILE%
+echo result: %ERRORLEVEL% >> %LOGFILE%
+echo . >> %LOGFILE%
 echo Expanding Core_Assets.cab >> %LOGFILE%
 expand -r .\Core_Assets.cab -F:* . >> %LOGFILE%
 echo result: %ERRORLEVEL% >> %LOGFILE%

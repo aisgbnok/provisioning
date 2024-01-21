@@ -12,7 +12,7 @@ It includes:
 | JetBrains Mono | Font |
 | Roboto Flex    | Font |
 
-The [`Core_Assets.bat`](Core_Assets.bat) facilitates the expansion and deployment of the `Core_Assets.cab` during provisioning.
+The [`Core_Assets.bat`](Clean_Setup_Orchestrator.bat) facilitates the expansion and deployment of the `Core_Assets.cab` during provisioning.
 
 ## Create Core Assets
 
