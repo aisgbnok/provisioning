@@ -273,11 +273,11 @@
         </TargetRefs>
         <Settings>
           <DevDetail>
-            <DNSComputerName>Tony-Spectre</DNSComputerName>
+            <DNSComputerName>Tony-HPx360</DNSComputerName>
           </DevDetail>
           <Policies>
             <Bluetooth>
-              <LocalDeviceName>Tony-Spectre</LocalDeviceName>
+              <LocalDeviceName>Tony-HPx360</LocalDeviceName>
             </Bluetooth>
           </Policies>
           <ProvisioningCommands>
