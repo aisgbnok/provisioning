@@ -14,11 +14,11 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.bat</CommandFile>
-              <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.cab</CommandFile>
-              <CommandFile Name="Explorer">..\scripts\Explorer.ps1</CommandFile>
+              <CommandFile Name="Clean_Setup_Orchestrator">C:\provisioning\scripts\core_assets\Clean_Setup_Orchestrator.bat</CommandFile>
+              <CommandFile Name="Core_Assets">C:\provisioning\scripts\core_assets\Core_Assets.cab</CommandFile>
+              <CommandFile Name="Explorer">C:\provisioning\scripts\Explorer.ps1</CommandFile>
             </CommandFiles>
-            <CommandLine>cmd /c "core_assets.bat"</CommandLine>
+            <CommandLine>cmd /c Clean_Setup_Orchestrator.bat</CommandLine>
           </DeviceContext>
           <PrimaryContext>
             <Command>
@@ -373,7 +373,7 @@
                 </CommandConfig>
                 <CommandConfig Name="Microsoft Edge 120.0.2210.144">
                   <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-120.0.2210.144.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-120.0.2210.144.msi" /quiet</CommandLine>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-120.0.2210.144.msi" /qn /norestart</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -381,7 +381,7 @@
                 </CommandConfig>
                 <CommandConfig Name="PowerShell 7.4.1">
                   <CommandFile>..\software\core\PowerShell-7.4.1-win-x64.msi</CommandFile>
-                  <CommandLine>msiexec /i "powershell-7.4.1-win-x64.msi" /quiet</CommandLine>
+                  <CommandLine>msiexec /i "powershell-7.4.1-win-x64.msi" /qn /norestart</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
