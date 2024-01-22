@@ -12,6 +12,9 @@ cd ..\..\packages
 echo [30;103mClean Setup[0m
 icd.exe /Build-ProvisioningPackage /CustomizationXML:.\clean_setup\clean_setup_customizations.xml /PackagePath:.\clean_setup\Clean_Setup.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
 echo.
+echo [30;103mSpectre[0m
+icd.exe /Build-ProvisioningPackage /CustomizationXML:.\spectre\spectre_customizations.xml /PackagePath:.\spectre\Spectre.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
+echo.
 echo [30;103mTerminal[0m
 icd.exe /Build-ProvisioningPackage /CustomizationXML:.\terminal\terminal_customizations.xml /PackagePath:.\terminal\Terminal.ppkg /StoreFile:.\Microsoft-Desktop-Provisioning.dat +Overwrite
 echo.

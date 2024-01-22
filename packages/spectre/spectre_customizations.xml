@@ -3,7 +3,7 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{14f61706-ba60-5b33-8f1c-9efabb4e00d8}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.290</Version>
+    <Version>3.291</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
     <Notes>Personal package for setting up Tony Spectre after a Windows clean installation. (01/21/2024)</Notes>
@@ -14,6 +14,11 @@
         <DevDetail>
           <DNSComputerName>Tony-HPx360</DNSComputerName>
         </DevDetail>
+        <Policies>
+          <Bluetooth>
+            <LocalDeviceName>Tony-HPx360</LocalDeviceName>
+          </Bluetooth>
+        </Policies>
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
