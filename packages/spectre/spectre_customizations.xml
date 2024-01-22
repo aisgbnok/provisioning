@@ -14,6 +14,22 @@
         <DevDetail>
           <DNSComputerName>Tony-HPx360</DNSComputerName>
         </DevDetail>
+        <Folders>
+          <PublicDocuments>
+            <PublicDocument Name="Synaptics Precision Touchpad Filter Driver">C:\provisioning\software\spectre\sp108857.exe</PublicDocument>
+            <PublicDocument Name="Intel Gaussian and Neural Accelerator Driver">C:\provisioning\software\spectre\sp112564.exe</PublicDocument>
+            <PublicDocument Name="Intel Chipset Installation Utility and Driver">C:\provisioning\software\spectre\sp132936.exe</PublicDocument>
+            <PublicDocument Name="Intel Management Engine Interface (MEI) Driver">C:\provisioning\software\spectre\sp132937.exe</PublicDocument>
+            <PublicDocument Name="Intel Dynamic Tuning Driver">C:\provisioning\software\spectre\sp132941.exe</PublicDocument>
+            <PublicDocument Name="Intel Rapid Storage Technology Driver">C:\provisioning\software\spectre\sp132943.exe</PublicDocument>
+            <PublicDocument Name="Realtek Card Reader Driver">C:\provisioning\software\spectre\sp132946.exe</PublicDocument>
+            <PublicDocument Name="Intel Human Interface Device (HID) Event Filter Driver">C:\provisioning\software\spectre\sp132948.exe</PublicDocument>
+            <PublicDocument Name="Intel Serial IO Driver">C:\provisioning\software\spectre\sp132949.exe</PublicDocument>
+            <PublicDocument Name="Intel Integrated Sensor Solution Driver">C:\provisioning\software\spectre\sp132950.exe</PublicDocument>
+            <PublicDocument Name="Realtek High-Definition (HD) Audio Driver">C:\provisioning\software\spectre\sp133006.exe</PublicDocument>
+            <PublicDocument Name="Synaptics Secure Pad Integrated Fingerprint Sensor Driver">C:\provisioning\software\spectre\sp138587.exe</PublicDocument>
+          </PublicDocuments>
+        </Folders>
         <Policies>
           <Bluetooth>
             <LocalDeviceName>Tony-HPx360</LocalDeviceName>
@@ -54,38 +70,6 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Intel Serial IO Driver">
-                <CommandFile>..\software\spectre\sp132949.exe</CommandFile>
-                <CommandLine>cmd /c "sp132949.exe" /s</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>True</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="Synaptics Precision Touchpad Filter Driver">
-                <CommandFile>..\software\spectre\sp108857.exe</CommandFile>
-                <CommandLine>cmd /c "sp108857.exe" /s</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="Intel Integrated Sensor Solution Driver">
-                <CommandFile>..\software\spectre\sp132950.exe</CommandFile>
-                <CommandLine>cmd /c "sp132950.exe" /s</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="Intel Human Interface Device (HID) Event Filter Driver">
-                <CommandFile>..\software\spectre\sp132948.exe</CommandFile>
-                <CommandLine>cmd /c "sp132948.exe" /s</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
               <CommandConfig Name="Intel Wi-Fi Driver 23.20.0">
                 <CommandFile>..\software\intel\WiFi-23.20.0-Driver64-Win10-Win11.exe</CommandFile>
                 <CommandLine>cmd /c "wifi-23.20.0-driver64-win10-win11.exe" /s</CommandLine>
@@ -99,14 +83,6 @@
                 <CommandLine>cmd /c "bt-23.10.0-64uwd-win10-win11.exe" /qn</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="Realtek High-Definition (HD) Audio Driver">
-                <CommandFile>..\software\spectre\sp133006.exe</CommandFile>
-                <CommandLine>cmd /c "sp133006.exe" /s</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>True</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
