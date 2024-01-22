@@ -30,6 +30,30 @@
           </DeviceContext>
           <PrimaryContext>
             <Command>
+              <CommandConfig Name="Microsoft Edge 120.0.2210.144">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-120.0.2210.144.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-120.0.2210.144.msi" /qn /norestart</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="PowerShell 7.4.1">
+                <CommandFile>..\software\core\PowerShell-7.4.1-win-x64.msi</CommandFile>
+                <CommandLine>msiexec /i "powershell-7.4.1-win-x64.msi" /qn /norestart</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="OneDrive 23.246.1127.0002">
+                <CommandFile>..\software\core\OneDriveSetup-23.246.1127.0002.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-23.246.1127.0002.exe" /allusers /quiet</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
               <CommandConfig Name="Intel Chipset Installation Utility and Driver">
                 <CommandFile>..\software\spectre\sp132936.exe</CommandFile>
                 <CommandLine>cmd /c "sp132936.exe" /s</CommandLine>
@@ -113,30 +137,6 @@
               <CommandConfig Name="Synaptics Secure Pad Integrated Fingerprint Sensor Driver">
                 <CommandFile>..\software\spectre\sp138587.exe</CommandFile>
                 <CommandLine>cmd /c "sp138587.exe" /s</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="Microsoft Edge 120.0.2210.144">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-120.0.2210.144.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-120.0.2210.144.msi" /qn /norestart</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="PowerShell 7.4.1">
-                <CommandFile>..\software\core\PowerShell-7.4.1-win-x64.msi</CommandFile>
-                <CommandLine>msiexec /i "powershell-7.4.1-win-x64.msi" /qn /norestart</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="OneDrive 23.246.1127.0002">
-                <CommandFile>..\software\core\OneDriveSetup-23.246.1127.0002.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-23.246.1127.0002.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
