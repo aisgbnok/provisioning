@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{14f61706-ba60-5b33-8f1c-9efabb4e00d8}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.291</Version>
+    <Version>3.294</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
-    <Notes>Personal package for setting up Tony Spectre after a Windows clean installation. (01/21/2024)</Notes>
+    <Notes>Personal package for setting up Tony Spectre after a Windows clean installation. (01/22/2024)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -15,20 +15,6 @@
           <DNSComputerName>Tony-HPx360</DNSComputerName>
         </DevDetail>
         <Folders>
-          <PublicDocuments>
-            <PublicDocument Name="Synaptics Precision Touchpad Filter Driver">C:\provisioning\software\spectre\sp108857.exe</PublicDocument>
-            <PublicDocument Name="Intel Gaussian and Neural Accelerator Driver">C:\provisioning\software\spectre\sp112564.exe</PublicDocument>
-            <PublicDocument Name="Intel Chipset Installation Utility and Driver">C:\provisioning\software\spectre\sp132936.exe</PublicDocument>
-            <PublicDocument Name="Intel Management Engine Interface (MEI) Driver">C:\provisioning\software\spectre\sp132937.exe</PublicDocument>
-            <PublicDocument Name="Intel Dynamic Tuning Driver">C:\provisioning\software\spectre\sp132941.exe</PublicDocument>
-            <PublicDocument Name="Intel Rapid Storage Technology Driver">C:\provisioning\software\spectre\sp132943.exe</PublicDocument>
-            <PublicDocument Name="Realtek Card Reader Driver">C:\provisioning\software\spectre\sp132946.exe</PublicDocument>
-            <PublicDocument Name="Intel Human Interface Device (HID) Event Filter Driver">C:\provisioning\software\spectre\sp132948.exe</PublicDocument>
-            <PublicDocument Name="Intel Serial IO Driver">C:\provisioning\software\spectre\sp132949.exe</PublicDocument>
-            <PublicDocument Name="Intel Integrated Sensor Solution Driver">C:\provisioning\software\spectre\sp132950.exe</PublicDocument>
-            <PublicDocument Name="Realtek High-Definition (HD) Audio Driver">C:\provisioning\software\spectre\sp133006.exe</PublicDocument>
-            <PublicDocument Name="Synaptics Secure Pad Integrated Fingerprint Sensor Driver">C:\provisioning\software\spectre\sp138587.exe</PublicDocument>
-          </PublicDocuments>
         </Folders>
         <Policies>
           <Bluetooth>
@@ -38,9 +24,8 @@
         <ProvisioningCommands>
           <DeviceContext>
             <CommandFiles>
-              <CommandFile Name="Clean_Setup_Orchestrator">C:\provisioning\scripts\core_assets\Clean_Setup_Orchestrator.bat</CommandFile>
-              <CommandFile Name="Core_Assets">C:\provisioning\scripts\core_assets\Core_Assets.cab</CommandFile>
-              <CommandFile Name="Explorer">C:\provisioning\scripts\Explorer.ps1</CommandFile>
+              <CommandFile Name="Clean_Setup_Orchestrator">..\scripts\core_assets\Clean_Setup_Orchestrator.bat</CommandFile>
+              <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.cab</CommandFile>
             </CommandFiles>
             <CommandLine>cmd /c Clean_Setup_Orchestrator.bat</CommandLine>
           </DeviceContext>
@@ -65,22 +50,6 @@
               <CommandConfig Name="OneDrive 23.246.1127.0002">
                 <CommandFile>..\software\core\OneDriveSetup-23.246.1127.0002.exe</CommandFile>
                 <CommandLine>cmd /c "onedrivesetup-23.246.1127.0002.exe" /allusers /quiet</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="Intel Wi-Fi Driver 23.20.0">
-                <CommandFile>..\software\intel\WiFi-23.20.0-Driver64-Win10-Win11.exe</CommandFile>
-                <CommandLine>cmd /c "wifi-23.20.0-driver64-win10-win11.exe" /s</CommandLine>
-                <ContinueInstall>True</ContinueInstall>
-                <RestartRequired>False</RestartRequired>
-                <ReturnCodeRestart>3010</ReturnCodeRestart>
-                <ReturnCodeSuccess>0</ReturnCodeSuccess>
-              </CommandConfig>
-              <CommandConfig Name="Intel Bluetooth Driver 23.10.0">
-                <CommandFile>..\software\intel\BT-23.10.0-64UWD-Win10-Win11.exe</CommandFile>
-                <CommandLine>cmd /c "bt-23.10.0-64uwd-win10-win11.exe" /qn</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
