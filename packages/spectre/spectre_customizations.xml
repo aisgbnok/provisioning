@@ -54,6 +54,22 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
+              <CommandConfig Name="Intel Serial IO Driver">
+                <CommandFile>..\software\spectre\sp132949.exe</CommandFile>
+                <CommandLine>cmd /c "sp132949.exe" /s</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>True</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="Synaptics Precision Touchpad Filter Driver">
+                <CommandFile>..\software\spectre\sp108857.exe</CommandFile>
+                <CommandLine>cmd /c "sp108857.exe" /s</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
               <CommandConfig Name="Intel Integrated Sensor Solution Driver">
                 <CommandFile>..\software\spectre\sp132950.exe</CommandFile>
                 <CommandLine>cmd /c "sp132950.exe" /s</CommandLine>
@@ -62,9 +78,9 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Synaptics Precision Touchpad Filter Driver">
-                <CommandFile>..\software\spectre\sp108857.exe</CommandFile>
-                <CommandLine>cmd /c "sp108857.exe" /s</CommandLine>
+              <CommandConfig Name="Intel Human Interface Device (HID) Event Filter Driver">
+                <CommandFile>..\software\spectre\sp132948.exe</CommandFile>
+                <CommandLine>cmd /c "sp132948.exe" /s</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -83,6 +99,14 @@
                 <CommandLine>cmd /c "bt-23.10.0-64uwd-win10-win11.exe" /qn</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
+                <ReturnCodeRestart>3010</ReturnCodeRestart>
+                <ReturnCodeSuccess>0</ReturnCodeSuccess>
+              </CommandConfig>
+              <CommandConfig Name="Realtek High-Definition (HD) Audio Driver">
+                <CommandFile>..\software\spectre\sp133006.exe</CommandFile>
+                <CommandLine>cmd /c "sp133006.exe" /s</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>True</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
