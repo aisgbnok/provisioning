@@ -3,10 +3,10 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.282</Version>
+    <Version>3.283</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
-    <Notes>Personal package for setting up PCs after a Windows clean installation. (01/20/2024)</Notes>
+    <Notes>Personal package for setting up PCs after a Windows clean installation. (02/13/2024)</Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
     <Customizations>
@@ -16,15 +16,14 @@
             <CommandFiles>
               <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.bat</CommandFile>
               <CommandFile Name="Core_Assets">..\scripts\core_assets\Core_Assets.cab</CommandFile>
-              <CommandFile Name="Explorer">..\scripts\Explorer.ps1</CommandFile>
             </CommandFiles>
             <CommandLine>cmd /c "core_assets.bat"</CommandLine>
           </DeviceContext>
           <PrimaryContext>
             <Command>
-              <CommandConfig Name="Microsoft Edge 120.0.2210.144">
-                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-120.0.2210.144.msi</CommandFile>
-                <CommandLine>msiexec /i "microsoftedgeenterprisex64-120.0.2210.144.msi" /quiet</CommandLine>
+              <CommandConfig Name="Microsoft Edge 121.0.2277.112">
+                <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-121.0.2277.112.msi</CommandFile>
+                <CommandLine>msiexec /i "microsoftedgeenterprisex64-121.0.2277.112.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -38,17 +37,17 @@
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="OneDrive 23.246.1127.0002">
-                <CommandFile>..\software\core\OneDriveSetup-23.246.1127.0002.exe</CommandFile>
-                <CommandLine>cmd /c "onedrivesetup-23.246.1127.0002.exe" /allusers /quiet</CommandLine>
+              <CommandConfig Name="OneDrive 24.015.0121.0003">
+                <CommandFile>..\software\core\OneDriveSetup-24.015.0121.0003.exe</CommandFile>
+                <CommandLine>cmd /c "onedrivesetup-24.015.0121.0003.exe" /allusers /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
                 <ReturnCodeSuccess>0</ReturnCodeSuccess>
               </CommandConfig>
-              <CommandConfig Name="Google Chrome 120.0.6099.225">
-                <CommandFile>..\software\core\googlechromestandaloneenterprise64-120.0.6099.225.msi</CommandFile>
-                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-120.0.6099.225.msi" /quiet</CommandLine>
+              <CommandConfig Name="Google Chrome 121.0.6167.161">
+                <CommandFile>..\software\core\googlechromestandaloneenterprise64-121.0.6167.161.msi</CommandFile>
+                <CommandLine>msiexec /i "googlechromestandaloneenterprise64-121.0.6167.161.msi" /quiet</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
                 <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -64,13 +63,6 @@
             </Application>
           </DeviceContextApp>
         </UniversalAppInstall>
-        <UniversalAppUninstall>
-          <RemoveProvisionedApp>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Name="Microsoft.549981C3F5F10_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Name="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
-          </RemoveProvisionedApp>
-        </UniversalAppUninstall>
       </Common>
       <Targets>
         <Target Id="Surface Laptop 3">
@@ -100,9 +92,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft Edge 120.0.2210.144">
-                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-120.0.2210.144.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-120.0.2210.144.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft Edge 121.0.2277.112">
+                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-121.0.2277.112.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-121.0.2277.112.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -116,17 +108,17 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive 23.246.1127.0002">
-                  <CommandFile>..\software\core\OneDriveSetup-23.246.1127.0002.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-23.246.1127.0002.exe" /allusers /quiet</CommandLine>
+                <CommandConfig Name="OneDrive 24.015.0121.0003">
+                  <CommandFile>..\software\core\OneDriveSetup-24.015.0121.0003.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-24.015.0121.0003.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google Chrome 120.0.6099.225">
-                  <CommandFile>..\software\core\googlechromestandaloneenterprise64-120.0.6099.225.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-120.0.6099.225.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google Chrome 121.0.6167.161">
+                  <CommandFile>..\software\core\googlechromestandaloneenterprise64-121.0.6167.161.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-121.0.6167.161.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -201,9 +193,9 @@
           <ProvisioningCommands>
             <PrimaryContext>
               <Command>
-                <CommandConfig Name="Microsoft Edge 120.0.2210.144">
-                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-120.0.2210.144.msi</CommandFile>
-                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-120.0.2210.144.msi" /quiet</CommandLine>
+                <CommandConfig Name="Microsoft Edge 121.0.2277.112">
+                  <CommandFile>..\software\core\MicrosoftEdgeEnterpriseX64-121.0.2277.112.msi</CommandFile>
+                  <CommandLine>msiexec /i "microsoftedgeenterprisex64-121.0.2277.112.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -217,17 +209,17 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="OneDrive 23.246.1127.0002">
-                  <CommandFile>..\software\core\OneDriveSetup-23.246.1127.0002.exe</CommandFile>
-                  <CommandLine>cmd /c "onedrivesetup-23.246.1127.0002.exe" /allusers /quiet</CommandLine>
+                <CommandConfig Name="OneDrive 24.015.0121.0003">
+                  <CommandFile>..\software\core\OneDriveSetup-24.015.0121.0003.exe</CommandFile>
+                  <CommandLine>cmd /c "onedrivesetup-24.015.0121.0003.exe" /allusers /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Google Chrome 120.0.6099.225">
-                  <CommandFile>..\software\core\googlechromestandaloneenterprise64-120.0.6099.225.msi</CommandFile>
-                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-120.0.6099.225.msi" /quiet</CommandLine>
+                <CommandConfig Name="Google Chrome 121.0.6167.161">
+                  <CommandFile>..\software\core\googlechromestandaloneenterprise64-121.0.6167.161.msi</CommandFile>
+                  <CommandLine>msiexec /i "googlechromestandaloneenterprise64-121.0.6167.161.msi" /quiet</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>False</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
