@@ -3,7 +3,7 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{3ce76392-6d3e-5a80-8a69-ed85ad8c84a4}</ID>
     <Name>Clean Setup</Name>
-    <Version>3.283</Version>
+    <Version>3.284</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>10</Rank>
     <Notes>Personal package for setting up PCs after a Windows clean installation. (02/13/2024)</Notes>
@@ -156,9 +156,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Graphics Driver 31.0.101.2125">
-                  <CommandFile>..\software\intel\gfx_win_101.2125.exe</CommandFile>
-                  <CommandLine>cmd /c "gfx_win_101.2125.exe" /s /report c:\Intel\31.0.101.2125.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel Graphics Driver 31.0.101.2127">
+                  <CommandFile>..\software\intel\gfx_win_101.2127.exe</CommandFile>
+                  <CommandLine>cmd /c "gfx_win_101.2127.exe" /s /report c:\Intel\31.0.101.2127.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
@@ -241,9 +241,9 @@
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
                   <ReturnCodeSuccess>0</ReturnCodeSuccess>
                 </CommandConfig>
-                <CommandConfig Name="Intel Graphics Driver 31.0.101.2125">
-                  <CommandFile>..\software\intel\gfx_win_101.2125.exe</CommandFile>
-                  <CommandLine>cmd /c "gfx_win_101.2125.exe" /s /report c:\Intel\31.0.101.2125.Graphics.log</CommandLine>
+                <CommandConfig Name="Intel Graphics Driver 31.0.101.2127">
+                  <CommandFile>..\software\intel\gfx_win_101.2127.exe</CommandFile>
+                  <CommandLine>cmd /c "gfx_win_101.2127.exe" /s /report c:\Intel\31.0.101.2127.Graphics.log</CommandLine>
                   <ContinueInstall>True</ContinueInstall>
                   <RestartRequired>True</RestartRequired>
                   <ReturnCodeRestart>3010</ReturnCodeRestart>
