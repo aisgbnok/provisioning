@@ -19,11 +19,11 @@ The second example explicitly uses the installer's absolute path, so the shell's
 *I like to put quotes around `<installer.msi>`, but they are not necessary.*
 
 ```PowerShell
-msiexec /a "SurfaceLaptop3_Intel_Win11_22000_23.111.10140.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
+msiexec /a "SurfaceLaptop3_Intel_Win11_22000_24.033.31351.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
 ```
 
 ```PowerShell
-msiexec /a "C:\provisioning\software\surface\SurfaceLaptop3_Intel_Win11_22000_23.111.10140.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
+msiexec /a "C:\provisioning\software\surface\SurfaceLaptop3_Intel_Win11_22000_24.033.31351.0.msi" /passive TARGETDIR=C:\provisioning\software\surface\unpack
 ```
 
 | Option            | Meaning                                                                                                                     |

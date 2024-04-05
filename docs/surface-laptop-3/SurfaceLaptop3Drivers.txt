@@ -65,8 +65,8 @@ SoftwareComponent  igcc_dch.inf                            31.0.101.2125   05/24
 SoftwareComponent  RealtekHSA.inf                          11.0.6000.92    05/29/2018
 System             DetectionVerificationDrv.inf            1.0.2283.0      05/17/2022
 System             DetectionVerificationDrv.inf            1.0.2283.0      05/17/2022
-System             dptf_acpi.inf                           8.6.10401.9906  06/14/2019
-System             dptf_cpu.inf                            8.6.10401.9906  06/14/2019
+System             dptf_acpi.inf                           8.7.10802.26924 04/11/2022
+System             dptf_cpu.inf                            8.7.10802.26924 04/11/2022
 System             heci.inf                                2334.5.1.0      08/24/2023
 System             iaLPSS2_GPIO2_ICL.inf                   30.100.1916.1   04/15/2019
 System             iaLPSS2_I2C_ICL.inf                     30.100.1916.1   04/15/2019
