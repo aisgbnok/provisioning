@@ -27,18 +27,18 @@ Extension          SurfaceTouchPenProcessorUpdate.inf      3.208.137.0     02/22
 Extension          SurfaceTouchPenProcessorUpdate.inf      3.208.137.0     02/22/2021
 Firmware           SurfaceCFUOverHid.inf                   2.49.139.0      07/27/2019
 Firmware           SurfaceKIP.inf                          14.204.139.0    01/27/2021
-Firmware           SurfaceME.inf                           13.0.2376.2     07/19/2023
+Firmware           SurfaceME.inf                           13.0.2384.1     12/11/2023
 Firmware           SurfacePD.inf                           3.6.1.0         07/24/2019
 Firmware           SurfaceRETIMER.inf                      0.42.0.0        03/27/2021
 Firmware           SurfaceSAM.inf                          14.800.139.0    07/25/2023
 Firmware           SurfaceStorageFwUpdate.inf              5.34.139.0      07/28/2019
 Firmware           SurfaceTCON.inf                         160.35.13.0     06/13/2019
 Firmware           SurfaceTCON.inf                         160.35.15.0     06/13/2019
-Firmware           SurfaceThunderbolt4DockFwUpdate.inf     2.26.4.0        03/03/2023
+Firmware           SurfaceThunderbolt4DockFwUpdate.inf     2.26.7.0        09/15/2023
 Firmware           SurfaceTouchFw.inf                      3.0.213.139     08/21/2019
 Firmware           SurfaceTouchFw.inf                      3.0.213.139     08/21/2019
 Firmware           SurfaceTPM.inf                          7.2.2.0         12/03/2020
-Firmware           SurfaceUEFI.inf                         17.101.140.0    08/24/2023
+Firmware           SurfaceUEFI.inf                         19.100.140.0    12/11/2023
 HIDClass           iaPreciseTouch.inf                      2.1.0.59        07/30/2019
 HIDClass           SurfaceDockIntegration.inf              1.24.139.0      07/24/2019
 HIDClass           SurfaceHidMiniDriver.inf                3.31.139.0      10/16/2020
@@ -60,14 +60,14 @@ Net                msu53cx22x64sta.INF                     1153.9.20.823   08/23
 Net                msu56cx22x64sta.INF                     1156.9.20.823   08/23/2022
 net                Netwtw08.INF                            22.230.0.8      05/09/2023
 SoftwareComponent  cui_dch.inf                             31.0.101.2125   05/24/2023
-SoftwareComponent  iclsClient.inf                          1.66.712.0      12/08/2022
+SoftwareComponent  iclsClient.inf                          1.70.101.0      10/17/2023
 SoftwareComponent  igcc_dch.inf                            31.0.101.2125   05/24/2023
 SoftwareComponent  RealtekHSA.inf                          11.0.6000.92    05/29/2018
 System             DetectionVerificationDrv.inf            1.0.2283.0      05/17/2022
 System             DetectionVerificationDrv.inf            1.0.2283.0      05/17/2022
 System             dptf_acpi.inf                           8.6.10401.9906  06/14/2019
 System             dptf_cpu.inf                            8.6.10401.9906  06/14/2019
-System             heci.inf                                2251.4.2.0      12/11/2022
+System             heci.inf                                2334.5.1.0      08/24/2023
 System             iaLPSS2_GPIO2_ICL.inf                   30.100.1916.1   04/15/2019
 System             iaLPSS2_I2C_ICL.inf                     30.100.1916.1   04/15/2019
 System             iaLPSS2_SPI_ICL.inf                     30.100.1916.1   04/15/2019
@@ -87,7 +87,7 @@ System             SurfacePen217FwUpdate.inf               1.7.139.0       08/02
 System             SurfacePenPairing.inf                   4.13.139.0      08/02/2019
 System             SurfacePowerTrackerCore.inf             1.44.139.0      08/22/2019
 System             SurfaceSerialHubDriver.inf              9.54.139.0      01/22/2021
-System             SurfaceServiceNullDriver.inf            6.204.139.0     10/30/2022
+System             SurfaceServiceNullDriver.inf            6.213.30.0      10/26/2023
 UCM                SurfaceUcmUcsiHidClient.inf             1.19.139.0      07/28/2019
 
 
