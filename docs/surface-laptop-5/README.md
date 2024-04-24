@@ -15,12 +15,12 @@ A descriptive list of components in the cumulative Surface Laptop 5 firmware and
 | *Field*            | *Data*                                                                        |
 |:-------------------|:------------------------------------------------------------------------------|
 | **Device**         | [Surface Laptop 5](https://www.microsoft.com/download/details.aspx?id=104679) |
-| **File Name**      | `SurfaceLaptop5_Win11_22621_24.011.14487.0.msi`                               |
+| **File Name**      | `SurfaceLaptop5_Win11_22621_24.040.1348.0.msi`                                |
 | **Target OS**      | `Windows 11 22621`                                                            |
-| **Driver Version** | `24.011.14487.0`                                                              |
-| **File Size**      | `591.9 MB`                                                                    |
-| **Date Published** | 2/9/2024                                                                      |
-| **Date Signed**    | Wednesday, January 10, 2024 9:42:55 PM                                        |
+| **Driver Version** | `24.040.1348.0`                                                               |
+| **File Size**      | `596.2 MB`                                                                    |
+| **Date Published** | 4/24/2024                                                                     |
+| **Date Signed**    | Monday, April 1, 2024 6:43:45 PM                                              |
 
 *"Date Published" represents the last time the file was updated on the Microsoft site,
 so the file may be older than the actual "Date Published".

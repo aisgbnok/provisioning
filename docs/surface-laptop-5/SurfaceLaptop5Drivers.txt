@@ -10,11 +10,12 @@ List of Included Firmware and Drivers
 
 Class                   InfName                                     Version        Date
 -----                   -------                                     -------        ----
+AudioProcessingObject   dax3_swc_aposvc.inf                         3.30508.581.0  05/17/2023
 Battery                 SurfaceBattery.inf                          2.117.139.0    05/19/2022
 Bluetooth               ibtusb.inf                                  22.230.0.2     04/26/2023
 Display                 iigd_dch_d.inf                              31.0.101.4502  06/15/2023
 Display                 iigd_dch.inf                                31.0.101.4502  06/15/2023
-Extension               dax3_ext_rtk.inf                            7.120.721.1    01/19/2022
+Extension               dax3_ext_rtk.inf                            8.605.313.22   06/04/2023
 Extension               DevicesTelemetryServiceDriver.inf           6.196.139.0    02/16/2023
 Extension               DevicesTelemetryServiceDriver.inf           6.197.9.0      10/20/2023
 Extension               HdBusExt.inf                                31.0.101.4502  06/15/2023
@@ -36,7 +37,7 @@ Extension               SurfaceTouchPenProcessor0c5aUpdate.inf      20.32.137.0 
 Firmware                SurfaceAccessoryFwUpdate.inf                1.37.139.0     05/19/2022
 Firmware                SurfaceCFUOverHid.inf                       5.57.139.0     06/06/2022
 Firmware                SurfaceKIP.inf                              41.12.139.0    08/26/2022
-Firmware                SurfaceME.inf                               1.27.2176.1    07/20/2023
+Firmware                SurfaceME.inf                               1.30.2307.1    01/31/2024
 Firmware                SurfacePD.inf                               17.0.0.0       07/11/2022
 Firmware                SurfacePenCfuOverBleLc.inf                  2.23.139.0     05/21/2021
 Firmware                SurfaceRetimer.inf                          3.10.0.3       06/30/2022
@@ -63,13 +64,13 @@ Firmware                SurfaceTPM.inf                              7.2.2.0     
 Firmware                SurfaceTpm.inf                              7.55.8454.9750 07/07/2022
 Firmware                SurfaceTrackpad.inf                         41.2.139.0     06/29/2022
 Firmware                SurfaceTrackpad.inf                         41.14.139.0    09/01/2022
-Firmware                SurfaceUEFI.inf                             9.200.143.0    11/02/2023
+Firmware                SurfaceUEFI.inf                             11.104.143.0   03/06/2024
 HIDClass                IntelTHCBase.inf                            3.0.0.279      09/14/2021
 HIDClass                SurfaceDockIntegration.inf                  2.17.139.0     05/24/2022
 HIDClass                SurfaceHidMiniDriver.inf                    3.68.139.0     01/14/2022
 HIDClass                SurfacePen217Integration.inf                2.5.139.0      03/17/2020
 HIDClass                SurfacePenBleLcAddrAdaptationDriver.inf     3.38.139.0     07/12/2022
-MEDIA                   EHDXSSTMD3A.inf                             6.0.9311.3     02/18/2022
+MEDIA                   EHDXSSTMD3A.inf                             6.0.9561.5     09/23/2023
 MEDIA                   IntcBTAu.inf                                10.29.0.7767   05/30/2022
 MEDIA                   IntcDMic.inf                                10.29.0.7767   05/30/2022
 MEDIA                   IntcSDW.inf                                 10.29.0.7767   05/30/2022
@@ -85,9 +86,8 @@ net                     Netwtw08.INF                                22.230.0.8  
 Net                     TbtP2pNdisDrv.inf                           1.41.1155.0    05/30/2021
 Sensor                  SurfacePowerMeter.inf                       3.99.139.0     05/27/2022
 SoftwareComponent       cui_dch.inf                                 31.0.101.4502  06/15/2023
-SoftwareComponent       dax3_swc_aposvc.inf                         3.30206.262.0  12/27/2021
 SoftwareComponent       dax3_swc_hsa.inf                            3.30201.210.0  10/14/2021
-SoftwareComponent       iclsClient.inf                              1.66.712.0     12/08/2022
+SoftwareComponent       iclsClient.inf                              1.70.101.0     10/17/2023
 SoftwareComponent       ICPSComponent.inf                           2.1123.505.3   05/05/2023
 SoftwareComponent       igcc_dch.inf                                31.0.101.4502  06/15/2023
 SurfaceSystemManagement SurfaceIhvCpuSmfClient.inf                  1.173.29.0     10/18/2023
@@ -101,7 +101,7 @@ System                  DetectionVerificationDrv.inf                1.0.2251.0  
 System                  gna.inf                                     3.0.0.1400     09/14/2021
 System                  GSCAuxDriver.inf                            2313.4.5.0     03/26/2023
 System                  gscheci.inf                                 2312.4.0.0     03/21/2023
-System                  heci.inf                                    2251.4.2.0     12/11/2022
+System                  heci.inf                                    2334.5.1.0     08/24/2023
 System                  iaLPSS2_GPIO2_ADL.inf                       30.100.2212.4  03/15/2022
 System                  iaLPSS2_I2C_ADL.inf                         30.100.2212.4  03/15/2022
 System                  iaLPSS2_SPI_ADL.inf                         30.100.2212.4  03/15/2022
