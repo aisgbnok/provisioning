@@ -1,6 +1,6 @@
 # Surface Laptop 5
 
-[Surface Laptop 5 Firmware and Driver List](SurfaceLaptop5Drivers.txt)
+[Surface Laptop 5 Drivers and Firmware List](SurfaceLaptop5Drivers.txt)
 
 ## Description
 

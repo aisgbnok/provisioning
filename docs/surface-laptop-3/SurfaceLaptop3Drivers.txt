@@ -38,7 +38,7 @@ Firmware           SurfaceThunderbolt4DockFwUpdate.inf     2.26.7.0        09/15
 Firmware           SurfaceTouchFw.inf                      3.0.213.139     08/21/2019
 Firmware           SurfaceTouchFw.inf                      3.0.213.139     08/21/2019
 Firmware           SurfaceTPM.inf                          7.2.2.0         12/03/2020
-Firmware           SurfaceUEFI.inf                         19.100.140.0    12/11/2023
+Firmware           SurfaceUEFI.inf                         19.101.140.0    04/11/2024
 HIDClass           iaPreciseTouch.inf                      2.1.0.59        07/30/2019
 HIDClass           SurfaceDockIntegration.inf              1.24.139.0      07/24/2019
 HIDClass           SurfaceHidMiniDriver.inf                3.31.139.0      10/16/2020
