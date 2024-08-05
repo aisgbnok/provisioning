@@ -10,7 +10,7 @@
 
 A descriptive list of components in the cumulative Surface Laptop 5 firmware and driver update package.
 
-***Related Command:** [MSI TARGETDIR](../msi.md#unpacking-msi-into-directory-targetdir)*
+***Related:** [Extracting a Surface Laptop Driver Package](../msi.md#example-extracting-a-surface-laptop-driver-package)*
 
 ## Data
 
