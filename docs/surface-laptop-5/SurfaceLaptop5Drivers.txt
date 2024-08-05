@@ -12,7 +12,7 @@ Class                   InfName                                     Version     
 -----                   -------                                     -------        ----
 AudioProcessingObject   dax3_swc_aposvc.inf                         3.30508.581.0  05/17/2023
 Battery                 SurfaceBattery.inf                          2.117.139.0    05/19/2022
-Bluetooth               ibtusb.inf                                  22.230.0.2     04/26/2023
+Bluetooth               ibtusb.inf                                  23.30.0.3      01/16/2024
 Display                 iigd_dch_d.inf                              31.0.101.4502  06/15/2023
 Display                 iigd_dch.inf                                31.0.101.4502  06/15/2023
 Extension               dax3_ext_rtk.inf                            8.605.313.22   06/04/2023
@@ -21,7 +21,7 @@ Extension               DevicesTelemetryServiceDriver.inf           6.197.9.0   
 Extension               HdBusExt.inf                                31.0.101.4502  06/15/2023
 Extension               iigd_ext_id.inf                             31.0.101.4502  06/16/2023
 Extension               IntcOED_OemLibPath.inf                      10.35.245.1    01/26/2022
-Extension               SurfaceDock2FwUpdate.inf                    6.13.137.0     11/22/2022
+Extension               SurfaceDock2FwUpdate.inf                    6.16.8.0       02/26/2024
 Extension               SurfaceHIDFriendlyNames.inf                 2.23.137.0     06/01/2022
 Extension               SurfaceOemPanelCustomization.inf            6.11.137.0     07/06/2022
 Extension               SurfacePen0953CfuOverBleLcExtnPackage.inf   2.9.139.0      07/20/2020
@@ -37,7 +37,7 @@ Extension               SurfaceTouchPenProcessor0c5aUpdate.inf      20.32.137.0 
 Firmware                SurfaceAccessoryFwUpdate.inf                1.37.139.0     05/19/2022
 Firmware                SurfaceCFUOverHid.inf                       5.57.139.0     06/06/2022
 Firmware                SurfaceKIP.inf                              41.12.139.0    08/26/2022
-Firmware                SurfaceME.inf                               1.30.2307.1    01/31/2024
+Firmware                SurfaceME.inf                               1.32.2418.1    05/17/2024
 Firmware                SurfacePD.inf                               17.0.0.0       07/11/2022
 Firmware                SurfacePenCfuOverBleLc.inf                  2.23.139.0     05/21/2021
 Firmware                SurfaceRetimer.inf                          3.10.0.3       06/30/2022
@@ -64,7 +64,7 @@ Firmware                SurfaceTPM.inf                              7.2.2.0     
 Firmware                SurfaceTpm.inf                              7.55.8454.9750 07/07/2022
 Firmware                SurfaceTrackpad.inf                         41.2.139.0     06/29/2022
 Firmware                SurfaceTrackpad.inf                         41.14.139.0    09/01/2022
-Firmware                SurfaceUEFI.inf                             11.104.143.0   03/06/2024
+Firmware                SurfaceUEFI.inf                             12.101.143.0   05/17/2024
 HIDClass                IntelTHCBase.inf                            3.0.0.279      09/14/2021
 HIDClass                SurfaceDockIntegration.inf                  2.17.139.0     05/24/2022
 HIDClass                SurfaceHidMiniDriver.inf                    3.68.139.0     01/14/2022
@@ -78,16 +78,15 @@ MEDIA                   IntcSST.inf                                 10.29.0.7767
 MEDIA                   IntcUSB.inf                                 10.29.0.7767   05/30/2022
 MEDIA                   MSHdaDac.inf                                31.0.101.4502  06/15/2023
 Monitor                 SurfaceOemPanel.inf                         6.137.139.0    05/23/2022
-Net                     msu53cx22x64sta.INF                         1153.9.20.823  08/23/2022
-Net                     msu56cx22x64sta.INF                         1156.9.20.823  08/23/2022
+Net                     msu53cx22x64sta.INF                         1153.13.20.420 04/21/2023
+Net                     msu56cx22x64sta.INF                         1156.13.20.420 04/21/2023
 Net                     msucx22x64sta.INF                           11.3.20.1014   10/14/2021
-Net                     msump64x64sta.INF                           10.54.20.608   06/08/2022
-net                     Netwtw08.INF                                22.230.0.8     05/09/2023
+net                     Netwtw08.INF                                23.30.0.6      01/21/2024
 Net                     TbtP2pNdisDrv.inf                           1.41.1155.0    05/30/2021
 Sensor                  SurfacePowerMeter.inf                       3.99.139.0     05/27/2022
 SoftwareComponent       cui_dch.inf                                 31.0.101.4502  06/15/2023
 SoftwareComponent       dax3_swc_hsa.inf                            3.30201.210.0  10/14/2021
-SoftwareComponent       iclsClient.inf                              1.70.101.0     10/17/2023
+SoftwareComponent       iclsClient.inf                              1.71.99.0      12/06/2023
 SoftwareComponent       ICPSComponent.inf                           2.1123.505.3   05/05/2023
 SoftwareComponent       igcc_dch.inf                                31.0.101.4502  06/15/2023
 SurfaceSystemManagement SurfaceIhvCpuSmfClient.inf                  1.173.29.0     10/18/2023
@@ -101,7 +100,7 @@ System                  DetectionVerificationDrv.inf                1.0.2251.0  
 System                  gna.inf                                     3.0.0.1400     09/14/2021
 System                  GSCAuxDriver.inf                            2313.4.5.0     03/26/2023
 System                  gscheci.inf                                 2312.4.0.0     03/21/2023
-System                  heci.inf                                    2334.5.1.0     08/24/2023
+System                  heci.inf                                    2406.5.5.0     02/08/2024
 System                  iaLPSS2_GPIO2_ADL.inf                       30.100.2212.4  03/15/2022
 System                  iaLPSS2_I2C_ADL.inf                         30.100.2212.4  03/15/2022
 System                  iaLPSS2_SPI_ADL.inf                         30.100.2212.4  03/15/2022
@@ -112,7 +111,7 @@ System                  IntcSdwBus.inf                              10.29.0.7767
 System                  memcntrl.inf                                31.0.101.4502  06/15/2023
 System                  SurfaceAcpiPlatformExtensionDriver.inf      3.40.137.0     05/12/2022
 System                  SurfaceButton.inf                           4.64.139.0     05/24/2022
-System                  SurfaceHotPlug.inf                          3.204.20.0     10/19/2023
+System                  SurfaceHotPlug.inf                          3.204.34.0     03/26/2024
 System                  SurfaceIntegrationDriver.inf                99.33.139.0    11/11/2022
 System                  SurfaceLightSensor.inf                      2.27.139.0     11/02/2021
 System                  SurfaceMachineLearningServiceNullDriver.inf 6.35.4.0       05/18/2023
@@ -120,11 +119,11 @@ System                  SurfacePen217FwUpdate.inf                   2.8.139.0   
 System                  SurfacePowerState.inf                       3.19.139.0     05/19/2022
 System                  SurfacePowerTrackerCore.inf                 2.148.11.0     10/23/2023
 System                  SurfaceSerialHubDriver.inf                  9.132.139.0    07/07/2022
-System                  SurfaceServiceNullDriver.inf                6.204.139.0    10/30/2022
 System                  SurfaceServiceNullDriver.inf                6.213.30.0     10/26/2023
+System                  SurfaceServiceNullDriver.inf                6.214.10.0     04/22/2024
 System                  SurfaceSmfSensorClient.inf                  1.9.139.0      05/23/2022
 System                  SurfaceSptClient.inf                        1.54.137.0     06/10/2022
-System                  SurfaceSystemTelemetryDriver.inf            10.104.30.0    10/19/2023
+System                  SurfaceSystemTelemetryDriver.inf            10.105.10.0    04/22/2024
 System                  TbtSlimHostController.inf                   1.41.1155.0    05/30/2021
 UCM                     SurfaceUcmUcsiHidClient.inf                 2.44.139.0     05/20/2022
 

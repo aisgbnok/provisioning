@@ -4,23 +4,25 @@
 
 ## Description
 
-A descriptive list of components in the cumulative Surface Laptop 5 firmware and driver update package.
+> Use these drivers and firmware to prepare your custom images for enterprise deployment
+> or to repair problems with custom installations of Windows on your Surface Laptop 5.
+> The MSI will install all relevant drivers automatically.
 
-*I keep track of this because I know someone that has a Surface Laptop 5.*
+A descriptive list of components in the cumulative Surface Laptop 5 firmware and driver update package.
 
 ***Related Command:** [MSI TARGETDIR](../msi.md#unpacking-msi-into-directory-targetdir)*
 
 ## Data
 
-| *Field*            | *Data*                                                                        |
-|:-------------------|:------------------------------------------------------------------------------|
-| **Device**         | [Surface Laptop 5](https://www.microsoft.com/download/details.aspx?id=104679) |
-| **File Name**      | `SurfaceLaptop5_Win11_22621_24.040.1348.0.msi`                                |
-| **Target OS**      | `Windows 11 22621`                                                            |
-| **Driver Version** | `24.040.1348.0`                                                               |
-| **File Size**      | `596.2 MB`                                                                    |
-| **Date Published** | 4/24/2024                                                                     |
-| **Date Signed**    | Monday, April 1, 2024 6:43:45 PM                                              |
+| *Field*            | *Data*                                                                                                                                                                              |
+|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Device**         | [Surface Laptop 5](https://www.microsoft.com/download/details.aspx?id=104679)                                                                                                       |
+| **File Name**      | [`SurfaceLaptop5_Win11_22621_24.072.21679.0.msi`](https://download.microsoft.com/download/d/2/6/d26c7d69-ec2f-4dd6-95ab-7e1d2b5ee7ae/SurfaceLaptop5_Win11_22621_24.072.21679.0.msi) |
+| **Target OS**      | `Windows 11 22621`                                                                                                                                                                  |
+| **Driver Version** | `24.072.21679.0`                                                                                                                                                                    |
+| **File Size**      | `596.0 MB`                                                                                                                                                                          |
+| **Date Published** | 7/18/2024                                                                                                                                                                           |
+| **Date Signed**    | Monday, July 15, 2024 9:34:17 PM                                                                                                                                                    |
 
 *"Date Published" represents the last time the file was updated on the Microsoft site,
 so the file may be older than the actual "Date Published".
