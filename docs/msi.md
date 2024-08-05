@@ -7,7 +7,7 @@ The installer service enables customers to provide better corporate deployment a
 
 ## Extracting MSI Contents Without Installation
 
-To examine the contents of an MSI package without installing it, you can leverage the [**Administrative Installation**](https://learn.microsoft.com/windows/win32/msi/administrative-installation) feature in conjunction with the [**TARGETDIR**](https://learn.microsoft.com/windows/win32/msi/targetdir) property.
+To examine the contents of an MSI package without installing it, you can leverage the **[Administrative Installation](https://learn.microsoft.com/windows/win32/msi/administrative-installation)** feature in conjunction with the **[TARGETDIR](https://learn.microsoft.com/windows/win32/msi/targetdir)** property.
 This is particularly useful for analyzing package contents.
 
 ### Administrative Installation
@@ -19,7 +19,7 @@ Unlike a standard installation, an administrative installation does not install 
 ### TARGETDIR Property
 
 The `TARGETDIR` property designates the root destination directory for the installation process.
-In the context of an administrative installation, this property designates the location where the extracted MSI package contents will be stored.
+In the context of an administrative installation, this property specifies the location where the installation process will extract the MSI package contents.
 This facilitates a structured and organized extraction of the files, allowing for subsequent analysis or deployment.
 
 > [!IMPORTANT]
@@ -27,12 +27,12 @@ This facilitates a structured and organized extraction of the files, allowing fo
 
 ### Command-Line Options
 
-| Option            | Meaning                                                                                                                                   |
-|:------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
-| `/a`              | Performs an [Administrative Installation](https://learn.microsoft.com/windows/win32/msi/administrative-installation).                     |
-| `<installer.msi>` | Path to the MSI package.                                                                                                                  |
-| `/passive`        | [Progress bar only; no prompts or errors](https://learn.microsoft.com/windows/win32/msi/standard-installer-command-line-options#passive). |
-| `TARGETDIR=`      | [Absolute path to the extraction directory](https://learn.microsoft.com/windows/win32/msi/targetdir).                                     |
+| Option          | Meaning                                                                                                                                   |
+|:----------------|:------------------------------------------------------------------------------------------------------------------------------------------|
+| `/a`            | Performs an [Administrative Installation](https://learn.microsoft.com/windows/win32/msi/administrative-installation).                     |
+| `<package.msi>` | Path to the MSI package.                                                                                                                  |
+| `/passive`      | [Progress bar only; no prompts or errors](https://learn.microsoft.com/windows/win32/msi/standard-installer-command-line-options#passive). |
+| `TARGETDIR=`    | [Absolute path to the extraction directory](https://learn.microsoft.com/windows/win32/msi/targetdir).                                     |
 
 ### Example: Extracting a Surface Laptop Driver Package
 
