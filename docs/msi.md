@@ -42,7 +42,7 @@ This technique allows for inspection of the driver files without the need for a 
 #### Relative Installer Path
 
 ```powershell
-msiexec /a "SurfaceLaptop3_Intel_Win11_22000_24.051.12562.0.msi" /passive TARGETDIR=P:\SL3Pack
+msiexec /a "SurfaceLaptop3_Intel_Win11_22000_24.080.2664.0.msi" /passive TARGETDIR=P:\SL3Pack
 ```
 
 ```powershell
@@ -52,9 +52,9 @@ msiexec /a "SurfaceLaptop5_Win11_22621_24.072.21679.0.msi" /passive TARGETDIR=P:
 #### Absolute Installer Path
 
 ```PowerShell
-msiexec /a "C:\provisioning\software\surface\SurfaceLaptop3_Intel_Win11_22000_24.051.12562.0.msi" /passive TARGETDIR=P:\SL3Pack
+msiexec /a "P:\provisioning\software\surface\SurfaceLaptop3_Intel_Win11_22000_24.080.2664.0.msi" /passive TARGETDIR=P:\SL3Pack
 ```
 
 ```PowerShell
-msiexec /a "C:\provisioning\software\surface\SurfaceLaptop5_Win11_22621_24.072.21679.0.msi" /passive TARGETDIR=P:\SL5Pack
+msiexec /a "P:\provisioning\software\surface\SurfaceLaptop5_Win11_22621_24.072.21679.0.msi" /passive TARGETDIR=P:\SL5Pack
 ```
